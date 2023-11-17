@@ -1,0 +1,999 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #2",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 940,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 945,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"bSave": {
+					"type": "button",
+					"top": 269,
+					"left": 510,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bSave",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Save",
+					"icon": "/RESOURCES/Images/library/Save.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bSave.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 181,
+					"left": 443,
+					"width": 141,
+					"height": 31,
+					"fill": "#C5FFC0",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 181,
+					"left": 354,
+					"width": 90,
+					"height": 31,
+					"fill": "#89FF7F",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 103,
+					"left": 443,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 103,
+					"left": 354,
+					"width": 90,
+					"height": 79,
+					"fill": "#A0AFFF",
+					"stroke": "#AAAAAA"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 111,
+					"left": 382,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Subtotal"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 133,
+					"left": 382,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Tax"
+				},
+				"Field4": {
+					"type": "input",
+					"top": 186,
+					"left": 446,
+					"width": 118,
+					"height": 26,
+					"dataSource": "vTransactionTotal",
+					"dataSourceTypeHint": "integer",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 186,
+					"left": 356,
+					"width": 82,
+					"height": 23,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": "Total"
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 129,
+					"left": 443,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Field3": {
+					"type": "input",
+					"top": 133,
+					"left": 499,
+					"width": 64,
+					"height": 19,
+					"dataSource": "vTransactionTax",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 107,
+					"left": 479,
+					"width": 84,
+					"height": 19,
+					"dataSource": "vTransactionSubtotal",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Matrix1": {
+					"type": "picture",
+					"top": 103,
+					"left": 28,
+					"width": 251,
+					"height": 255,
+					"pictureFormat": "scaled",
+					"picture": "Images/Matrix1.svg"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 111,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable1",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 110,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Cash"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 139,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable2",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 138,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Check"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 167,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable3",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 166,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Visa"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 195,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable4",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 194,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Mastercard"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 223,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable5",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 222,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Discover"
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 251,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable6",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 250,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "AMEX"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 279,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable7",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 278,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Gift Card"
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 308,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable8",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text13": {
+					"type": "text",
+					"top": 307,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "IOU"
+				},
+				"b5": {
+					"type": "button",
+					"top": 269,
+					"left": 421,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Cancel",
+					"icon": "/RESOURCES/Images/library/Cancel.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/b5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 211,
+					"left": 443,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 211,
+					"left": 354,
+					"width": 90,
+					"height": 53,
+					"fill": "#A0AFFF",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 237,
+					"left": 443,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Variable14": {
+					"type": "input",
+					"top": 219,
+					"left": 462,
+					"width": 101,
+					"height": 18,
+					"dataSource": "vTotalPaid",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text17": {
+					"type": "text",
+					"top": 218,
+					"left": 317,
+					"width": 120,
+					"height": 20,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Total Paid"
+				},
+				"Variable16": {
+					"type": "input",
+					"top": 243,
+					"left": 462,
+					"width": 101,
+					"height": 18,
+					"dataSource": "vChange",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text19": {
+					"type": "text",
+					"top": 242,
+					"left": 317,
+					"width": 120,
+					"height": 20,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Change"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 132,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 160,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 189,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 218,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 247,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 276,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 305,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 19,
+					"left": 18,
+					"width": 580,
+					"height": 64,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/point_of_sale (31838).png"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 91,
+					"left": 461,
+					"width": 115,
+					"stroke": "#AAAAAA"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 104,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 159,
+					"left": 382,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "PST"
+				},
+				"Rectangle11": {
+					"type": "rectangle",
+					"top": 155,
+					"left": 443,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 160,
+					"left": 499,
+					"width": 64,
+					"height": 19,
+					"dataSource": "vTransactionTax2",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"top": 104,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button10": {
+					"type": "button",
+					"top": 132,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button11": {
+					"type": "button",
+					"top": 160,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button11.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button12": {
+					"type": "button",
+					"top": 189,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button12.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button13": {
+					"type": "button",
+					"top": 218,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button13.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button14": {
+					"type": "button",
+					"top": 247,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button14.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button15": {
+					"type": "button",
+					"top": 276,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button15.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button16": {
+					"type": "button",
+					"top": 305,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button16.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 337,
+					"left": 156,
+					"width": 121,
+					"height": 17,
+					"dataSource": "Variable9",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 336,
+					"left": 31,
+					"width": 120,
+					"height": 19,
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Other"
+				},
+				"Button17": {
+					"type": "button",
+					"top": 333,
+					"left": 282,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Full",
+					"class": "Default",
+					"method": "ObjectMethods/Button17.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button18": {
+					"type": "button",
+					"top": 333,
+					"left": 316,
+					"width": 31,
+					"height": 24,
+					"dataSource": "Button1",
+					"text": "Bal.",
+					"class": "Default",
+					"method": "ObjectMethods/Button18.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

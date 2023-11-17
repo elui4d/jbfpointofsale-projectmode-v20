@@ -1,0 +1,100 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 22,
+					"left": 223,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bValidate",
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP OK.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"SubformCheckIn": {
+					"type": "subform",
+					"top": 110,
+					"left": 6,
+					"width": 496,
+					"height": 486,
+					"dataSourceTypeHint": "text",
+					"table": 1,
+					"detailForm": "CheckInSubform",
+					"listForm": "CheckInList",
+					"scrollbarHorizontal": "visible",
+					"scrollbarVertical": "visible",
+					"doubleClickInRowAction": "editSubrecord",
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {
+				"objects": [
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

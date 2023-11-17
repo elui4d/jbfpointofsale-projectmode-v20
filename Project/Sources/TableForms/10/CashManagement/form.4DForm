@@ -1,0 +1,363 @@
+{
+	"destination": "detailScreen",
+	"inheritedFormTable": 10,
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 940,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 89,
+					"left": -9,
+					"width": 945,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"b5": {
+					"type": "button",
+					"top": 306,
+					"left": 435,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Cancel",
+					"icon": "/RESOURCES/Images/library/Cancel.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/b5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 106,
+					"left": 115,
+					"width": 630,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Begin by entering your starting cash."
+				},
+				"Text7": {
+					"type": "text",
+					"top": 101,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 1 -"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 206,
+					"left": 115,
+					"width": 630,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Input any cash removed or added to drawer."
+				},
+				"Text2": {
+					"type": "text",
+					"top": 201,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 2 -"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 135,
+					"left": 137,
+					"width": 86,
+					"height": 17,
+					"stroke": "#405EFF",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Amount"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 235,
+					"left": 137,
+					"width": 86,
+					"height": 17,
+					"stroke": "#405EFF",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Amount"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 235,
+					"left": 237,
+					"width": 186,
+					"height": 17,
+					"stroke": "#405EFF",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Reason"
+				},
+				"bPrint": {
+					"type": "button",
+					"top": 303,
+					"left": 346,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bPrint",
+					"action": "accept",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Print",
+					"icon": "/RESOURCES/Images/library/Print.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bPrint.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"DefaultConsignorPercent3": {
+					"type": "input",
+					"top": 44,
+					"left": 142,
+					"width": 9,
+					"height": 4,
+					"dataSource": "vhide",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/DefaultConsignorPercent3.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"DefaultConsignorPercent": {
+					"type": "input",
+					"top": 155,
+					"left": 135,
+					"width": 89,
+					"height": 21,
+					"dataSource": "vStartingCash",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 134,
+					"left": 259,
+					"width": 48,
+					"height": 46,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"cbCash1": {
+					"type": "radio",
+					"top": 251,
+					"left": 38,
+					"width": 45,
+					"height": 26,
+					"dataSource": "cbCash1",
+					"text": "Out",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"cbCash2": {
+					"type": "radio",
+					"top": 251,
+					"left": 88,
+					"width": 38,
+					"height": 26,
+					"dataSource": "cbCash2",
+					"text": "In",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"DefaultConsignorPercent1": {
+					"type": "input",
+					"top": 255,
+					"left": 135,
+					"width": 89,
+					"height": 21,
+					"dataSource": "vCashInOut",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"DefaultConsignorPercent2": {
+					"type": "input",
+					"top": 255,
+					"left": 235,
+					"width": 189,
+					"height": 21,
+					"dataSource": "vReason",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 234,
+					"left": 439,
+					"width": 48,
+					"height": 46,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 36,
+					"left": 22,
+					"width": 375,
+					"height": 45,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.png"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

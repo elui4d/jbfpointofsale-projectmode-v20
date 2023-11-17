@@ -1,0 +1,268 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #2",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box": {
+					"type": "groupBox",
+					"top": 264,
+					"left": 18,
+					"width": 560,
+					"height": 174,
+					"stroke": "#0000FF",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Change Consignor Number by Item List"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 900,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 394,
+					"left": 488,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 890,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 25,
+					"left": 15,
+					"width": 466,
+					"height": 64,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/clean_up_searches.png"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 302,
+					"left": 466,
+					"width": 99,
+					"height": 14,
+					"dataSource": "vConsignorNumber",
+					"class": "Default",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 302,
+					"left": 40,
+					"width": 431,
+					"height": 38,
+					"stroke": "#000000",
+					"class": "Default",
+					"text": "What Consignor Number do you want to change the Inventory and Sales to?"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 342,
+					"left": 21,
+					"width": 533,
+					"height": 56,
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "*You will be asked to locate a tab delimited text file containing all the item numbers that you wish to change to the new consignor number.  This is best used if you have a list of items from MyJBFTags or another source that you need to change the consignor number."
+				},
+				"Button2": {
+					"type": "button",
+					"top": 454,
+					"left": 488,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "cancel",
+					"text": "Cancel",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 118,
+					"left": 18,
+					"width": 560,
+					"height": 134,
+					"stroke": "#0000FF",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Change Consignor Number"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 216,
+					"left": 21,
+					"width": 533,
+					"height": 20,
+					"class": "Default",
+					"text": "*This will change the consignor number on all Sales, Inventory and Consignor table records."
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 165,
+					"left": 152,
+					"width": 99,
+					"height": 14,
+					"dataSource": "vConsignorNumberFrom",
+					"class": "Default",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 165,
+					"left": 336,
+					"width": 99,
+					"height": 14,
+					"dataSource": "vConsignorNumberTo",
+					"class": "Default",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 164,
+					"left": 21,
+					"width": 153,
+					"height": 20,
+					"class": "Default",
+					"text": "If Consingor Number is"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 164,
+					"left": 256,
+					"width": 75,
+					"height": 20,
+					"class": "Default",
+					"text": ", change it to"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 164,
+					"left": 439,
+					"width": 35,
+					"height": 20,
+					"class": "Default",
+					"text": "."
+				},
+				"Button3": {
+					"type": "button",
+					"top": 154,
+					"left": 488,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,630 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #2",
+	"markerBody": 472,
+	"markerBreak": 472,
+	"markerFooter": 482,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"vRecNum1": {
+					"type": "input",
+					"top": 79,
+					"left": 911,
+					"width": 100,
+					"height": 15,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum1.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 1660,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 3,
+					"left": 329,
+					"width": 3,
+					"height": 86,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 1870,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"b6": {
+					"type": "button",
+					"top": 9,
+					"left": 686,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bDelete",
+					"action": "deleteRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Delete",
+					"icon": "/RESOURCES/Images/library/XP Delete Selection.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/b6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bSave": {
+					"type": "button",
+					"top": 9,
+					"left": 850,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bSave",
+					"action": "accept",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Save & Exit",
+					"icon": "/RESOURCES/Images/library/Save.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"b2": {
+					"type": "button",
+					"top": 9,
+					"left": 423,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bPrev",
+					"action": "previousRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Previous",
+					"icon": "/RESOURCES/Images/library/Previous.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"b3": {
+					"type": "button",
+					"top": 9,
+					"left": 505,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bnext",
+					"action": "nextRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Next",
+					"icon": "/RESOURCES/Images/library/Next.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"b4": {
+					"type": "button",
+					"top": 9,
+					"left": 587,
+					"width": 74,
+					"height": 74,
+					"dataSource": "blast",
+					"action": "lastRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Last",
+					"icon": "/RESOURCES/Images/library/Last.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 3,
+					"left": 671,
+					"width": 3,
+					"height": 86,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"b5": {
+					"type": "button",
+					"top": 9,
+					"left": 768,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Cancel",
+					"icon": "/RESOURCES/Images/library/Cancel.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 21,
+					"left": 11,
+					"width": 307,
+					"height": 56,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/inventory.png"
+				},
+				"b1": {
+					"type": "button",
+					"top": 9,
+					"left": 341,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bFirst",
+					"action": "firstRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "First",
+					"icon": "/RESOURCES/Images/library/FirstRecord.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text16": {
+					"type": "text",
+					"top": 145,
+					"left": 55,
+					"width": 115,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Item Number"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 169,
+					"left": 55,
+					"width": 115,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Consignor Number"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 193,
+					"left": 55,
+					"width": 115,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Item Description"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 217,
+					"left": 55,
+					"width": 115,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Size"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 241,
+					"left": 55,
+					"width": 115,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Price"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 265,
+					"left": 55,
+					"width": 115,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Reduce"
+				},
+				"Item Number": {
+					"type": "input",
+					"top": 145,
+					"left": 175,
+					"width": 90,
+					"height": 14,
+					"dataSource": "[Inventory:4]Barcode Item Number:1",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Consignor Number": {
+					"type": "input",
+					"top": 169,
+					"left": 175,
+					"width": 90,
+					"height": 14,
+					"dataSource": "[Inventory:4]Consignor Number:3",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Item Description": {
+					"type": "input",
+					"top": 193,
+					"left": 175,
+					"width": 350,
+					"height": 14,
+					"dataSource": "[Inventory:4]Item Description:4",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Size": {
+					"type": "input",
+					"top": 217,
+					"left": 175,
+					"width": 90,
+					"height": 14,
+					"dataSource": "[Inventory:4]Size:5",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Price": {
+					"type": "input",
+					"top": 241,
+					"left": 175,
+					"width": 90,
+					"height": 14,
+					"dataSource": "[Inventory:4]Price:6",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Reduce": {
+					"type": "checkbox",
+					"top": 265,
+					"left": 175,
+					"width": 40,
+					"height": 17,
+					"dataSource": "[Inventory:4]Reduce:7",
+					"text": " ",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 316,
+					"left": 55,
+					"width": 115,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Category"
+				},
+				"Price1": {
+					"type": "input",
+					"top": 316,
+					"left": 175,
+					"width": 350,
+					"height": 14,
+					"dataSource": "[Inventory:4]Category:8",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 289,
+					"left": 55,
+					"width": 115,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Donate"
+				},
+				"Donate": {
+					"type": "checkbox",
+					"top": 289,
+					"left": 175,
+					"width": 40,
+					"height": 17,
+					"dataSource": "[Inventory:4]Donate:9",
+					"text": " ",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 339,
+					"left": 35,
+					"width": 135,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Create/Changed Date"
+				},
+				"CreatedDate": {
+					"type": "input",
+					"top": 339,
+					"left": 175,
+					"width": 350,
+					"height": 14,
+					"dataSource": "[Inventory:4]Created Date:10",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 384,
+					"left": 45,
+					"width": 164,
+					"height": 19,
+					"stroke": "#EE0000",
+					"fontFamily": "Tahoma",
+					"fontSize": 15,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Sales Information"
+				},
+				"Subform1": {
+					"type": "subform",
+					"top": 437,
+					"left": 13,
+					"width": 994,
+					"height": 100,
+					"dataSourceTypeHint": "text",
+					"table": 2,
+					"listForm": "SalesbyConsignorSubform",
+					"scrollbarHorizontal": "visible",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum1"
+				]
+			},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

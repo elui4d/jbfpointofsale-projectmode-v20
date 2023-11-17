@@ -1,0 +1,1986 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+   <!-- 
+Translation file.
+This file is distributed under the same license as the product package.-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group resname="Country names" id="1120">
+            <trans-unit id="1" resname="Afghanistan">
+               <source>Afghanistan</source>
+               <target>Afghanistan</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Albania">
+               <source>Albania</source>
+               <target>Albania</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Algeria">
+               <source>Algeria</source>
+               <target>Algeria</target>
+            </trans-unit>
+            <trans-unit id="4" resname="American Samoa">
+               <source>American Samoa</source>
+               <target>American Samoa</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Andorra">
+               <source>Andorra</source>
+               <target>Andorra</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Angola">
+               <source>Angola</source>
+               <target>Angola</target>
+            </trans-unit>
+            <trans-unit id="7" resname="Anguilla">
+               <source>Anguilla</source>
+               <target>Anguilla</target>
+            </trans-unit>
+            <trans-unit id="8" resname="Antarctica">
+               <source>Antarctica</source>
+               <target>Antarctica</target>
+            </trans-unit>
+            <trans-unit id="9" resname="Antigua and Barbuda">
+               <source>Antigua and Barbuda</source>
+               <target>Antigua and Barbuda</target>
+            </trans-unit>
+            <trans-unit id="10" resname="Argentina">
+               <source>Argentina</source>
+               <target>Argentina</target>
+            </trans-unit>
+            <trans-unit id="11" resname="Armenia">
+               <source>Armenia</source>
+               <target>Armenia</target>
+            </trans-unit>
+            <trans-unit id="12" resname="Aruba">
+               <source>Aruba</source>
+               <target>Aruba</target>
+            </trans-unit>
+            <trans-unit id="13" resname="Ascension ">
+               <source>Ascension </source>
+               <target>Ascension </target>
+            </trans-unit>
+            <trans-unit id="14" resname="Australia">
+               <source>Australia</source>
+               <target>Australia</target>
+            </trans-unit>
+            <trans-unit id="15" resname="Austria">
+               <source>Austria</source>
+               <target>Austria</target>
+            </trans-unit>
+            <trans-unit id="16" resname="Azerbaijan">
+               <source>Azerbaijan</source>
+               <target>Azerbaijan</target>
+            </trans-unit>
+            <trans-unit id="17" resname="Bahamas">
+               <source>Bahamas</source>
+               <target>Bahamas</target>
+            </trans-unit>
+            <trans-unit id="18" resname="Bahrain">
+               <source>Bahrain</source>
+               <target>Bahrain</target>
+            </trans-unit>
+            <trans-unit id="19" resname="Bangladesh">
+               <source>Bangladesh</source>
+               <target>Bangladesh</target>
+            </trans-unit>
+            <trans-unit id="20" resname="Barbados">
+               <source>Barbados</source>
+               <target>Barbados</target>
+            </trans-unit>
+            <trans-unit id="21" resname="Belarus">
+               <source>Belarus</source>
+               <target>Belarus</target>
+            </trans-unit>
+            <trans-unit id="22" resname="Belgium">
+               <source>Belgium</source>
+               <target>Belgium</target>
+            </trans-unit>
+            <trans-unit id="23" resname="Belize">
+               <source>Belize</source>
+               <target>Belize</target>
+            </trans-unit>
+            <trans-unit id="24" resname="Benin">
+               <source>Benin</source>
+               <target>Benin</target>
+            </trans-unit>
+            <trans-unit id="25" resname="Bermuda">
+               <source>Bermuda</source>
+               <target>Bermuda</target>
+            </trans-unit>
+            <trans-unit id="26" resname="Bhutan">
+               <source>Bhutan</source>
+               <target>Bhutan</target>
+            </trans-unit>
+            <trans-unit id="27" resname="Bolivia">
+               <source>Bolivia</source>
+               <target>Bolivia</target>
+            </trans-unit>
+            <trans-unit id="28" resname="Bosnia and Herzegowina">
+               <source>Bosnia and Herzegowina</source>
+               <target>Bosnia and Herzegowina</target>
+            </trans-unit>
+            <trans-unit id="29" resname="Botswana">
+               <source>Botswana</source>
+               <target>Botswana</target>
+            </trans-unit>
+            <trans-unit id="30" resname="Bouvet Island">
+               <source>Bouvet Island</source>
+               <target>Bouvet Island</target>
+            </trans-unit>
+            <trans-unit id="31" resname="Brazil">
+               <source>Brazil</source>
+               <target>Brazil</target>
+            </trans-unit>
+            <trans-unit id="32" resname="British Indian Ocean Territory">
+               <source>British Indian Ocean Territory</source>
+               <target>British Indian Ocean Territory</target>
+            </trans-unit>
+            <trans-unit id="33" resname="Brunei Darussalam">
+               <source>Brunei Darussalam</source>
+               <target>Brunei Darussalam</target>
+            </trans-unit>
+            <trans-unit id="34" resname="Bulgaria">
+               <source>Bulgaria</source>
+               <target>Bulgaria</target>
+            </trans-unit>
+            <trans-unit id="35" resname="Burkina Faso">
+               <source>Burkina Faso</source>
+               <target>Burkina Faso</target>
+            </trans-unit>
+            <trans-unit id="36" resname="Burundi">
+               <source>Burundi</source>
+               <target>Burundi</target>
+            </trans-unit>
+            <trans-unit id="37" resname="Cambodia">
+               <source>Cambodia</source>
+               <target>Cambodia</target>
+            </trans-unit>
+            <trans-unit id="38" resname="Cameroon">
+               <source>Cameroon</source>
+               <target>Cameroon</target>
+            </trans-unit>
+            <trans-unit id="39" resname="Canada">
+               <source>Canada</source>
+               <target>Canada</target>
+            </trans-unit>
+            <trans-unit id="40" resname="Cape Verde">
+               <source>Cape Verde</source>
+               <target>Cape Verde</target>
+            </trans-unit>
+            <trans-unit id="41" resname="Cayman Islands">
+               <source>Cayman Islands</source>
+               <target>Cayman Islands</target>
+            </trans-unit>
+            <trans-unit id="42" resname="Central African Republic">
+               <source>Central African Republic</source>
+               <target>Central African Republic</target>
+            </trans-unit>
+            <trans-unit id="43" resname="Chad">
+               <source>Chad</source>
+               <target>Chad</target>
+            </trans-unit>
+            <trans-unit id="44" resname="Chile">
+               <source>Chile</source>
+               <target>Chile</target>
+            </trans-unit>
+            <trans-unit id="45" resname="China">
+               <source>China</source>
+               <target>China</target>
+            </trans-unit>
+            <trans-unit id="46" resname="Christmas Island">
+               <source>Christmas Island</source>
+               <target>Christmas Island</target>
+            </trans-unit>
+            <trans-unit id="47" resname="Cocos">
+               <source>Cocos</source>
+               <target>Cocos</target>
+            </trans-unit>
+            <trans-unit id="48" resname="Colombia">
+               <source>Colombia</source>
+               <target>Colombia</target>
+            </trans-unit>
+            <trans-unit id="49" resname="Comoros">
+               <source>Comoros</source>
+               <target>Comoros</target>
+            </trans-unit>
+            <trans-unit id="50" resname="Congo, Democratic Republic of">
+               <source>Congo, Democratic Republic of</source>
+               <target>Congo, Democratic Republic of</target>
+            </trans-unit>
+            <trans-unit id="51" resname="Congo, People&apos;s Republic of">
+               <source>Congo, People&apos;s Republic of</source>
+               <target>Congo, People&apos;s Republic of</target>
+            </trans-unit>
+            <trans-unit id="52" resname="Cook Islands">
+               <source>Cook Islands</source>
+               <target>Cook Islands</target>
+            </trans-unit>
+            <trans-unit id="53" resname="Costa Rica">
+               <source>Costa Rica</source>
+               <target>Costa Rica</target>
+            </trans-unit>
+            <trans-unit id="54" resname="Cote d&apos;Ivoire">
+               <source>Cote d&apos;Ivoire</source>
+               <target>Cote d&apos;Ivoire</target>
+            </trans-unit>
+            <trans-unit id="55" resname="Croatia">
+               <source>Croatia</source>
+               <target>Croatia</target>
+            </trans-unit>
+            <trans-unit id="56" resname="Cuba">
+               <source>Cuba</source>
+               <target>Cuba</target>
+            </trans-unit>
+            <trans-unit id="57" resname="Cyprus">
+               <source>Cyprus</source>
+               <target>Cyprus</target>
+            </trans-unit>
+            <trans-unit id="58" resname="Czech Republic">
+               <source>Czech Republic</source>
+               <target>Czech Republic</target>
+            </trans-unit>
+            <trans-unit id="59" resname="Denmark">
+               <source>Denmark</source>
+               <target>Denmark</target>
+            </trans-unit>
+            <trans-unit id="60" resname="Djibouti">
+               <source>Djibouti</source>
+               <target>Djibouti</target>
+            </trans-unit>
+            <trans-unit id="61" resname="Dominica">
+               <source>Dominica</source>
+               <target>Dominica</target>
+            </trans-unit>
+            <trans-unit id="62" resname="Dominican Republic">
+               <source>Dominican Republic</source>
+               <target>Dominican Republic</target>
+            </trans-unit>
+            <trans-unit id="63" resname="East Timor">
+               <source>East Timor</source>
+               <target>East Timor</target>
+            </trans-unit>
+            <trans-unit id="64" resname="Timor Leste">
+               <source>Timor Leste</source>
+               <target>Timor Leste</target>
+            </trans-unit>
+            <trans-unit id="65" resname="Ecuador">
+               <source>Ecuador</source>
+               <target>Ecuador</target>
+            </trans-unit>
+            <trans-unit id="66" resname="Egypt">
+               <source>Egypt</source>
+               <target>Egypt</target>
+            </trans-unit>
+            <trans-unit id="67" resname="El Salvador">
+               <source>El Salvador</source>
+               <target>El Salvador</target>
+            </trans-unit>
+            <trans-unit id="68" resname="Equatorial Guinea">
+               <source>Equatorial Guinea</source>
+               <target>Equatorial Guinea</target>
+            </trans-unit>
+            <trans-unit id="69" resname="Eritrea">
+               <source>Eritrea</source>
+               <target>Eritrea</target>
+            </trans-unit>
+            <trans-unit id="70" resname="Estonia">
+               <source>Estonia</source>
+               <target>Estonia</target>
+            </trans-unit>
+            <trans-unit id="71" resname="Ethiopia">
+               <source>Ethiopia</source>
+               <target>Ethiopia</target>
+            </trans-unit>
+            <trans-unit id="72" resname="Falkland Islands">
+               <source>Falkland Islands</source>
+               <target>Falkland Islands</target>
+            </trans-unit>
+            <trans-unit id="73" resname="Faroe Islands">
+               <source>Faroe Islands</source>
+               <target>Faroe Islands</target>
+            </trans-unit>
+            <trans-unit id="74" resname="Fiji">
+               <source>Fiji</source>
+               <target>Fiji</target>
+            </trans-unit>
+            <trans-unit id="75" resname="Finland">
+               <source>Finland</source>
+               <target>Finland</target>
+            </trans-unit>
+            <trans-unit id="76" resname="France">
+               <source>France</source>
+               <target>France</target>
+            </trans-unit>
+            <trans-unit id="77" resname="France, Metropolitan">
+               <source>France, Metropolitan</source>
+               <target>France, Metropolitan</target>
+            </trans-unit>
+            <trans-unit id="78" resname="French Guiana">
+               <source>French Guiana</source>
+               <target>French Guiana</target>
+            </trans-unit>
+            <trans-unit id="79" resname="French Polynesia">
+               <source>French Polynesia</source>
+               <target>French Polynesia</target>
+            </trans-unit>
+            <trans-unit id="80" resname="French Southern Territories">
+               <source>French Southern Territories</source>
+               <target>French Southern Territories</target>
+            </trans-unit>
+            <trans-unit id="81" resname="Gabon">
+               <source>Gabon</source>
+               <target>Gabon</target>
+            </trans-unit>
+            <trans-unit id="82" resname="Gambia">
+               <source>Gambia</source>
+               <target>Gambia</target>
+            </trans-unit>
+            <trans-unit id="83" resname="Georgia">
+               <source>Georgia</source>
+               <target>Georgia</target>
+            </trans-unit>
+            <trans-unit id="84" resname="Germany">
+               <source>Germany</source>
+               <target>Germany</target>
+            </trans-unit>
+            <trans-unit id="85" resname="Ghana">
+               <source>Ghana</source>
+               <target>Ghana</target>
+            </trans-unit>
+            <trans-unit id="86" resname="Gibraltar">
+               <source>Gibraltar</source>
+               <target>Gibraltar</target>
+            </trans-unit>
+            <trans-unit id="87" resname="Greece">
+               <source>Greece</source>
+               <target>Greece</target>
+            </trans-unit>
+            <trans-unit id="88" resname="Greenland">
+               <source>Greenland</source>
+               <target>Greenland</target>
+            </trans-unit>
+            <trans-unit id="89" resname="Grenada">
+               <source>Grenada</source>
+               <target>Grenada</target>
+            </trans-unit>
+            <trans-unit id="90" resname="Guadeloupe">
+               <source>Guadeloupe</source>
+               <target>Guadeloupe</target>
+            </trans-unit>
+            <trans-unit id="91" resname="Guam">
+               <source>Guam</source>
+               <target>Guam</target>
+            </trans-unit>
+            <trans-unit id="92" resname="Guatemala">
+               <source>Guatemala</source>
+               <target>Guatemala</target>
+            </trans-unit>
+            <trans-unit id="93" resname="Guinea">
+               <source>Guinea</source>
+               <target>Guinea</target>
+            </trans-unit>
+            <trans-unit id="94" resname="Guinea-Bissau">
+               <source>Guinea-Bissau</source>
+               <target>Guinea-Bissau</target>
+            </trans-unit>
+            <trans-unit id="95" resname="Guyana">
+               <source>Guyana</source>
+               <target>Guyana</target>
+            </trans-unit>
+            <trans-unit id="96" resname="Haiti">
+               <source>Haiti</source>
+               <target>Haiti</target>
+            </trans-unit>
+            <trans-unit id="97" resname="Heard and Mc Donald Islands">
+               <source>Heard and Mc Donald Islands</source>
+               <target>Heard and Mc Donald Islands</target>
+            </trans-unit>
+            <trans-unit id="98" resname="Honduras">
+               <source>Honduras</source>
+               <target>Honduras</target>
+            </trans-unit>
+            <trans-unit id="99" resname="Hong Kong">
+               <source>Hong Kong</source>
+               <target>Hong Kong</target>
+            </trans-unit>
+            <trans-unit id="100" resname="Hungary">
+               <source>Hungary</source>
+               <target>Hungary</target>
+            </trans-unit>
+            <trans-unit id="101" resname="Iceland">
+               <source>Iceland</source>
+               <target>Iceland</target>
+            </trans-unit>
+            <trans-unit id="102" resname="India">
+               <source>India</source>
+               <target>India</target>
+            </trans-unit>
+            <trans-unit id="103" resname="Indonesia">
+               <source>Indonesia</source>
+               <target>Indonesia</target>
+            </trans-unit>
+            <trans-unit id="104" resname="Iran">
+               <source>Iran</source>
+               <target>Iran</target>
+            </trans-unit>
+            <trans-unit id="105" resname="Iraq">
+               <source>Iraq</source>
+               <target>Iraq</target>
+            </trans-unit>
+            <trans-unit id="106" resname="Ireland">
+               <source>Ireland</source>
+               <target>Ireland</target>
+            </trans-unit>
+            <trans-unit id="107" resname="Israel">
+               <source>Israel</source>
+               <target>Israel</target>
+            </trans-unit>
+            <trans-unit id="108" resname="Italy">
+               <source>Italy</source>
+               <target>Italy</target>
+            </trans-unit>
+            <trans-unit id="109" resname="Jamaica">
+               <source>Jamaica</source>
+               <target>Jamaica</target>
+            </trans-unit>
+            <trans-unit id="110" resname="Japan">
+               <source>Japan</source>
+               <target>Japan</target>
+            </trans-unit>
+            <trans-unit id="111" resname="Jordan">
+               <source>Jordan</source>
+               <target>Jordan</target>
+            </trans-unit>
+            <trans-unit id="112" resname="Kazakhstan">
+               <source>Kazakhstan</source>
+               <target>Kazakhstan</target>
+            </trans-unit>
+            <trans-unit id="113" resname="Kenya">
+               <source>Kenya</source>
+               <target>Kenya</target>
+            </trans-unit>
+            <trans-unit id="114" resname="Kiribati">
+               <source>Kiribati</source>
+               <target>Kiribati</target>
+            </trans-unit>
+            <trans-unit id="115" resname="Korea, Democratic People&apos;s Republic of">
+               <source>Korea, Democratic People&apos;s Republic of</source>
+               <target>Korea, Democratic People&apos;s Republic of</target>
+            </trans-unit>
+            <trans-unit id="116" resname="Korea, Republic Of">
+               <source>Korea, Republic Of</source>
+               <target>Korea, Republic Of</target>
+            </trans-unit>
+            <trans-unit id="116bis" resname="Kosovo">
+               <source>Kosovo</source>
+               <target>Kosovo</target>
+            </trans-unit>
+            <trans-unit id="117" resname="Kuwait">
+               <source>Kuwait</source>
+               <target>Kuwait</target>
+            </trans-unit>
+            <trans-unit id="118" resname="Kyrgyzstan">
+               <source>Kyrgyzstan</source>
+               <target>Kyrgyzstan</target>
+            </trans-unit>
+            <trans-unit id="119" resname="Lao People&apos;s Democratic Republic">
+               <source>Lao People&apos;s Democratic Republic</source>
+               <target>Lao People&apos;s Democratic Republic</target>
+            </trans-unit>
+            <trans-unit id="120" resname="Latvia">
+               <source>Latvia</source>
+               <target>Latvia</target>
+            </trans-unit>
+            <trans-unit id="121" resname="Lebanon">
+               <source>Lebanon</source>
+               <target>Lebanon</target>
+            </trans-unit>
+            <trans-unit id="122" resname="Lesotho">
+               <source>Lesotho</source>
+               <target>Lesotho</target>
+            </trans-unit>
+            <trans-unit id="123" resname="Liberia">
+               <source>Liberia</source>
+               <target>Liberia</target>
+            </trans-unit>
+            <trans-unit id="124" resname="Libyan Arab Jamahiriya">
+               <source>Libyan Arab Jamahiriya</source>
+               <target>Libyan Arab Jamahiriya</target>
+            </trans-unit>
+            <trans-unit id="125" resname="Liechtenstein">
+               <source>Liechtenstein</source>
+               <target>Liechtenstein</target>
+            </trans-unit>
+            <trans-unit id="126" resname="Lithuania">
+               <source>Lithuania</source>
+               <target>Lithuania</target>
+            </trans-unit>
+            <trans-unit id="127" resname="Luxembourg">
+               <source>Luxembourg</source>
+               <target>Luxembourg</target>
+            </trans-unit>
+            <trans-unit id="128" resname="Macau">
+               <source>Macau</source>
+               <target>Macau</target>
+            </trans-unit>
+            <trans-unit id="129" resname="Macedonia, The Former Yugoslav Republic of">
+               <source>Macedonia, The Former Yugoslav Republic of</source>
+               <target>Macedonia, The Former Yugoslav Republic of</target>
+            </trans-unit>
+            <trans-unit id="130" resname="Madagascar">
+               <source>Madagascar</source>
+               <target>Madagascar</target>
+            </trans-unit>
+            <trans-unit id="131" resname="Malawi">
+               <source>Malawi</source>
+               <target>Malawi</target>
+            </trans-unit>
+            <trans-unit id="132" resname="Malaysia">
+               <source>Malaysia</source>
+               <target>Malaysia</target>
+            </trans-unit>
+            <trans-unit id="133" resname="Maldives">
+               <source>Maldives</source>
+               <target>Maldives</target>
+            </trans-unit>
+            <trans-unit id="134" resname="Mali">
+               <source>Mali</source>
+               <target>Mali</target>
+            </trans-unit>
+            <trans-unit id="135" resname="Malta">
+               <source>Malta</source>
+               <target>Malta</target>
+            </trans-unit>
+            <trans-unit id="136" resname="Marshall Islands">
+               <source>Marshall Islands</source>
+               <target>Marshall Islands</target>
+            </trans-unit>
+            <trans-unit id="137" resname="Martinique">
+               <source>Martinique</source>
+               <target>Martinique</target>
+            </trans-unit>
+            <trans-unit id="138" resname="Mauritania">
+               <source>Mauritania</source>
+               <target>Mauritania</target>
+            </trans-unit>
+            <trans-unit id="139" resname="Mauritius">
+               <source>Mauritius</source>
+               <target>Mauritius</target>
+            </trans-unit>
+            <trans-unit id="140" resname="Mayotte">
+               <source>Mayotte</source>
+               <target>Mayotte</target>
+            </trans-unit>
+            <trans-unit id="141" resname="Mexico">
+               <source>Mexico</source>
+               <target>Mexico</target>
+            </trans-unit>
+            <trans-unit id="142" resname="Micronesia, Federated States of">
+               <source>Micronesia, Federated States of</source>
+               <target>Micronesia, Federated States of</target>
+            </trans-unit>
+            <trans-unit id="143" resname="Moldova, Republic of">
+               <source>Moldova, Republic of</source>
+               <target>Moldova, Republic of</target>
+            </trans-unit>
+            <trans-unit id="144" resname="Monaco">
+               <source>Monaco</source>
+               <target>Monaco</target>
+            </trans-unit>
+            <trans-unit id="145" resname="Mongolia">
+               <source>Mongolia</source>
+               <target>Mongolia</target>
+            </trans-unit>
+            <trans-unit id="145bis" resname="Montenegro">
+               <source>Montenegro</source>
+               <target>Montenegro</target>
+            </trans-unit>
+            <trans-unit id="146" resname="Montserrat">
+               <source>Montserrat</source>
+               <target>Montserrat</target>
+            </trans-unit>
+            <trans-unit id="147" resname="Morocco">
+               <source>Morocco</source>
+               <target>Morocco</target>
+            </trans-unit>
+            <trans-unit id="148" resname="Mozambique">
+               <source>Mozambique</source>
+               <target>Mozambique</target>
+            </trans-unit>
+            <trans-unit id="149" resname="Myanmar">
+               <source>Myanmar</source>
+               <target>Myanmar</target>
+            </trans-unit>
+            <trans-unit id="150" resname="Namibia">
+               <source>Namibia</source>
+               <target>Namibia</target>
+            </trans-unit>
+            <trans-unit id="151" resname="Nauru">
+               <source>Nauru</source>
+               <target>Nauru</target>
+            </trans-unit>
+            <trans-unit id="152" resname="Nepal">
+               <source>Nepal</source>
+               <target>Nepal</target>
+            </trans-unit>
+            <trans-unit id="153" resname="Netherlands">
+               <source>Netherlands</source>
+               <target>Netherlands</target>
+            </trans-unit>
+            <trans-unit id="154" resname="Netherlands Antilles">
+               <source>Netherlands Antilles</source>
+               <target>Netherlands Antilles</target>
+            </trans-unit>
+            <trans-unit id="155" resname="New Caledonia">
+               <source>New Caledonia</source>
+               <target>New Caledonia</target>
+            </trans-unit>
+            <trans-unit id="156" resname="New Zealand">
+               <source>New Zealand</source>
+               <target>New Zealand</target>
+            </trans-unit>
+            <trans-unit id="157" resname="Nicaragua">
+               <source>Nicaragua</source>
+               <target>Nicaragua</target>
+            </trans-unit>
+            <trans-unit id="158" resname="Niger">
+               <source>Niger</source>
+               <target>Niger</target>
+            </trans-unit>
+            <trans-unit id="159" resname="Nigeria">
+               <source>Nigeria</source>
+               <target>Nigeria</target>
+            </trans-unit>
+            <trans-unit id="160" resname="Niue">
+               <source>Niue</source>
+               <target>Niue</target>
+            </trans-unit>
+            <trans-unit id="161" resname="Norfolk Island">
+               <source>Norfolk Island</source>
+               <target>Norfolk Island</target>
+            </trans-unit>
+            <trans-unit id="162" resname="Northern Mariana Islands">
+               <source>Northern Mariana Islands</source>
+               <target>Northern Mariana Islands</target>
+            </trans-unit>
+            <trans-unit id="163" resname="Norway">
+               <source>Norway</source>
+               <target>Norway</target>
+            </trans-unit>
+            <trans-unit id="164" resname="Oman">
+               <source>Oman</source>
+               <target>Oman</target>
+            </trans-unit>
+            <trans-unit id="165" resname="Pakistan">
+               <source>Pakistan</source>
+               <target>Pakistan</target>
+            </trans-unit>
+            <trans-unit id="166" resname="Palau">
+               <source>Palau</source>
+               <target>Palau</target>
+            </trans-unit>
+            <trans-unit id="167" resname="Palestinian Territory, Occupied">
+               <source>Palestinian Territory, Occupied</source>
+               <target>Palestinian Territory, Occupied</target>
+            </trans-unit>
+            <trans-unit id="168" resname="Panama">
+               <source>Panama</source>
+               <target>Panama</target>
+            </trans-unit>
+            <trans-unit id="169" resname="Papua New Guinea">
+               <source>Papua New Guinea</source>
+               <target>Papua New Guinea</target>
+            </trans-unit>
+            <trans-unit id="170" resname="Paraguay">
+               <source>Paraguay</source>
+               <target>Paraguay</target>
+            </trans-unit>
+            <trans-unit id="171" resname="Peru">
+               <source>Peru</source>
+               <target>Peru</target>
+            </trans-unit>
+            <trans-unit id="172" resname="Philippines">
+               <source>Philippines</source>
+               <target>Philippines</target>
+            </trans-unit>
+            <trans-unit id="173" resname="Pitcairn">
+               <source>Pitcairn</source>
+               <target>Pitcairn</target>
+            </trans-unit>
+            <trans-unit id="174" resname="Poland">
+               <source>Poland</source>
+               <target>Poland</target>
+            </trans-unit>
+            <trans-unit id="175" resname="Portugal">
+               <source>Portugal</source>
+               <target>Portugal</target>
+            </trans-unit>
+            <trans-unit id="176" resname="Puerto Rico">
+               <source>Puerto Rico</source>
+               <target>Puerto Rico</target>
+            </trans-unit>
+            <trans-unit id="177" resname="Qatar">
+               <source>Qatar</source>
+               <target>Qatar</target>
+            </trans-unit>
+            <trans-unit id="178" resname="Reunion">
+               <source>Reunion</source>
+               <target>Reunion</target>
+            </trans-unit>
+            <trans-unit id="179" resname="Romania">
+               <source>Romania</source>
+               <target>Romania</target>
+            </trans-unit>
+            <trans-unit id="180" resname="Russian Federation">
+               <source>Russian Federation</source>
+               <target>Russian Federation</target>
+            </trans-unit>
+            <trans-unit id="181" resname="Rwanda">
+               <source>Rwanda</source>
+               <target>Rwanda</target>
+            </trans-unit>
+            <trans-unit id="182" resname="Saint Kitts and Nevis">
+               <source>Saint Kitts and Nevis</source>
+               <target>Saint Kitts and Nevis</target>
+            </trans-unit>
+            <trans-unit id="183" resname="Saint Lucia">
+               <source>Saint Lucia</source>
+               <target>Saint Lucia</target>
+            </trans-unit>
+            <trans-unit id="184" resname="Saint Vincent and the Grenadines">
+               <source>Saint Vincent and the Grenadines</source>
+               <target>Saint Vincent and the Grenadines</target>
+            </trans-unit>
+            <trans-unit id="185" resname="Samoa">
+               <source>Samoa</source>
+               <target>Samoa</target>
+            </trans-unit>
+            <trans-unit id="186" resname="San Marino">
+               <source>San Marino</source>
+               <target>San Marino</target>
+            </trans-unit>
+            <trans-unit id="187" resname="Sao Tome and Principe">
+               <source>Sao Tome and Principe</source>
+               <target>Sao Tome and Principe</target>
+            </trans-unit>
+            <trans-unit id="188" resname="Saudi Arabia">
+               <source>Saudi Arabia</source>
+               <target>Saudi Arabia</target>
+            </trans-unit>
+            <trans-unit id="189" resname="Senegal">
+               <source>Senegal</source>
+               <target>Senegal</target>
+            </trans-unit>
+            <trans-unit id="189bis" resname="Serbia">
+               <source>Serbia</source>
+               <target>Serbia</target>
+            </trans-unit>
+            <trans-unit id="190" resname="Seychelles">
+               <source>Seychelles</source>
+               <target>Seychelles</target>
+            </trans-unit>
+            <trans-unit id="191" resname="Sierra Leone">
+               <source>Sierra Leone</source>
+               <target>Sierra Leone</target>
+            </trans-unit>
+            <trans-unit id="192" resname="Singapore">
+               <source>Singapore</source>
+               <target>Singapore</target>
+            </trans-unit>
+            <trans-unit id="193" resname="Slovakia">
+               <source>Slovakia</source>
+               <target>Slovakia</target>
+            </trans-unit>
+            <trans-unit id="194" resname="Slovenia">
+               <source>Slovenia</source>
+               <target>Slovenia</target>
+            </trans-unit>
+            <trans-unit id="195" resname="Solomon Islands">
+               <source>Solomon Islands</source>
+               <target>Solomon Islands</target>
+            </trans-unit>
+            <trans-unit id="196" resname="Somalia">
+               <source>Somalia</source>
+               <target>Somalia</target>
+            </trans-unit>
+            <trans-unit id="197" resname="South Africa">
+               <source>South Africa</source>
+               <target>South Africa</target>
+            </trans-unit>
+            <trans-unit id="198" resname="South Georgia and the South Sandwich Islands">
+               <source>South Georgia and the South Sandwich Islands</source>
+               <target>South Georgia and the South Sandwich Islands</target>
+            </trans-unit>
+            <trans-unit id="199" resname="Spain">
+               <source>Spain</source>
+               <target>Spain</target>
+            </trans-unit>
+            <trans-unit id="200" resname="Sri Lanka">
+               <source>Sri Lanka</source>
+               <target>Sri Lanka</target>
+            </trans-unit>
+            <trans-unit id="201" resname="St. Helena">
+               <source>St. Helena</source>
+               <target>St. Helena</target>
+            </trans-unit>
+            <trans-unit id="202" resname="St. Pierre and Miquelon">
+               <source>St. Pierre and Miquelon</source>
+               <target>St. Pierre and Miquelon</target>
+            </trans-unit>
+            <trans-unit id="203" resname="Sudan">
+               <source>Sudan</source>
+               <target>Sudan</target>
+            </trans-unit>
+            <trans-unit id="204" resname="Suriname">
+               <source>Suriname</source>
+               <target>Suriname</target>
+            </trans-unit>
+            <trans-unit id="205" resname="Svalbard and Jan Mayen Islands">
+               <source>Svalbard and Jan Mayen Islands</source>
+               <target>Svalbard and Jan Mayen Islands</target>
+            </trans-unit>
+            <trans-unit id="206" resname="Swaziland">
+               <source>Swaziland</source>
+               <target>Swaziland</target>
+            </trans-unit>
+            <trans-unit id="207" resname="Sweden">
+               <source>Sweden</source>
+               <target>Sweden</target>
+            </trans-unit>
+            <trans-unit id="208" resname="Switzerland">
+               <source>Switzerland</source>
+               <target>Switzerland</target>
+            </trans-unit>
+            <trans-unit id="209" resname="Syrian Arab Republic">
+               <source>Syrian Arab Republic</source>
+               <target>Syrian Arab Republic</target>
+            </trans-unit>
+            <trans-unit id="210" resname="Taiwan">
+               <source>Taiwan</source>
+               <target>Taiwan</target>
+            </trans-unit>
+            <trans-unit id="211" resname="Tajikistan">
+               <source>Tajikistan</source>
+               <target>Tajikistan</target>
+            </trans-unit>
+            <trans-unit id="212" resname="Tanzania, United Republic of">
+               <source>Tanzania, United Republic of</source>
+               <target>Tanzania, United Republic of</target>
+            </trans-unit>
+            <trans-unit id="213" resname="Thailand">
+               <source>Thailand</source>
+               <target>Thailand</target>
+            </trans-unit>
+            <trans-unit id="214" resname="Togo">
+               <source>Togo</source>
+               <target>Togo</target>
+            </trans-unit>
+            <trans-unit id="215" resname="Tokelau">
+               <source>Tokelau</source>
+               <target>Tokelau</target>
+            </trans-unit>
+            <trans-unit id="216" resname="Tonga">
+               <source>Tonga</source>
+               <target>Tonga</target>
+            </trans-unit>
+            <trans-unit id="217" resname="Trinidad and Tobago">
+               <source>Trinidad and Tobago</source>
+               <target>Trinidad and Tobago</target>
+            </trans-unit>
+            <trans-unit id="218" resname="Tunisia">
+               <source>Tunisia</source>
+               <target>Tunisia</target>
+            </trans-unit>
+            <trans-unit id="219" resname="Turkey">
+               <source>Turkey</source>
+               <target>Turkey</target>
+            </trans-unit>
+            <trans-unit id="220" resname="Turkmenistan">
+               <source>Turkmenistan</source>
+               <target>Turkmenistan</target>
+            </trans-unit>
+            <trans-unit id="221" resname="Turks and Caicos Islands">
+               <source>Turks and Caicos Islands</source>
+               <target>Turks and Caicos Islands</target>
+            </trans-unit>
+            <trans-unit id="222" resname="Tuvalu">
+               <source>Tuvalu</source>
+               <target>Tuvalu</target>
+            </trans-unit>
+            <trans-unit id="223" resname="Uganda">
+               <source>Uganda</source>
+               <target>Uganda</target>
+            </trans-unit>
+            <trans-unit id="224" resname="Ukraine">
+               <source>Ukraine</source>
+               <target>Ukraine</target>
+            </trans-unit>
+            <trans-unit id="225" resname="United Arab Emirates">
+               <source>United Arab Emirates</source>
+               <target>United Arab Emirates</target>
+            </trans-unit>
+            <trans-unit id="226" resname="Ukrainian">
+               <source>Ukrainian</source>
+               <target>Ukrainian</target>
+            </trans-unit>
+            <trans-unit id="227" resname="United Kingdom">
+               <source>United Kingdom</source>
+               <target>United Kingdom</target>
+            </trans-unit>
+            <trans-unit id="228" resname="United States">
+               <source>United States</source>
+               <target>United States</target>
+            </trans-unit>
+            <trans-unit id="229" resname="United States Minor Outlying Islands">
+               <source>United States Minor Outlying Islands</source>
+               <target>United States Minor Outlying Islands</target>
+            </trans-unit>
+            <trans-unit id="230" resname="Uruguay">
+               <source>Uruguay</source>
+               <target>Uruguay</target>
+            </trans-unit>
+            <trans-unit id="231" resname="Uzbekistan">
+               <source>Uzbekistan</source>
+               <target>Uzbekistan</target>
+            </trans-unit>
+            <trans-unit id="232" resname="Vanuatu">
+               <source>Vanuatu</source>
+               <target>Vanuatu</target>
+            </trans-unit>
+            <trans-unit id="233" resname="Vatican City State">
+               <source>Vatican City State</source>
+               <target>Vatican City State</target>
+            </trans-unit>
+            <trans-unit id="234" resname="Venezuela">
+               <source>Venezuela</source>
+               <target>Venezuela</target>
+            </trans-unit>
+            <trans-unit id="235" resname="Viet Nam">
+               <source>Viet Nam</source>
+               <target>Viet Nam</target>
+            </trans-unit>
+            <trans-unit id="236" resname="Virgin Islands">
+               <source>Virgin Islands</source>
+               <target>Virgin Islands</target>
+            </trans-unit>
+            <trans-unit id="237" resname="Virgin Islands">
+               <source>Virgin Islands</source>
+               <target>Virgin Islands</target>
+            </trans-unit>
+            <trans-unit id="238" resname="Wallis and Futuna Islands">
+               <source>Wallis and Futuna Islands</source>
+               <target>Wallis and Futuna Islands</target>
+            </trans-unit>
+            <trans-unit id="239" resname="Western Sahara">
+               <source>Western Sahara</source>
+               <target>Western Sahara</target>
+            </trans-unit>
+            <trans-unit id="240" resname="Yemen">
+               <source>Yemen</source>
+               <target>Yemen</target>
+            </trans-unit>
+
+            <trans-unit id="242" resname="Zambia">
+               <source>Zambia</source>
+               <target>Zambia</target>
+            </trans-unit>
+            <trans-unit id="243" resname="Zimbabwe">
+               <source>Zimbabwe</source>
+               <target>Zimbabwe</target>
+            </trans-unit>
+         </group>
+         <group resname="Country code ISO" id="1121">
+            <trans-unit id="1" resname="AF">
+               <source>AF</source>
+               <target>AF</target>
+            </trans-unit>
+            <trans-unit id="2" resname="AL">
+               <source>AL</source>
+               <target>AL</target>
+            </trans-unit>
+            <trans-unit id="3" resname="DZ">
+               <source>DZ</source>
+               <target>DZ</target>
+            </trans-unit>
+            <trans-unit id="4" resname="AS">
+               <source>AS</source>
+               <target>AS</target>
+            </trans-unit>
+            <trans-unit id="5" resname="AD">
+               <source>AD</source>
+               <target>AD</target>
+            </trans-unit>
+            <trans-unit id="6" resname="AO">
+               <source>AO</source>
+               <target>AO</target>
+            </trans-unit>
+            <trans-unit id="7" resname="AI">
+               <source>AI</source>
+               <target>AI</target>
+            </trans-unit>
+            <trans-unit id="8" resname="AQ">
+               <source>AQ</source>
+               <target>AQ</target>
+            </trans-unit>
+            <trans-unit id="9" resname="AG">
+               <source>AG</source>
+               <target>AG</target>
+            </trans-unit>
+            <trans-unit id="10" resname="AR">
+               <source>AR</source>
+               <target>AR</target>
+            </trans-unit>
+            <trans-unit id="11" resname="AM">
+               <source>AM</source>
+               <target>AM</target>
+            </trans-unit>
+            <trans-unit id="12" resname="AW">
+               <source>AW</source>
+               <target>AW</target>
+            </trans-unit>
+            <trans-unit id="13" resname="AC">
+               <source>AC</source>
+               <target>AC</target>
+            </trans-unit>
+            <trans-unit id="14" resname="AU">
+               <source>AU</source>
+               <target>AU</target>
+            </trans-unit>
+            <trans-unit id="15" resname="AT">
+               <source>AT</source>
+               <target>AT</target>
+            </trans-unit>
+            <trans-unit id="16" resname="AZ">
+               <source>AZ</source>
+               <target>AZ</target>
+            </trans-unit>
+            <trans-unit id="17" resname="BS">
+               <source>BS</source>
+               <target>BS</target>
+            </trans-unit>
+            <trans-unit id="18" resname="BH">
+               <source>BH</source>
+               <target>BH</target>
+            </trans-unit>
+            <trans-unit id="19" resname="BD">
+               <source>BD</source>
+               <target>BD</target>
+            </trans-unit>
+            <trans-unit id="20" resname="BB">
+               <source>BB</source>
+               <target>BB</target>
+            </trans-unit>
+            <trans-unit id="21" resname="BY">
+               <source>BY</source>
+               <target>BY</target>
+            </trans-unit>
+            <trans-unit id="22" resname="BE">
+               <source>BE</source>
+               <target>BE</target>
+            </trans-unit>
+            <trans-unit id="23" resname="BZ">
+               <source>BZ</source>
+               <target>BZ</target>
+            </trans-unit>
+            <trans-unit id="24" resname="BJ">
+               <source>BJ</source>
+               <target>BJ</target>
+            </trans-unit>
+            <trans-unit id="25" resname="BM">
+               <source>BM</source>
+               <target>BM</target>
+            </trans-unit>
+            <trans-unit id="26" resname="BT">
+               <source>BT</source>
+               <target>BT</target>
+            </trans-unit>
+            <trans-unit id="27" resname="BO">
+               <source>BO</source>
+               <target>BO</target>
+            </trans-unit>
+            <trans-unit id="28" resname="BA">
+               <source>BA</source>
+               <target>BA</target>
+            </trans-unit>
+            <trans-unit id="29" resname="BW">
+               <source>BW</source>
+               <target>BW</target>
+            </trans-unit>
+            <trans-unit id="30" resname="BV">
+               <source>BV</source>
+               <target>BV</target>
+            </trans-unit>
+            <trans-unit id="31" resname="BR">
+               <source>BR</source>
+               <target>BR</target>
+            </trans-unit>
+            <trans-unit id="32" resname="IO">
+               <source>IO</source>
+               <target>IO</target>
+            </trans-unit>
+            <trans-unit id="33" resname="BN">
+               <source>BN</source>
+               <target>BN</target>
+            </trans-unit>
+            <trans-unit id="34" resname="BG">
+               <source>BG</source>
+               <target>BG</target>
+            </trans-unit>
+            <trans-unit id="35" resname="BF">
+               <source>BF</source>
+               <target>BF</target>
+            </trans-unit>
+            <trans-unit id="36" resname="BI">
+               <source>BI</source>
+               <target>BI</target>
+            </trans-unit>
+            <trans-unit id="37" resname="KH">
+               <source>KH</source>
+               <target>KH</target>
+            </trans-unit>
+            <trans-unit id="38" resname="CM">
+               <source>CM</source>
+               <target>CM</target>
+            </trans-unit>
+            <trans-unit id="39" resname="CA">
+               <source>CA</source>
+               <target>CA</target>
+            </trans-unit>
+            <trans-unit id="40" resname="CV">
+               <source>CV</source>
+               <target>CV</target>
+            </trans-unit>
+            <trans-unit id="41" resname="KY">
+               <source>KY</source>
+               <target>KY</target>
+            </trans-unit>
+            <trans-unit id="42" resname="CF">
+               <source>CF</source>
+               <target>CF</target>
+            </trans-unit>
+            <trans-unit id="43" resname="TD">
+               <source>TD</source>
+               <target>TD</target>
+            </trans-unit>
+            <trans-unit id="44" resname="CL">
+               <source>CL</source>
+               <target>CL</target>
+            </trans-unit>
+            <trans-unit id="45" resname="CN">
+               <source>CN</source>
+               <target>CN</target>
+            </trans-unit>
+            <trans-unit id="46" resname="CX">
+               <source>CX</source>
+               <target>CX</target>
+            </trans-unit>
+            <trans-unit id="47" resname="Ke">
+               <source>Ke</source>
+               <target>Ke</target>
+            </trans-unit>
+            <trans-unit id="48" resname="CO">
+               <source>CO</source>
+               <target>CO</target>
+            </trans-unit>
+            <trans-unit id="49" resname="KM">
+               <source>KM</source>
+               <target>KM</target>
+            </trans-unit>
+            <trans-unit id="50" resname="Wa">
+               <source>Wa</source>
+               <target>Wa</target>
+            </trans-unit>
+            <trans-unit id="51" resname="CG">
+               <source>CG</source>
+               <target>CG</target>
+            </trans-unit>
+            <trans-unit id="52" resname="CK">
+               <source>CK</source>
+               <target>CK</target>
+            </trans-unit>
+            <trans-unit id="53" resname="CR">
+               <source>CR</source>
+               <target>CR</target>
+            </trans-unit>
+            <trans-unit id="54" resname="CI">
+               <source>CI</source>
+               <target>CI</target>
+            </trans-unit>
+            <trans-unit id="55" resname="Lo">
+               <source>Lo</source>
+               <target>Lo</target>
+            </trans-unit>
+            <trans-unit id="56" resname="CU">
+               <source>CU</source>
+               <target>CU</target>
+            </trans-unit>
+            <trans-unit id="57" resname="CY">
+               <source>CY</source>
+               <target>CY</target>
+            </trans-unit>
+            <trans-unit id="58" resname="CZ">
+               <source>CZ</source>
+               <target>CZ</target>
+            </trans-unit>
+            <trans-unit id="59" resname="DK">
+               <source>DK</source>
+               <target>DK</target>
+            </trans-unit>
+            <trans-unit id="60" resname="DJ">
+               <source>DJ</source>
+               <target>DJ</target>
+            </trans-unit>
+            <trans-unit id="61" resname="DM">
+               <source>DM</source>
+               <target>DM</target>
+            </trans-unit>
+            <trans-unit id="62" resname="DO">
+               <source>DO</source>
+               <target>DO</target>
+            </trans-unit>
+            <trans-unit id="63" resname="TP">
+               <source>TP</source>
+               <target>TP</target>
+            </trans-unit>
+            <trans-unit id="64" resname="TL">
+               <source>TL</source>
+               <target>TL</target>
+            </trans-unit>
+            <trans-unit id="65" resname="EC">
+               <source>EC</source>
+               <target>EC</target>
+            </trans-unit>
+            <trans-unit id="66" resname="EG">
+               <source>EG</source>
+               <target>EG</target>
+            </trans-unit>
+            <trans-unit id="67" resname="SV">
+               <source>SV</source>
+               <target>SV</target>
+            </trans-unit>
+            <trans-unit id="68" resname="GQ">
+               <source>GQ</source>
+               <target>GQ</target>
+            </trans-unit>
+            <trans-unit id="69" resname="ER">
+               <source>ER</source>
+               <target>ER</target>
+            </trans-unit>
+            <trans-unit id="70" resname="EE">
+               <source>EE</source>
+               <target>EE</target>
+            </trans-unit>
+            <trans-unit id="71" resname="ET">
+               <source>ET</source>
+               <target>ET</target>
+            </trans-unit>
+            <trans-unit id="72" resname="Ma">
+               <source>Ma</source>
+               <target>Ma</target>
+            </trans-unit>
+            <trans-unit id="73" resname="FO">
+               <source>FO</source>
+               <target>FO</target>
+            </trans-unit>
+            <trans-unit id="74" resname="FJ">
+               <source>FJ</source>
+               <target>FJ</target>
+            </trans-unit>
+            <trans-unit id="75" resname="FI">
+               <source>FI</source>
+               <target>FI</target>
+            </trans-unit>
+            <trans-unit id="76" resname="FR">
+               <source>FR</source>
+               <target>FR</target>
+            </trans-unit>
+            <trans-unit id="77" resname="FX">
+               <source>FX</source>
+               <target>FX</target>
+            </trans-unit>
+            <trans-unit id="78" resname="GF">
+               <source>GF</source>
+               <target>GF</target>
+            </trans-unit>
+            <trans-unit id="79" resname="PF">
+               <source>PF</source>
+               <target>PF</target>
+            </trans-unit>
+            <trans-unit id="80" resname="TF">
+               <source>TF</source>
+               <target>TF</target>
+            </trans-unit>
+            <trans-unit id="81" resname="GA">
+               <source>GA</source>
+               <target>GA</target>
+            </trans-unit>
+            <trans-unit id="82" resname="GM">
+               <source>GM</source>
+               <target>GM</target>
+            </trans-unit>
+            <trans-unit id="83" resname="GE">
+               <source>GE</source>
+               <target>GE</target>
+            </trans-unit>
+            <trans-unit id="84" resname="DE">
+               <source>DE</source>
+               <target>DE</target>
+            </trans-unit>
+            <trans-unit id="85" resname="GH">
+               <source>GH</source>
+               <target>GH</target>
+            </trans-unit>
+            <trans-unit id="86" resname="GI">
+               <source>GI</source>
+               <target>GI</target>
+            </trans-unit>
+            <trans-unit id="87" resname="GR">
+               <source>GR</source>
+               <target>GR</target>
+            </trans-unit>
+            <trans-unit id="88" resname="GL">
+               <source>GL</source>
+               <target>GL</target>
+            </trans-unit>
+            <trans-unit id="89" resname="GD">
+               <source>GD</source>
+               <target>GD</target>
+            </trans-unit>
+            <trans-unit id="90" resname="GP">
+               <source>GP</source>
+               <target>GP</target>
+            </trans-unit>
+            <trans-unit id="91" resname="GU">
+               <source>GU</source>
+               <target>GU</target>
+            </trans-unit>
+            <trans-unit id="92" resname="GT">
+               <source>GT</source>
+               <target>GT</target>
+            </trans-unit>
+            <trans-unit id="93" resname="GN">
+               <source>GN</source>
+               <target>GN</target>
+            </trans-unit>
+            <trans-unit id="94" resname="GW">
+               <source>GW</source>
+               <target>GW</target>
+            </trans-unit>
+            <trans-unit id="95" resname="GY">
+               <source>GY</source>
+               <target>GY</target>
+            </trans-unit>
+            <trans-unit id="96" resname="HT">
+               <source>HT</source>
+               <target>HT</target>
+            </trans-unit>
+            <trans-unit id="97" resname="HM">
+               <source>HM</source>
+               <target>HM</target>
+            </trans-unit>
+            <trans-unit id="98" resname="HN">
+               <source>HN</source>
+               <target>HN</target>
+            </trans-unit>
+            <trans-unit id="99" resname="HK">
+               <source>HK</source>
+               <target>HK</target>
+            </trans-unit>
+            <trans-unit id="100" resname="HU">
+               <source>HU</source>
+               <target>HU</target>
+            </trans-unit>
+            <trans-unit id="101" resname="IS">
+               <source>IS</source>
+               <target>IS</target>
+            </trans-unit>
+            <trans-unit id="102" resname="IN">
+               <source>IN</source>
+               <target>IN</target>
+            </trans-unit>
+            <trans-unit id="103" resname="ID">
+               <source>ID</source>
+               <target>ID</target>
+            </trans-unit>
+            <trans-unit id="104" resname="Is">
+               <source>Is</source>
+               <target>Is</target>
+            </trans-unit>
+            <trans-unit id="105" resname="IQ">
+               <source>IQ</source>
+               <target>IQ</target>
+            </trans-unit>
+            <trans-unit id="106" resname="IE">
+               <source>IE</source>
+               <target>IE</target>
+            </trans-unit>
+            <trans-unit id="107" resname="IL">
+               <source>IL</source>
+               <target>IL</target>
+            </trans-unit>
+            <trans-unit id="108" resname="IT">
+               <source>IT</source>
+               <target>IT</target>
+            </trans-unit>
+            <trans-unit id="109" resname="JM">
+               <source>JM</source>
+               <target>JM</target>
+            </trans-unit>
+            <trans-unit id="110" resname="JP">
+               <source>JP</source>
+               <target>JP</target>
+            </trans-unit>
+            <trans-unit id="111" resname="JO">
+               <source>JO</source>
+               <target>JO</target>
+            </trans-unit>
+            <trans-unit id="112" resname="KZ">
+               <source>KZ</source>
+               <target>KZ</target>
+            </trans-unit>
+            <trans-unit id="113" resname="KE">
+               <source>KE</source>
+               <target>KE</target>
+            </trans-unit>
+            <trans-unit id="114" resname="KI">
+               <source>KI</source>
+               <target>KI</target>
+            </trans-unit>
+            <trans-unit id="115" resname="KP">
+               <source>KP</source>
+               <target>KP</target>
+            </trans-unit>
+            <trans-unit id="116" resname="KR">
+               <source>KR</source>
+               <target>KR</target>
+            </trans-unit>
+            <trans-unit id="116bis" resname="XK">
+               <source>XK</source>
+               <target>XK</target>
+            </trans-unit>
+            <trans-unit id="117" resname="KW">
+               <source>KW</source>
+               <target>KW</target>
+            </trans-unit>
+            <trans-unit id="118" resname="KG">
+               <source>KG</source>
+               <target>KG</target>
+            </trans-unit>
+            <trans-unit id="119" resname="LA">
+               <source>LA</source>
+               <target>LA</target>
+            </trans-unit>
+            <trans-unit id="120" resname="LV">
+               <source>LV</source>
+               <target>LV</target>
+            </trans-unit>
+            <trans-unit id="121" resname="LB">
+               <source>LB</source>
+               <target>LB</target>
+            </trans-unit>
+            <trans-unit id="122" resname="LS">
+               <source>LS</source>
+               <target>LS</target>
+            </trans-unit>
+            <trans-unit id="123" resname="LR">
+               <source>LR</source>
+               <target>LR</target>
+            </trans-unit>
+            <trans-unit id="124" resname="LY">
+               <source>LY</source>
+               <target>LY</target>
+            </trans-unit>
+            <trans-unit id="125" resname="LI">
+               <source>LI</source>
+               <target>LI</target>
+            </trans-unit>
+            <trans-unit id="126" resname="LT">
+               <source>LT</source>
+               <target>LT</target>
+            </trans-unit>
+            <trans-unit id="127" resname="LU">
+               <source>LU</source>
+               <target>LU</target>
+            </trans-unit>
+            <trans-unit id="128" resname="MO">
+               <source>MO</source>
+               <target>MO</target>
+            </trans-unit>
+            <trans-unit id="129" resname="MK">
+               <source>MK</source>
+               <target>MK</target>
+            </trans-unit>
+            <trans-unit id="130" resname="MG">
+               <source>MG</source>
+               <target>MG</target>
+            </trans-unit>
+            <trans-unit id="131" resname="MW">
+               <source>MW</source>
+               <target>MW</target>
+            </trans-unit>
+            <trans-unit id="132" resname="MY">
+               <source>MY</source>
+               <target>MY</target>
+            </trans-unit>
+            <trans-unit id="133" resname="MV">
+               <source>MV</source>
+               <target>MV</target>
+            </trans-unit>
+            <trans-unit id="134" resname="ML">
+               <source>ML</source>
+               <target>ML</target>
+            </trans-unit>
+            <trans-unit id="135" resname="MT">
+               <source>MT</source>
+               <target>MT</target>
+            </trans-unit>
+            <trans-unit id="136" resname="MH">
+               <source>MH</source>
+               <target>MH</target>
+            </trans-unit>
+            <trans-unit id="137" resname="MQ">
+               <source>MQ</source>
+               <target>MQ</target>
+            </trans-unit>
+            <trans-unit id="138" resname="MR">
+               <source>MR</source>
+               <target>MR</target>
+            </trans-unit>
+            <trans-unit id="139" resname="MU">
+               <source>MU</source>
+               <target>MU</target>
+            </trans-unit>
+            <trans-unit id="140" resname="YT">
+               <source>YT</source>
+               <target>YT</target>
+            </trans-unit>
+            <trans-unit id="141" resname="MX">
+               <source>MX</source>
+               <target>MX</target>
+            </trans-unit>
+            <trans-unit id="142" resname="FM">
+               <source>FM</source>
+               <target>FM</target>
+            </trans-unit>
+            <trans-unit id="143" resname="MD">
+               <source>MD</source>
+               <target>MD</target>
+            </trans-unit>
+            <trans-unit id="144" resname="MC">
+               <source>MC</source>
+               <target>MC</target>
+            </trans-unit>
+            <trans-unit id="145" resname="MN">
+               <source>MN</source>
+               <target>MN</target>
+            </trans-unit>
+            <trans-unit id="145bis" resname="ME">
+               <source>ME</source>
+               <target>ME</target>
+            </trans-unit>
+            <trans-unit id="146" resname="MS">
+               <source>MS</source>
+               <target>MS</target>
+            </trans-unit>
+            <trans-unit id="147" resname="MA">
+               <source>MA</source>
+               <target>MA</target>
+            </trans-unit>
+            <trans-unit id="148" resname="MZ">
+               <source>MZ</source>
+               <target>MZ</target>
+            </trans-unit>
+            <trans-unit id="149" resname="MM">
+               <source>MM</source>
+               <target>MM</target>
+            </trans-unit>
+            <trans-unit id="150" resname="NA">
+               <source>NA</source>
+               <target>NA</target>
+            </trans-unit>
+            <trans-unit id="151" resname="NR">
+               <source>NR</source>
+               <target>NR</target>
+            </trans-unit>
+            <trans-unit id="152" resname="NP">
+               <source>NP</source>
+               <target>NP</target>
+            </trans-unit>
+            <trans-unit id="153" resname="NL">
+               <source>NL</source>
+               <target>NL</target>
+            </trans-unit>
+            <trans-unit id="154" resname="AN">
+               <source>AN</source>
+               <target>AN</target>
+            </trans-unit>
+            <trans-unit id="155" resname="NC">
+               <source>NC</source>
+               <target>NC</target>
+            </trans-unit>
+            <trans-unit id="156" resname="NZ">
+               <source>NZ</source>
+               <target>NZ</target>
+            </trans-unit>
+            <trans-unit id="157" resname="NI">
+               <source>NI</source>
+               <target>NI</target>
+            </trans-unit>
+            <trans-unit id="158" resname="NE">
+               <source>NE</source>
+               <target>NE</target>
+            </trans-unit>
+            <trans-unit id="159" resname="NG">
+               <source>NG</source>
+               <target>NG</target>
+            </trans-unit>
+            <trans-unit id="160" resname="NU">
+               <source>NU</source>
+               <target>NU</target>
+            </trans-unit>
+            <trans-unit id="161" resname="NF">
+               <source>NF</source>
+               <target>NF</target>
+            </trans-unit>
+            <trans-unit id="162" resname="MP">
+               <source>MP</source>
+               <target>MP</target>
+            </trans-unit>
+            <trans-unit id="163" resname="NO">
+               <source>NO</source>
+               <target>NO</target>
+            </trans-unit>
+            <trans-unit id="164" resname="OM">
+               <source>OM</source>
+               <target>OM</target>
+            </trans-unit>
+            <trans-unit id="165" resname="PK">
+               <source>PK</source>
+               <target>PK</target>
+            </trans-unit>
+            <trans-unit id="166" resname="PW">
+               <source>PW</source>
+               <target>PW</target>
+            </trans-unit>
+            <trans-unit id="167" resname="PS">
+               <source>PS</source>
+               <target>PS</target>
+            </trans-unit>
+            <trans-unit id="168" resname="PA">
+               <source>PA</source>
+               <target>PA</target>
+            </trans-unit>
+            <trans-unit id="169" resname="PG">
+               <source>PG</source>
+               <target>PG</target>
+            </trans-unit>
+            <trans-unit id="170" resname="PY">
+               <source>PY</source>
+               <target>PY</target>
+            </trans-unit>
+            <trans-unit id="171" resname="PE">
+               <source>PE</source>
+               <target>PE</target>
+            </trans-unit>
+            <trans-unit id="172" resname="PH">
+               <source>PH</source>
+               <target>PH</target>
+            </trans-unit>
+            <trans-unit id="173" resname="PN">
+               <source>PN</source>
+               <target>PN</target>
+            </trans-unit>
+            <trans-unit id="174" resname="PL">
+               <source>PL</source>
+               <target>PL</target>
+            </trans-unit>
+            <trans-unit id="175" resname="PT">
+               <source>PT</source>
+               <target>PT</target>
+            </trans-unit>
+            <trans-unit id="176" resname="PR">
+               <source>PR</source>
+               <target>PR</target>
+            </trans-unit>
+            <trans-unit id="177" resname="QA">
+               <source>QA</source>
+               <target>QA</target>
+            </trans-unit>
+            <trans-unit id="178" resname="RE">
+               <source>RE</source>
+               <target>RE</target>
+            </trans-unit>
+            <trans-unit id="179" resname="RO">
+               <source>RO</source>
+               <target>RO</target>
+            </trans-unit>
+            <trans-unit id="180" resname="RU">
+               <source>RU</source>
+               <target>RU</target>
+            </trans-unit>
+            <trans-unit id="181" resname="RW">
+               <source>RW</source>
+               <target>RW</target>
+            </trans-unit>
+            <trans-unit id="182" resname="KN">
+               <source>KN</source>
+               <target>KN</target>
+            </trans-unit>
+            <trans-unit id="183" resname="LC">
+               <source>LC</source>
+               <target>LC</target>
+            </trans-unit>
+            <trans-unit id="184" resname="VC">
+               <source>VC</source>
+               <target>VC</target>
+            </trans-unit>
+            <trans-unit id="185" resname="WS">
+               <source>WS</source>
+               <target>WS</target>
+            </trans-unit>
+            <trans-unit id="186" resname="SM">
+               <source>SM</source>
+               <target>SM</target>
+            </trans-unit>
+            <trans-unit id="187" resname="ST">
+               <source>ST</source>
+               <target>ST</target>
+            </trans-unit>
+            <trans-unit id="188" resname="SA">
+               <source>SA</source>
+               <target>SA</target>
+            </trans-unit>
+            <trans-unit id="189" resname="SN">
+               <source>SN</source>
+               <target>SN</target>
+            </trans-unit>
+            <trans-unit id="189bis" resname="RS">
+               <source>RS</source>
+               <target>RS</target>
+            </trans-unit>
+            <trans-unit id="190" resname="SC">
+               <source>SC</source>
+               <target>SC</target>
+            </trans-unit>
+            <trans-unit id="191" resname="SL">
+               <source>SL</source>
+               <target>SL</target>
+            </trans-unit>
+            <trans-unit id="192" resname="SG">
+               <source>SG</source>
+               <target>SG</target>
+            </trans-unit>
+            <trans-unit id="193" resname="Sl">
+               <source>Sl</source>
+               <target>Sl</target>
+            </trans-unit>
+            <trans-unit id="194" resname="SI">
+               <source>SI</source>
+               <target>SI</target>
+            </trans-unit>
+            <trans-unit id="195" resname="SB">
+               <source>SB</source>
+               <target>SB</target>
+            </trans-unit>
+            <trans-unit id="196" resname="SO">
+               <source>SO</source>
+               <target>SO</target>
+            </trans-unit>
+            <trans-unit id="197" resname="ZA">
+               <source>ZA</source>
+               <target>ZA</target>
+            </trans-unit>
+            <trans-unit id="198" resname="GS">
+               <source>GS</source>
+               <target>GS</target>
+            </trans-unit>
+            <trans-unit id="199" resname="ES">
+               <source>ES</source>
+               <target>ES</target>
+            </trans-unit>
+            <trans-unit id="200" resname="LK">
+               <source>LK</source>
+               <target>LK</target>
+            </trans-unit>
+            <trans-unit id="201" resname="SH">
+               <source>SH</source>
+               <target>SH</target>
+            </trans-unit>
+            <trans-unit id="202" resname="PM">
+               <source>PM</source>
+               <target>PM</target>
+            </trans-unit>
+            <trans-unit id="203" resname="SD">
+               <source>SD</source>
+               <target>SD</target>
+            </trans-unit>
+            <trans-unit id="204" resname="SR">
+               <source>SR</source>
+               <target>SR</target>
+            </trans-unit>
+            <trans-unit id="205" resname="SJ">
+               <source>SJ</source>
+               <target>SJ</target>
+            </trans-unit>
+            <trans-unit id="206" resname="SZ">
+               <source>SZ</source>
+               <target>SZ</target>
+            </trans-unit>
+            <trans-unit id="207" resname="SE">
+               <source>SE</source>
+               <target>SE</target>
+            </trans-unit>
+            <trans-unit id="208" resname="CH">
+               <source>CH</source>
+               <target>CH</target>
+            </trans-unit>
+            <trans-unit id="209" resname="SY">
+               <source>SY</source>
+               <target>SY</target>
+            </trans-unit>
+            <trans-unit id="210" resname="TW">
+               <source>TW</source>
+               <target>TW</target>
+            </trans-unit>
+            <trans-unit id="211" resname="TJ">
+               <source>TJ</source>
+               <target>TJ</target>
+            </trans-unit>
+            <trans-unit id="212" resname="TZ">
+               <source>TZ</source>
+               <target>TZ</target>
+            </trans-unit>
+            <trans-unit id="213" resname="TH">
+               <source>TH</source>
+               <target>TH</target>
+            </trans-unit>
+            <trans-unit id="214" resname="TG">
+               <source>TG</source>
+               <target>TG</target>
+            </trans-unit>
+            <trans-unit id="215" resname="TK">
+               <source>TK</source>
+               <target>TK</target>
+            </trans-unit>
+            <trans-unit id="216" resname="TO">
+               <source>TO</source>
+               <target>TO</target>
+            </trans-unit>
+            <trans-unit id="217" resname="TT">
+               <source>TT</source>
+               <target>TT</target>
+            </trans-unit>
+            <trans-unit id="218" resname="TN">
+               <source>TN</source>
+               <target>TN</target>
+            </trans-unit>
+            <trans-unit id="219" resname="TR">
+               <source>TR</source>
+               <target>TR</target>
+            </trans-unit>
+            <trans-unit id="220" resname="TM">
+               <source>TM</source>
+               <target>TM</target>
+            </trans-unit>
+            <trans-unit id="221" resname="TC">
+               <source>TC</source>
+               <target>TC</target>
+            </trans-unit>
+            <trans-unit id="222" resname="TV">
+               <source>TV</source>
+               <target>TV</target>
+            </trans-unit>
+            <trans-unit id="223" resname="UG">
+               <source>UG</source>
+               <target>UG</target>
+            </trans-unit>
+            <trans-unit id="224" resname="UA">
+               <source>UA</source>
+               <target>UA</target>
+            </trans-unit>
+            <trans-unit id="225" resname="AE">
+               <source>AE</source>
+               <target>AE</target>
+            </trans-unit>
+            <trans-unit id="226" resname="UK">
+               <source>UK</source>
+               <target>UK</target>
+            </trans-unit>
+            <trans-unit id="227" resname="GB">
+               <source>GB</source>
+               <target>GB</target>
+            </trans-unit>
+            <trans-unit id="228" resname="US">
+               <source>US</source>
+               <target>US</target>
+            </trans-unit>
+            <trans-unit id="229" resname="UM">
+               <source>UM</source>
+               <target>UM</target>
+            </trans-unit>
+            <trans-unit id="230" resname="UY">
+               <source>UY</source>
+               <target>UY</target>
+            </trans-unit>
+            <trans-unit id="231" resname="UZ">
+               <source>UZ</source>
+               <target>UZ</target>
+            </trans-unit>
+            <trans-unit id="232" resname="VU">
+               <source>VU</source>
+               <target>VU</target>
+            </trans-unit>
+            <trans-unit id="233" resname="Ho">
+               <source>Ho</source>
+               <target>Ho</target>
+            </trans-unit>
+            <trans-unit id="234" resname="VE">
+               <source>VE</source>
+               <target>VE</target>
+            </trans-unit>
+            <trans-unit id="235" resname="VN">
+               <source>VN</source>
+               <target>VN</target>
+            </trans-unit>
+            <trans-unit id="236" resname="Br">
+               <source>Br</source>
+               <target>Br</target>
+            </trans-unit>
+            <trans-unit id="237" resname="U.">
+               <source>U.</source>
+               <target>U.</target>
+            </trans-unit>
+            <trans-unit id="238" resname="WF">
+               <source>WF</source>
+               <target>WF</target>
+            </trans-unit>
+            <trans-unit id="239" resname="EH">
+               <source>EH</source>
+               <target>EH</target>
+            </trans-unit>
+            <trans-unit id="240" resname="YE">
+               <source>YE</source>
+               <target>YE</target>
+            </trans-unit>
+
+            <trans-unit id="242" resname="ZM">
+               <source>ZM</source>
+               <target>ZM</target>
+            </trans-unit>
+            <trans-unit id="243" resname="ZW">
+               <source>ZW</source>
+               <target>ZW</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

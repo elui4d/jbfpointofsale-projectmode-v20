@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--    
+   Translation file for 4D products.
+   Copyright (C) 2007-2013 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v13" source-language="en" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group resname="debug">
+            <trans-unit id="debug_1" resname="debug_abort">
+               <source>Abort F6</source>
+               <target>Abort F6</target>
+            </trans-unit>
+            <trans-unit id="debug_3" resname="debug_abortAndEdit">
+               <source>Abort and Edit</source>
+               <target>Abort and Edit</target>
+            </trans-unit>
+            <trans-unit id="debug_2" resname="debug_edit">
+               <source>Edit F2</source>
+               <target>Edit F2</target>
+            </trans-unit>
+            <trans-unit id="debug_4" resname="debug_noTrace">
+               <source>No Trace F5</source>
+               <target>No Trace F5</target>
+            </trans-unit>
+            <trans-unit id="debug_9" resname="debug_saveSettings">
+               <source>Save Settings F3</source>
+               <target>Save Settings F3</target>
+            </trans-unit>
+            <trans-unit id="debug_5" resname="debug_stepInto">
+               <source>Step Into F8</source>
+               <target>Step Into F8</target>
+            </trans-unit>
+            <trans-unit id="debug_6" resname="debug_stepIntoProcess">
+               <source>Step Into Process</source>
+               <target>Step Into Process</target>
+            </trans-unit>
+            <trans-unit id="debug_8" resname="debug_stepOut">
+               <source>Step Out F7</source>
+               <target>Step Out F7</target>
+            </trans-unit>
+            <trans-unit id="debug_7" resname="debug_stepOver">
+               <source>Step Over F4</source>
+               <target>Step Over F4</target>
+            </trans-unit>
+         </group>
+         <group resname="error">
+            <trans-unit id="error_1" resname="error_Abort">
+               <source>Abort</source>
+               <target>Abort</target>
+            </trans-unit>
+            <trans-unit id="error_2" resname="error_Continue">
+               <source>Continue</source>
+               <target>Continue</target>
+            </trans-unit>
+            <trans-unit id="error_3" resname="error_Copy">
+               <source>Copy</source>
+               <target>Copy</target>
+            </trans-unit>
+            <trans-unit id="error_4" resname="error_Description">
+               <source>Description</source>
+               <target>Description</target>
+            </trans-unit>
+            <trans-unit id="error_5" resname="error_Details">
+               <source>Details</source>
+               <target>Details</target>
+            </trans-unit>
+            <trans-unit id="error_6" resname="error_Edit">
+               <source>Edit</source>
+               <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="error_7" resname="error_save">
+               <source>Save…</source>
+               <target>Save…</target>
+            </trans-unit>
+            <trans-unit id="error_8" resname="error_Trace">
+               <source>Trace</source>
+               <target>Trace</target>
+            </trans-unit>
+            <trans-unit id="error_9" resname="error_runtimeError">
+               <source>Runtime Error</source>
+               <target>Runtime Error</target>
+            </trans-unit>
+         </group>
+         <group resname="BreakPoint">
+            <trans-unit id="BreakPoint_2" resname="Breakpoint_breakPoint">
+               <source>Breakpoint</source>
+               <target>Breakpoint</target>
+            </trans-unit>
+            <trans-unit id="BreakPoint_10" resname="Breakpoint_breakPointIsDisabled">
+               <source>Breakpoint is disabled.</source>
+               <target>Breakpoint is disabled.</target>
+            </trans-unit>
+            <trans-unit id="BreakPoint_7" resname="Breakpoint_breakWhenFollowingExpressionIsTrue">
+               <source>Break when following expression is true</source>
+               <target>Break when following expression is true</target>
+            </trans-unit>
+            <trans-unit id="BreakPoint_8" resname="Breakpoint_checkSyntax">
+               <source>Check Syntax</source>
+               <target>Check Syntax</target>
+            </trans-unit>
+            <trans-unit id="BreakPoint_3" resname="Breakpoint_location">
+               <source>Location </source>
+               <target>Location </target>
+            </trans-unit>
+            <trans-unit id="BreakPoint_9" resname="Breakpoint_numberOfTimesToSkipBeforeBreaking">
+               <source>Number of times to skip before breaking </source>
+               <target>Number of times to skip before breaking </target>
+            </trans-unit>
+            <trans-unit id="BreakPoint_1" resname="Breakpoint_windowTitle">
+               <source>Breakpoint Properties </source>
+               <target>Breakpoint Properties </target>
+            </trans-unit>
+         </group>
+         <group resname="Mess">
+            <trans-unit id="Mess_2" resname="Mess_abort">
+               <source>Abort</source>
+               <target>Abort</target>
+            </trans-unit>
+            <trans-unit id="Mess_4" resname="Mess_continue">
+               <source>Continue</source>
+               <target>Continue</target>
+            </trans-unit>
+            <trans-unit id="Mess_6" resname="Mess_description">
+               <source>Description</source>
+               <target>Description</target>
+            </trans-unit>
+            <trans-unit id="Mess_5" resname="Mess_details">
+               <source>Details</source>
+               <target>Details</target>
+            </trans-unit>
+            <trans-unit id="Mess_3" resname="Mess_trace">
+               <source>Trace</source>
+               <target>Trace</target>
+            </trans-unit>
+            <trans-unit id="Mess_1" resname="Mess_syntaxError">
+               <source>Syntax Error</source>
+               <target>Syntax Error</target>
+            </trans-unit>
+         </group>
+         <group resname="Exe">
+            <trans-unit id="exe_4" resname="Exe_AtLineNumber">
+               <source>at line number {linenumber}</source>
+               <target>at line number {linenumber}</target>
+            </trans-unit>
+            <trans-unit id="exe_1" resname="Exe_Error">
+               <source>Error</source>
+               <target>Error</target>
+            </trans-unit>
+            <trans-unit id="exe_3" resname="Exe_ErrorWhenExecutingTheMethod">
+               <source>Error when executing the method &quot;{methodname}&quot;</source>
+               <target>Error when executing the method &quot;{methodname}&quot;</target>
+            </trans-unit>
+            <trans-unit id="exe_2" resname="Exe_ErrorWhenLoadingTheMethod">
+               <source>Error when loading the method &quot;{methodname}&quot;</source>
+               <target>Error when loading the method &quot;{methodname}&quot;</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

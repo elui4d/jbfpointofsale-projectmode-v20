@@ -1,0 +1,10 @@
+//%attributes = {}
+Variable1:=0
+Variable2:=0
+Variable3:=0
+Variable4:=0
+Variable5:=0
+Variable6:=0
+Variable7:=0
+Variable8:=0
+Variable9:=0

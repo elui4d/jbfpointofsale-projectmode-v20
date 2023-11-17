@@ -1,0 +1,388 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 170,
+	"markerBreak": 170,
+	"markerFooter": 170,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 1,
+					"width": 917,
+					"height": 190,
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 216,
+					"width": 3,
+					"height": 160,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 507,
+					"width": 3,
+					"height": 160,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"bPreferences": {
+					"type": "button",
+					"top": 7,
+					"left": 707,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bPreferences",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Preferences",
+					"icon": "/RESOURCES/Images/library/Prefes.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bPreferences.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bExport": {
+					"type": "button",
+					"top": 9,
+					"left": 327,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bExport",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Export",
+					"icon": "/RESOURCES/Images/library/Export.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bExport.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bUploadSold": {
+					"type": "button",
+					"top": 9,
+					"left": 417,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bUploadSold",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Upload Sold",
+					"icon": "/RESOURCES/Images/library/ExportWeb.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bUploadSold.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 19,
+					"left": 7,
+					"width": 206,
+					"height": 61,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/tools (31831).png"
+				},
+				"bOther": {
+					"type": "button",
+					"top": 89,
+					"left": 327,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bOther",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Clean Up",
+					"icon": "/RESOURCES/Images/library/Toolbar_Cleanup.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bOther.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeUser": {
+					"type": "button",
+					"top": 7,
+					"left": 527,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bChangeUser",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Change User",
+					"icon": "/RESOURCES/Images/library/Toolbar_ChangeUser.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeUser.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeDB": {
+					"type": "button",
+					"top": 7,
+					"left": 617,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bChangeDB",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Change DB",
+					"icon": "/RESOURCES/Images/library/Toolbar_ChangeDB.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeDB.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bClose": {
+					"type": "button",
+					"top": 4,
+					"left": 878,
+					"width": 34,
+					"height": 34,
+					"dataSource": "bClose",
+					"action": "cancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/ToolbarClose.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeDB1": {
+					"type": "button",
+					"top": 89,
+					"left": 527,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bChangeDB",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Return Item",
+					"icon": "/RESOURCES/Images/library/ReturnItem.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeDB1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bCloseOut": {
+					"type": "button",
+					"top": 89,
+					"left": 617,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCloseOut",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Close Reg.",
+					"icon": "/RESOURCES/Images/library/Export.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bCloseOut.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bCash": {
+					"type": "button",
+					"top": 89,
+					"left": 707,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCash",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Manage Cash",
+					"icon": "/RESOURCES/Images/library/EnterTags.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bCash.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeDB2": {
+					"type": "button",
+					"top": 89,
+					"left": 417,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bChangeDB",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Data Tools",
+					"icon": "/RESOURCES/Images/library/Toolbar_Breakdown.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeDB2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bImport": {
+					"type": "button",
+					"top": 9,
+					"left": 237,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bImport",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Import",
+					"icon": "/RESOURCES/Images/library/Import.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bImport.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bBreakdown": {
+					"type": "button",
+					"top": 89,
+					"left": 237,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bBreakdown",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Sorting",
+					"icon": "/RESOURCES/Images/library/From ClipBoard.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bBreakdown.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bCC": {
+					"type": "button",
+					"top": 89,
+					"left": 798,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCC",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "VoidCC",
+					"icon": "/RESOURCES/Images/library/Untitled_31797.4DMemoryBitmap",
+					"style": "bevel",
+					"method": "ObjectMethods/bCC.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bExportECheck": {
+					"type": "button",
+					"top": 7,
+					"left": 798,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bExportECheck",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Export\\E-Checks",
+					"icon": "/RESOURCES/Images/library/echeckicon.png",
+					"iconFrames": 1,
+					"style": "bevel",
+					"method": "ObjectMethods/bExportECheck.4dm",
+					"events": [
+						"onClick"
+					],
+					"textPlacement": "bottom"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 149,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

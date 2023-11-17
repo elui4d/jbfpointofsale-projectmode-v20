@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2013-2014 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v13">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="Was STR#205" id="205">
+            <trans-unit id="1" resname="ProcStateExecuting">
+               <source>Executing</source>
+               <target>Executing</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ProcStateDelayed">
+               <source>Delayed</source>
+               <target>Delayed</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ProcStateWaitingEvent">
+               <source>Waiting Event</source>
+               <target>Waiting Event</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ProcStateWaitingIO">
+               <source>Waiting I/O</source>
+               <target>Waiting I/O</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ProcStateWaitingSem">
+               <source>Waiting Semaphore</source>
+               <target>Waiting Semaphore</target>
+            </trans-unit>
+            <trans-unit id="6" resname="ProcStatePaused">
+               <source>Paused</source>
+               <target>Paused</target>
+            </trans-unit>
+            <trans-unit id="7" resname="ProcStateHiddenMoDialog">
+               <source>Hidden Modal Dialog</source>
+               <target>Hidden Modal Dialog</target>
+            </trans-unit>
+            <trans-unit id="8" resname="ProcStateRuntExplor">
+               <source>Runtime Explorer</source>
+               <target>Runtime Explorer</target>
+            </trans-unit>
+            <trans-unit id="9" resname="ProcStateAborted">
+               <source>Aborted</source>
+               <target>Aborted</target>
+               <note>was STR# 169_3</note>
+            </trans-unit>
+            <trans-unit id="10" resname="ProcStateNotCreated">
+               <source>Not Created Yet</source>
+               <target>Not Created Yet</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

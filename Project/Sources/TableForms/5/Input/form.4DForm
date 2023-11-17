@@ -1,0 +1,2470 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"menuBar": "Menu Bar #2",
+	"markerBody": 235,
+	"markerBreak": 235,
+	"markerFooter": 245,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onUnload",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 124,
+					"left": 9,
+					"width": 218,
+					"height": 376,
+					"stroke": "#007CFF",
+					"strokeWidth": 2,
+					"borderRadius": 5
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 1660,
+					"height": 70,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 65,
+					"left": -3,
+					"width": 1870,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 697,
+					"left": 27,
+					"width": 884,
+					"height": 24,
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 702,
+					"left": 789,
+					"width": 49,
+					"height": 15,
+					"stroke": "#999999",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Batch ID"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 702,
+					"left": 349,
+					"width": 129,
+					"height": 15,
+					"stroke": "#999999",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Entered Date Stamp"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 702,
+					"left": 556,
+					"width": 129,
+					"height": 15,
+					"stroke": "#999999",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Entered Time Stamp"
+				},
+				"Batch ID": {
+					"type": "input",
+					"top": 702,
+					"left": 843,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[Point of Sale:5]Batch ID:1",
+					"stroke": "#999999",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "solid",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Entered Date Stamp": {
+					"type": "input",
+					"top": 702,
+					"left": 483,
+					"width": 76,
+					"height": 14,
+					"dataSource": "[Point of Sale:5]Entered Date Stamp:4",
+					"dataSourceTypeHint": "date",
+					"stroke": "#999999",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "solid",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Entered Time Stamp": {
+					"type": "input",
+					"top": 702,
+					"left": 690,
+					"width": 76,
+					"height": 14,
+					"dataSource": "[Point of Sale:5]Entered Time Stamp:3",
+					"dataSourceTypeHint": "time",
+					"stroke": "#999999",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "solid",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 702,
+					"left": 239,
+					"width": 69,
+					"height": 15,
+					"stroke": "#999999",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Computer #"
+				},
+				"Batch ID1": {
+					"type": "input",
+					"top": 702,
+					"left": 313,
+					"width": 48,
+					"height": 14,
+					"dataSource": "[Point of Sale:5]Computer Number:7",
+					"stroke": "#999999",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "solid",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 100,
+					"left": 665,
+					"width": 58,
+					"height": 18,
+					"dataSource": "vTaxRate2",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "#DDDDDD",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 101,
+					"left": 593,
+					"width": 66,
+					"height": 17,
+					"stroke": "#405EFF",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Tax Rate"
+				},
+				"Taxed": {
+					"type": "checkbox",
+					"top": 75,
+					"left": 664,
+					"width": 23,
+					"height": 21,
+					"dataSource": "[Point of Sale:5]Taxed:16",
+					"text": " ",
+					"stroke": "#0069FF",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Taxed.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 702,
+					"left": 20,
+					"width": 69,
+					"height": 15,
+					"stroke": "#999999",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Entered By"
+				},
+				"Batch ID2": {
+					"type": "input",
+					"top": 702,
+					"left": 94,
+					"width": 136,
+					"height": 14,
+					"dataSource": "[Point of Sale:5]Entered By:2",
+					"stroke": "#999999",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"bNewEnterSales": {
+					"type": "button",
+					"top": 215,
+					"left": 13,
+					"width": 210,
+					"height": 45,
+					"dataSource": "bNewEnterSales",
+					"action": "addSubrecord",
+					"shortcutKey": "[F2]",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/POS2.png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeReduceBy": {
+					"type": "button",
+					"top": 168,
+					"left": 13,
+					"width": 210,
+					"height": 45,
+					"dataSource": "bChangeReduceBy",
+					"shortcutKey": "[F1]",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/POS1 (10045).png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeReduceBy.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeSoldDate2": {
+					"type": "button",
+					"top": 309,
+					"left": 13,
+					"width": 210,
+					"height": 45,
+					"dataSource": "bChangeSoldDate",
+					"shortcutKey": "[F4]",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/POS4 (10047).png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeSoldDate2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeSoldDate3": {
+					"type": "button",
+					"top": 262,
+					"left": 13,
+					"width": 210,
+					"height": 45,
+					"dataSource": "bChangeSoldDate",
+					"shortcutKey": "[F3]",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/POS3.png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeSoldDate3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeSoldDate4": {
+					"type": "button",
+					"top": 356,
+					"left": 14,
+					"width": 210,
+					"height": 45,
+					"dataSource": "bChangeSoldDate",
+					"shortcutKey": "[F5]",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/POS5.png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeSoldDate4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bChangeSoldDate6": {
+					"type": "button",
+					"top": 403,
+					"left": 14,
+					"width": 210,
+					"height": 45,
+					"dataSource": "bChangeSoldDate",
+					"shortcutKey": "[F6]",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/POS6.png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeSoldDate6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Round Rectangle2": {
+					"type": "rectangle",
+					"top": 124,
+					"left": 9,
+					"width": 218,
+					"height": 35,
+					"fill": "#007CFF",
+					"stroke": "#007CFF",
+					"strokeWidth": 2,
+					"borderRadius": 5
+				},
+				"Rectangle11": {
+					"type": "rectangle",
+					"top": 153,
+					"left": 10,
+					"width": 216,
+					"height": 6,
+					"fill": "#007CFF",
+					"stroke": "transparent"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 130,
+					"left": 15,
+					"width": 207,
+					"height": 31,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 22,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "POS Menu"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 101,
+					"left": 750,
+					"width": 69,
+					"height": 17,
+					"stroke": "#405EFF",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Sold Date"
+				},
+				"objReduceBy": {
+					"type": "input",
+					"top": 75,
+					"left": 825,
+					"width": 80,
+					"height": 18,
+					"dataSource": "[Point of Sale:5]ReduceBy:8",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/ReduceBy"
+					},
+					"method": "ObjectMethods/objReduceBy.4dm",
+					"events": [
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"Text15": {
+					"type": "text",
+					"top": 76,
+					"left": 730,
+					"width": 89,
+					"height": 17,
+					"stroke": "#405EFF",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Reduce By"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 76,
+					"left": 614,
+					"width": 46,
+					"height": 17,
+					"stroke": "#405EFF",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Taxed"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 189,
+					"left": 201,
+					"width": 26,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "F1"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 235,
+					"left": 201,
+					"width": 26,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "F2"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 283,
+					"left": 201,
+					"width": 26,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "F3"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 329,
+					"left": 201,
+					"width": 26,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "F4"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 377,
+					"left": 201,
+					"width": 26,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "F5"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 424,
+					"left": 201,
+					"width": 26,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "F6"
+				},
+				"bChangeSoldDate1": {
+					"type": "button",
+					"top": 450,
+					"left": 14,
+					"width": 210,
+					"height": 45,
+					"dataSource": "bChangeSoldDate",
+					"shortcutKey": "[F6]",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/POS_Save.png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "bevel",
+					"method": "ObjectMethods/bChangeSoldDate1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text47": {
+					"type": "text",
+					"top": 471,
+					"left": 201,
+					"width": 26,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "F7"
+				},
+				"objReduceBy1": {
+					"type": "input",
+					"top": 100,
+					"left": 825,
+					"width": 80,
+					"height": 18,
+					"dataSource": "[Point of Sale:5]Sold Date:5",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"contextMenu": "none",
+					"method": "ObjectMethods/objReduceBy1.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Picture13": {
+					"type": "picture",
+					"top": 12,
+					"left": 15,
+					"width": 245,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/point_of_sale.png"
+				}
+			},
+			"entryOrder": [
+				"Field5",
+				"Taxed",
+				"objReduceBy",
+				"objReduceBy1"
+			]
+		},
+		{
+			"objects": {
+				"vCountIt4": {
+					"type": "input",
+					"top": 13,
+					"left": 746,
+					"width": 140,
+					"height": 42,
+					"dataSource": "vCountIt",
+					"stroke": "#404040",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 36,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"bManbutton3": {
+					"type": "button",
+					"top": 93,
+					"left": 358,
+					"width": 106,
+					"height": 35,
+					"dataSource": "bManbutton",
+					"text": "Manual Entry",
+					"class": "Default",
+					"fontWeight": "bold",
+					"stroke": "#007CFF",
+					"focusable": false,
+					"method": "ObjectMethods/bManbutton3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bScanbutton3": {
+					"type": "button",
+					"top": 93,
+					"left": 249,
+					"width": 116,
+					"height": 35,
+					"dataSource": "bScanbutton",
+					"text": "Scan Entry",
+					"class": "Default",
+					"fontWeight": "bold",
+					"stroke": "#007CFF",
+					"focusable": false,
+					"method": "ObjectMethods/bScanbutton3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text26": {
+					"type": "text",
+					"top": 470,
+					"left": 259,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "First Name"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 490,
+					"left": 259,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Last Name"
+				},
+				"Text28": {
+					"type": "text",
+					"top": 510,
+					"left": 239,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Address"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 530,
+					"left": 239,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "City"
+				},
+				"Text31": {
+					"type": "text",
+					"top": 551,
+					"left": 239,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "State"
+				},
+				"Text32": {
+					"type": "text",
+					"top": 551,
+					"left": 379,
+					"width": 40,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Zip"
+				},
+				"Text33": {
+					"type": "text",
+					"top": 573,
+					"left": 259,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Phone"
+				},
+				"First Name": {
+					"type": "input",
+					"top": 470,
+					"left": 324,
+					"width": 180,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Shopper First Name:9",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Last Name": {
+					"type": "input",
+					"top": 490,
+					"left": 324,
+					"width": 180,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Shopper Last Name:10",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Address1": {
+					"type": "input",
+					"top": 510,
+					"left": 324,
+					"width": 180,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Shopper Address1:11",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"City": {
+					"type": "input",
+					"top": 530,
+					"left": 324,
+					"width": 180,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Shopper City:12",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"State": {
+					"type": "input",
+					"top": 551,
+					"left": 324,
+					"width": 36,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Shopper State:13",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Zip": {
+					"type": "input",
+					"top": 551,
+					"left": 424,
+					"width": 80,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Shopper Zip:14",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Home Phone": {
+					"type": "input",
+					"top": 573,
+					"left": 324,
+					"width": 180,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Shopper Phone:15",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Home Phone2": {
+					"type": "input",
+					"top": 594,
+					"left": 324,
+					"width": 180,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Shopper Email:27",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Home Phone1": {
+					"type": "input",
+					"top": 615,
+					"left": 324,
+					"width": 327,
+					"height": 57,
+					"dataSource": "[Point of Sale:5]Comments:18",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text23": {
+					"type": "text",
+					"top": 615,
+					"left": 239,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Comments"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 509,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_Cash:19",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text24": {
+					"type": "text",
+					"top": 510,
+					"left": 51,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Cash"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 550,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_Check:20",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text25": {
+					"type": "text",
+					"top": 551,
+					"left": 51,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Check"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 571,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_Visa:21",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text29": {
+					"type": "text",
+					"top": 572,
+					"left": 51,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Visa"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 592,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_Mastercard:22",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text34": {
+					"type": "text",
+					"top": 593,
+					"left": 51,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Mastercard"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 613,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_Discover:23",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text35": {
+					"type": "text",
+					"top": 614,
+					"left": 51,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Discover"
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 635,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_AMEX:24",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text36": {
+					"type": "text",
+					"top": 635,
+					"left": 51,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "AMEX"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 656,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_GiftCard:25",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text37": {
+					"type": "text",
+					"top": 656,
+					"left": 51,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Gift Card"
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 677,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_IOU:26",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text38": {
+					"type": "text",
+					"top": 677,
+					"left": 51,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "IOU"
+				},
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 529,
+					"left": 798,
+					"width": 141,
+					"height": 53,
+					"fill": "#C5FFC0",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 529,
+					"left": 729,
+					"width": 70,
+					"height": 53,
+					"fill": "#89FF7F",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 451,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 451,
+					"left": 729,
+					"width": 70,
+					"height": 79,
+					"fill": "#A0AFFF",
+					"stroke": "#AAAAAA"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 459,
+					"left": 737,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Subtotal"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 481,
+					"left": 737,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Tax"
+				},
+				"Field4": {
+					"type": "input",
+					"top": 542,
+					"left": 801,
+					"width": 118,
+					"height": 34,
+					"dataSource": "vTransactionTotal",
+					"dataSourceTypeHint": "integer",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 542,
+					"left": 731,
+					"width": 62,
+					"height": 31,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"text": "Total"
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 477,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Field3": {
+					"type": "input",
+					"top": 481,
+					"left": 854,
+					"width": 64,
+					"height": 19,
+					"dataSource": "vTransactionTax",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 455,
+					"left": 834,
+					"width": 84,
+					"height": 19,
+					"dataSource": "vTransactionSubtotal",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 594,
+					"left": 259,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Email"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 460,
+					"left": 683,
+					"width": 43,
+					"height": 17,
+					"dataSource": "vItemsInBatch",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 459,
+					"left": 571,
+					"width": 106,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "# of Items"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 477,
+					"left": 614,
+					"width": 115,
+					"stroke": "#AAAAAA"
+				},
+				"EnterBarcodes1": {
+					"type": "subform",
+					"top": 124,
+					"left": 244,
+					"width": 677,
+					"height": 306,
+					"dataSourceTypeHint": "text",
+					"table": 2,
+					"detailForm": "Input",
+					"listForm": "AllSalesSubform",
+					"scrollbarHorizontal": "visible",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 529,
+					"left": 136,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_ChangeDue:28",
+					"dataSourceTypeHint": "number",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text39": {
+					"type": "text",
+					"top": 530,
+					"left": 31,
+					"width": 100,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Change Due"
+				},
+				"vCountIt1": {
+					"type": "input",
+					"top": 12,
+					"left": 745,
+					"width": 140,
+					"height": 42,
+					"dataSource": "vCountIt",
+					"stroke": "#EE0000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 36,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Text43": {
+					"type": "text",
+					"top": 507,
+					"left": 717,
+					"width": 75,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "PST Tax*"
+				},
+				"Rectangle22": {
+					"type": "rectangle",
+					"top": 503,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Field6": {
+					"type": "input",
+					"top": 507,
+					"left": 854,
+					"width": 64,
+					"height": 19,
+					"dataSource": "vTransactionTax2",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text50": {
+					"type": "text",
+					"top": 683,
+					"left": 717,
+					"width": 215,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "*PST is a secondary tax used in Canada."
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 677,
+					"left": 323,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]Paid_Other:29",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text40": {
+					"type": "text",
+					"top": 677,
+					"left": 238,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Other"
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 677,
+					"left": 570,
+					"width": 81,
+					"height": 15,
+					"dataSource": "[Point of Sale:5]CCTrans:30",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text41": {
+					"type": "text",
+					"top": 677,
+					"left": 485,
+					"width": 80,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "CC Trans ID"
+				}
+			}
+		},
+		{
+			"objects": {
+				"EnterBarcodes": {
+					"type": "subform",
+					"top": 334,
+					"left": 412,
+					"width": 403,
+					"height": 125,
+					"dataSourceTypeHint": "text",
+					"table": 2,
+					"detailForm": "Input",
+					"listForm": "BarcodeEntrySubform",
+					"scrollbarHorizontal": "visible",
+					"scrollbarVertical": "visible",
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 66,
+					"left": 826,
+					"width": 101,
+					"height": 41,
+					"dataSource": "Button1",
+					"text": "next entry",
+					"class": "Default",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onGettingFocus"
+					]
+				},
+				"bAddSales1": {
+					"type": "button",
+					"top": 211,
+					"left": 746,
+					"width": 72,
+					"height": 29,
+					"dataSource": "Button2",
+					"action": "addSubrecord",
+					"text": "Enter Sales",
+					"class": "Default",
+					"events": [
+						"onClick"
+					]
+				},
+				"bAddSales2": {
+					"type": "button",
+					"top": 211,
+					"left": 826,
+					"width": 72,
+					"height": 29,
+					"dataSource": "Button3",
+					"text": "Delete Sales",
+					"class": "Default",
+					"method": "ObjectMethods/bAddSales2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 25,
+					"left": 11,
+					"width": 211,
+					"height": 30,
+					"class": "Default",
+					"text": "Old barcode"
+				}
+			}
+		},
+		{
+			"objects": {
+				"vCountIt5": {
+					"type": "input",
+					"top": 13,
+					"left": 746,
+					"width": 140,
+					"height": 42,
+					"dataSource": "vCountIt",
+					"stroke": "#404040",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 36,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"EnterSales": {
+					"type": "subform",
+					"top": 124,
+					"left": 244,
+					"width": 677,
+					"height": 370,
+					"dataSourceTypeHint": "text",
+					"table": 2,
+					"detailForm": "Input",
+					"listForm": "SalesEntrySubform",
+					"scrollbarHorizontal": "visible",
+					"scrollbarVertical": "visible",
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"bAddSales": {
+					"type": "button",
+					"top": 26,
+					"left": 553,
+					"width": 6,
+					"height": 9,
+					"dataSource": "Button2",
+					"action": "addSubrecord",
+					"text": "Enter Sales",
+					"class": "Default",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 27,
+					"left": 584,
+					"width": 7,
+					"height": 9,
+					"dataSource": "Button1",
+					"text": "NextEntry",
+					"class": "Default",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onGettingFocus"
+					]
+				},
+				"bManbutton1": {
+					"type": "button",
+					"top": 87,
+					"left": 355,
+					"width": 114,
+					"height": 41,
+					"dataSource": "bManbutton",
+					"text": "Manual Entry",
+					"class": "Default",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"focusable": false
+				},
+				"bScanbutton1": {
+					"type": "button",
+					"top": 93,
+					"left": 249,
+					"width": 116,
+					"height": 35,
+					"dataSource": "bScanbutton",
+					"text": "Scan Entry",
+					"class": "Default",
+					"fontWeight": "bold",
+					"stroke": "#007CFF",
+					"focusable": false,
+					"method": "ObjectMethods/bScanbutton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle20": {
+					"type": "rectangle",
+					"top": 12,
+					"left": 518,
+					"width": 89,
+					"height": 48,
+					"stroke": "transparent"
+				},
+				"Text48": {
+					"type": "text",
+					"top": 511,
+					"left": 246,
+					"width": 304,
+					"height": 16,
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "* Items with $0 price will not be saved."
+				},
+				"vCountIt2": {
+					"type": "input",
+					"top": 12,
+					"left": 745,
+					"width": 140,
+					"height": 42,
+					"dataSource": "vCountIt",
+					"stroke": "#EE0000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 36,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Rectangle23": {
+					"type": "rectangle",
+					"top": 589,
+					"left": 798,
+					"width": 141,
+					"height": 53,
+					"fill": "#C5FFC0",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle24": {
+					"type": "rectangle",
+					"top": 589,
+					"left": 729,
+					"width": 70,
+					"height": 53,
+					"fill": "#89FF7F",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle25": {
+					"type": "rectangle",
+					"top": 511,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle26": {
+					"type": "rectangle",
+					"top": 511,
+					"left": 729,
+					"width": 70,
+					"height": 79,
+					"fill": "#A0AFFF",
+					"stroke": "#AAAAAA"
+				},
+				"Text51": {
+					"type": "text",
+					"top": 519,
+					"left": 737,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Subtotal"
+				},
+				"Text52": {
+					"type": "text",
+					"top": 541,
+					"left": 737,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Tax"
+				},
+				"Field10": {
+					"type": "input",
+					"top": 602,
+					"left": 801,
+					"width": 118,
+					"height": 34,
+					"dataSource": "vTransactionTotal",
+					"dataSourceTypeHint": "integer",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text53": {
+					"type": "text",
+					"top": 602,
+					"left": 731,
+					"width": 62,
+					"height": 31,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"text": "Total"
+				},
+				"Rectangle27": {
+					"type": "rectangle",
+					"top": 537,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Field14": {
+					"type": "input",
+					"top": 541,
+					"left": 854,
+					"width": 64,
+					"height": 19,
+					"dataSource": "vTransactionTax",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field15": {
+					"type": "input",
+					"top": 515,
+					"left": 834,
+					"width": 84,
+					"height": 19,
+					"dataSource": "vTransactionSubtotal",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text54": {
+					"type": "text",
+					"top": 567,
+					"left": 717,
+					"width": 75,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "PST Tax*"
+				},
+				"Rectangle28": {
+					"type": "rectangle",
+					"top": 563,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Field16": {
+					"type": "input",
+					"top": 567,
+					"left": 854,
+					"width": 64,
+					"height": 19,
+					"dataSource": "vTransactionTax2",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"bAddSales4": {
+					"type": "button",
+					"top": 12,
+					"left": 14,
+					"width": 3,
+					"height": 3,
+					"dataSource": "Button2",
+					"action": "addSubrecord",
+					"display": true,
+					"events": [
+						"onClick"
+					],
+					"visibility": "visible",
+					"style": "regular",
+					"defaultButton": true,
+					"focusable": false
+				},
+				"vCountIt6": {
+					"type": "input",
+					"top": 13,
+					"left": 746,
+					"width": 140,
+					"height": 42,
+					"dataSource": "vCountIt",
+					"stroke": "#404040",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 36,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"bnextEntry4": {
+					"type": "button",
+					"top": 18,
+					"left": 465,
+					"width": 77,
+					"height": 36,
+					"dataSource": "bnextEntry4",
+					"text": "next entry",
+					"class": "Default",
+					"method": "ObjectMethods/bnextEntry4.4dm",
+					"events": [
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"bManbutton2": {
+					"type": "button",
+					"top": 93,
+					"left": 364,
+					"width": 106,
+					"height": 35,
+					"dataSource": "bManbutton",
+					"text": "Manual Entry",
+					"class": "Default",
+					"fontWeight": "bold",
+					"stroke": "#007CFF",
+					"focusable": false,
+					"method": "ObjectMethods/bManbutton2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle21": {
+					"type": "rectangle",
+					"top": 10,
+					"left": 465,
+					"width": 117,
+					"height": 48,
+					"stroke": "transparent"
+				},
+				"Text49": {
+					"type": "text",
+					"top": 511,
+					"left": 246,
+					"width": 304,
+					"height": 16,
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "* Items with $0 price will not be saved."
+				},
+				"bScanbutton2": {
+					"type": "button",
+					"top": 87,
+					"left": 249,
+					"width": 126,
+					"height": 41,
+					"dataSource": "bScanbutton",
+					"text": "Scan Entry",
+					"class": "Default",
+					"fontWeight": "bold",
+					"focusable": false
+				},
+				"EnterBarcodes2": {
+					"type": "subform",
+					"top": 124,
+					"left": 244,
+					"width": 677,
+					"height": 369,
+					"dataSourceTypeHint": "text",
+					"table": 2,
+					"detailForm": "Input",
+					"listForm": "BarcodeEntrySubform2",
+					"scrollbarHorizontal": "visible",
+					"scrollbarVertical": "visible",
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"vCountIt3": {
+					"type": "input",
+					"top": 12,
+					"left": 745,
+					"width": 140,
+					"height": 42,
+					"dataSource": "vCountIt",
+					"stroke": "#EE0000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 36,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Rectangle29": {
+					"type": "rectangle",
+					"top": 589,
+					"left": 798,
+					"width": 141,
+					"height": 53,
+					"fill": "#C5FFC0",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle30": {
+					"type": "rectangle",
+					"top": 589,
+					"left": 729,
+					"width": 70,
+					"height": 53,
+					"fill": "#89FF7F",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle31": {
+					"type": "rectangle",
+					"top": 511,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle32": {
+					"type": "rectangle",
+					"top": 511,
+					"left": 729,
+					"width": 70,
+					"height": 79,
+					"fill": "#A0AFFF",
+					"stroke": "#AAAAAA"
+				},
+				"Text55": {
+					"type": "text",
+					"top": 519,
+					"left": 737,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Subtotal"
+				},
+				"Text56": {
+					"type": "text",
+					"top": 541,
+					"left": 737,
+					"width": 55,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Tax"
+				},
+				"Field17": {
+					"type": "input",
+					"top": 602,
+					"left": 801,
+					"width": 118,
+					"height": 34,
+					"dataSource": "vTransactionTotal",
+					"dataSourceTypeHint": "integer",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text57": {
+					"type": "text",
+					"top": 602,
+					"left": 731,
+					"width": 62,
+					"height": 31,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"text": "Total"
+				},
+				"Rectangle33": {
+					"type": "rectangle",
+					"top": 537,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Field18": {
+					"type": "input",
+					"top": 541,
+					"left": 854,
+					"width": 64,
+					"height": 19,
+					"dataSource": "vTransactionTax",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field19": {
+					"type": "input",
+					"top": 515,
+					"left": 834,
+					"width": 84,
+					"height": 19,
+					"dataSource": "vTransactionSubtotal",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text58": {
+					"type": "text",
+					"top": 567,
+					"left": 717,
+					"width": 75,
+					"height": 17,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "PST Tax*"
+				},
+				"Rectangle34": {
+					"type": "rectangle",
+					"top": 563,
+					"left": 798,
+					"width": 141,
+					"height": 27,
+					"fill": "#EEEEEE",
+					"stroke": "#AAAAAA"
+				},
+				"Field20": {
+					"type": "input",
+					"top": 567,
+					"left": 854,
+					"width": 64,
+					"height": 19,
+					"dataSource": "vTransactionTax2",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				}
+			},
+			"entryOrder": [
+				"vCountIt6",
+				"bnextEntry4",
+				"bManbutton2",
+				"bScanbutton2",
+				"EnterBarcodes2",
+				"vCountIt3",
+				"Field17",
+				"Field18",
+				"Field19",
+				"Field20",
+				"bAddSales4"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 171,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

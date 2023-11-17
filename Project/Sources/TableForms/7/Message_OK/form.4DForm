@@ -1,0 +1,125 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 9,
+					"left": 27,
+					"width": 340,
+					"height": 95,
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Picture13": {
+					"type": "picture",
+					"top": 8,
+					"left": 5,
+					"width": 363,
+					"height": 126,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Message.png"
+				},
+				"vMessage": {
+					"type": "input",
+					"top": 26,
+					"left": 36,
+					"width": 321,
+					"height": 59,
+					"dataSource": "vMessage",
+					"dataSourceTypeHint": "integer",
+					"stroke": "#EE0000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 110,
+					"left": 281,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"vMessage",
+				"Button2"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

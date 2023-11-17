@@ -1,0 +1,186 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": -5,
+					"left": 2,
+					"width": 900,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 890,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 121,
+					"left": 26,
+					"width": 380,
+					"height": 24,
+					"stroke": "#5F78FF",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Scan your tag to print a barcode label"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 19,
+					"left": 21,
+					"width": 214,
+					"height": 52,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/print (31823).png"
+				},
+				"vBarcodelabel": {
+					"type": "input",
+					"top": 186,
+					"left": 134,
+					"width": 267,
+					"height": 24,
+					"dataSource": "vBarcodeLabel",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"multiline": "no",
+					"method": "ObjectMethods/vBarcodelabel.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onLosingFocus",
+						"onDataChange",
+						"onAfterEdit"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 347,
+					"left": 390,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "cancel",
+					"text": "Cancel",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 347,
+					"left": 490,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"text": "Print",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"cbPrint": {
+					"type": "checkbox",
+					"top": 230,
+					"left": 134,
+					"width": 185,
+					"height": 28,
+					"dataSource": "cbPrint",
+					"text": "Auto Print On Scan",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			},
+			"entryOrder": [
+				"vBarcodelabel",
+				"Button2",
+				"Button1",
+				"cbPrint"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

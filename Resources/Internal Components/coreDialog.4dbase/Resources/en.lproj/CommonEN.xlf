@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--     
+   Translation file for 4D products.
+   Copyright (C) 2007-2013 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v13" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that
+            will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s
+            name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="buttons">
+            <trans-unit id="common_1" resname="button_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="common_2" resname="button_Copy">
+               <source>Copy</source>
+               <target>Copy</target>
+            </trans-unit>
+            <trans-unit id="common_3" resname="button_Edit">
+               <source>Edit</source>
+               <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="common_4" resname="button_OK">
+               <source>OK</source>
+               <target>OK</target>
+            </trans-unit>
+            <trans-unit id="common_5" resname="button_Save">
+               <source>Save...</source>
+               <target>Save...</target>
+            </trans-unit>
+         </group>
+         <group resname="AreYouSur/Ask/Attention/request" id="1007">
+            <trans-unit id="2" resname="areYouSureWindowTitle">
+               <source>Are you sure?</source>
+               <target>Are you sure?</target>
+            </trans-unit>
+            <trans-unit id="5" resname="doConfirmWindowTitle">
+               <source>Confirm</source>
+               <target>Confirm</target>
+            </trans-unit>
+            <trans-unit id="4" resname="requestWindowTitle">
+               <source>Request</source>
+               <target>Request</target>
+            </trans-unit>
+            <trans-unit id="3" resname="runAlertWindowTitle">
+               <source>Alert</source>
+               <target>Alert</target>
+            </trans-unit>
+            <trans-unit id="1" resname="warningWindowTitle">
+               <source>Warning</source>
+               <target>Warning</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

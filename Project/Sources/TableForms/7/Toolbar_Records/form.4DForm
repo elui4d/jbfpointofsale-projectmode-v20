@@ -1,0 +1,235 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 900,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 21,
+					"left": 8,
+					"width": 197,
+					"height": 39,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/records (31829).png"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 3,
+					"left": 236,
+					"width": 3,
+					"height": 86,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 3,
+					"left": 620,
+					"width": 3,
+					"height": 86,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"bFilter": {
+					"type": "button",
+					"top": 9,
+					"left": 257,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bFilter",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Select All"
+					},
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Select All",
+					"icon": "/RESOURCES/Images/library/SelectAll.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bFilter.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bNew": {
+					"type": "button",
+					"top": 9,
+					"left": 640,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bNew",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "New Record",
+					"icon": "/RESOURCES/Images/library/NewRecord (2863).png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bNew.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "button",
+					"top": 9,
+					"left": 730,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bDelete",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Delete",
+					"icon": "/RESOURCES/Images/library/XP Delete Selection.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bDelete.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bSort1": {
+					"type": "button",
+					"top": 9,
+					"left": 529,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bSort",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Sort",
+					"icon": "/RESOURCES/Images/library/XP Order By.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bSort1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bShowAll2": {
+					"type": "button",
+					"top": 9,
+					"left": 437,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bShowAll",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Show All",
+					"icon": "/RESOURCES/Images/library/ShowAll2.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bShowAll2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bFilter1": {
+					"type": "button",
+					"top": 9,
+					"left": 347,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bFilter",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Filter",
+					"icon": "/RESOURCES/Images/library/Filter.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bFilter1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bClose": {
+					"type": "button",
+					"top": 4,
+					"left": 861,
+					"width": 34,
+					"height": 34,
+					"dataSource": "bClose",
+					"action": "cancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/ToolbarClose.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

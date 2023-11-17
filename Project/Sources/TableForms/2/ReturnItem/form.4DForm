@@ -1,0 +1,810 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #2",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 240,
+					"left": 0,
+					"width": 889,
+					"height": 22
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 940,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 106,
+					"left": 115,
+					"width": 630,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Scan the barcode or enter the item number."
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 945,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"b5": {
+					"type": "button",
+					"top": 9,
+					"left": 829,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Exit",
+					"icon": "/RESOURCES/Images/library/Cancel.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/b5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 176,
+					"left": 22,
+					"width": 873,
+					"stroke": "#EE0000"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 101,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 1 -"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 186,
+					"left": 115,
+					"width": 330,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Is this the item you wish to return?"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 181,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 2 -"
+				},
+				"DefaultConsignorPercent": {
+					"type": "input",
+					"top": 139,
+					"left": 180,
+					"width": 229,
+					"height": 18,
+					"dataSource": "vBarcodeScan2",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/DefaultConsignorPercent.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 134,
+					"left": 419,
+					"width": 28,
+					"height": 26,
+					"dataSource": "Button1",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"btnReturn": {
+					"type": "button",
+					"top": 282,
+					"left": 714,
+					"width": 176,
+					"height": 29,
+					"dataSource": "btnReturn",
+					"text": "Return this Item",
+					"class": "Default",
+					"method": "ObjectMethods/btnReturn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 244,
+					"left": 284,
+					"width": 75,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Entered Date Stamp:7",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 244,
+					"left": 365,
+					"width": 78,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Entered Time Stamp:8",
+					"dataSourceTypeHint": "time",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Field": {
+					"type": "input",
+					"top": 244,
+					"left": 450,
+					"width": 75,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Consignor Number:6",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S4_Field": {
+					"type": "input",
+					"top": 244,
+					"left": 533,
+					"width": 71,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Sold Price:2",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Field": {
+					"type": "input",
+					"top": 244,
+					"left": 677,
+					"width": 74,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]List Price:3",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S6_Field": {
+					"type": "input",
+					"top": 244,
+					"left": 6,
+					"width": 203,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Item Description:4",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S7_Field": {
+					"type": "input",
+					"top": 244,
+					"left": 216,
+					"width": 56,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Item Size:5",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OrderbyDateEntered": {
+					"type": "button",
+					"top": 220,
+					"left": 282,
+					"width": 80,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyDateEntered",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Date Entered",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyTimeEntered": {
+					"type": "button",
+					"top": 220,
+					"left": 364,
+					"width": 80,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyTimeEntered",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Time Entered",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyConsignor": {
+					"type": "button",
+					"top": 220,
+					"left": 446,
+					"width": 80,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyConsignor",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Consignor",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyTagPrice": {
+					"type": "button",
+					"top": 220,
+					"left": 529,
+					"width": 80,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyTagPrice",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Sold Price",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbySoldPrice": {
+					"type": "button",
+					"top": 220,
+					"left": 674,
+					"width": 80,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbySoldPrice",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Tag Price",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyItemDescription": {
+					"type": "button",
+					"top": 220,
+					"left": 5,
+					"width": 204,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyItemDescription",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Item Description",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbySize": {
+					"type": "button",
+					"top": 220,
+					"left": 219,
+					"width": 56,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbySize",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Size",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"S5_Field2": {
+					"type": "input",
+					"top": 244,
+					"left": 759,
+					"width": 54,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Taxed:16",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OrderbySoldPrice2": {
+					"type": "button",
+					"top": 220,
+					"left": 756,
+					"width": 60,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbySoldPrice",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "T",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"S5_Field3": {
+					"type": "input",
+					"top": 244,
+					"left": 819,
+					"width": 62,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]TaxAmount:17",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OrderbySoldPrice3": {
+					"type": "button",
+					"top": 220,
+					"left": 821,
+					"width": 60,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbySoldPrice",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Tax",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"S5_Field4": {
+					"type": "input",
+					"top": 244,
+					"left": 617,
+					"width": 54,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]PercentOff:15",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OrderbySoldPrice4": {
+					"type": "button",
+					"top": 220,
+					"left": 614,
+					"width": 60,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbySoldPrice",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "% Off",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"Line3": {
+					"type": "line",
+					"top": 224,
+					"left": 211,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 224,
+					"left": 280,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 224,
+					"left": 362,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 224,
+					"left": 447,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Line7": {
+					"type": "line",
+					"top": 224,
+					"left": 531,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Line8": {
+					"type": "line",
+					"top": 224,
+					"left": 612,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Line9": {
+					"type": "line",
+					"top": 224,
+					"left": 675,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Line10": {
+					"type": "line",
+					"top": 224,
+					"left": 757,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Line11": {
+					"type": "line",
+					"top": 224,
+					"left": 817,
+					"height": 38,
+					"stroke": "#0069FF"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 28,
+					"left": 9,
+					"width": 683,
+					"height": 56,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/return_refund_item.png"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 287,
+					"left": 35,
+					"width": 170,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Reason for Return"
+				},
+				"DefaultConsignorPercent1": {
+					"type": "input",
+					"top": 287,
+					"left": 207,
+					"width": 469,
+					"height": 23,
+					"dataSource": "vReturnReason",
+					"fontFamily": "Tahoma",
+					"fontSize": 14,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/DefaultConsignorPercent1.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+
+Case of 
+		//: (vNumberofShoppers="")
+		//MessageBox ("";"Please provide an estimate Number of Shoppers.";"OKBox";"green")
+		
+		
+	: ([KPI:11]PreviousSaleDate:4=!00-00-00!)
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]AdmissionFee:23="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]Charity:7="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]DaysOpen:16="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]FranchiseeName:2="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]FranchiseePhone:3="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumBarterHours:10="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumBarters:9="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumConsignorSignups:8="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumItemsRejected:25="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumPaidStaff:14="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumPartners:28="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumPOSStations:27="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumRecalls:29="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumSponsors:21="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumVendors:20="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumVIPConsignors:26="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumVolunteerHours:12="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumVolunteers:11="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]NumVolunteersConsigned:13="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]PresaleHours:17="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]PrimeTimeAdmissionFee:24="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]PublicHours:18="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]SaleSeason:6="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]SeasonDropDown:5="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]Territory:1="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]TotalEmployeeHours:15="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]VendorFee:22="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]VenueSize:19="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+	: ([KPI:11]HowManySales:31="")
+		MessageBox(""; "ALL fields are required before submitting this information."; "OKBox"; "green")
+		
+		
+		
+		
+		
+		//: ([KPI]AdmissionFee="")
+		//MessageBox ("";"Please provide a Admission Fee.";"OKBox";"green")
+		
+		
+	Else 
+		ACCEPT:C269
+End case 

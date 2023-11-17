@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Translation file for 4D products.
+    Copyright (C) 2007-2013 4D SAS.
+    This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0" xmlns:d4="http://www.4d.com/xliff/d4">
+    <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v13">
+        <header>
+            <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+            <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+            <note>\r, \t and \n are meta-characters.</note>
+        </header>
+        <body>
+            <group resname="ContextualMenuWatch" restype="menu">
+                <trans-unit id="1" d4:command="watchNew" d4:includeIf="writable">
+                    <source>New Expression...</source>
+                    <target>New Expression...</target>
+                </trans-unit>
+                <trans-unit id="2" menu-name="4dcommands" d4:includeIf="writable">
+                    <source>Insert Command...</source>
+                    <target>Insert Command...</target>
+                </trans-unit>
+                <trans-unit id="3" translate="no">
+                    <source></source>
+                    <target></target>
+                </trans-unit>
+               <trans-unit id="26" d4:command="cut" d4:includeIf="writable">
+                    <source>Cut</source>
+                    <target>Cut</target>
+                </trans-unit>
+               <trans-unit id="27" d4:command="copy">
+                    <source>Copy</source>
+                    <target>Copy</target>
+                </trans-unit>
+               <trans-unit id="28" d4:command="paste" d4:includeIf="writable">
+                    <source>Paste</source>
+                    <target>Paste</target>
+                </trans-unit>
+                <trans-unit id="4" d4:command="watchDeleteAll" d4:includeIf="writable">
+                    <source>Delete All</source>
+                    <target>Delete All</target>
+                </trans-unit>
+                <trans-unit id="5" d4:command="watchStandard" d4:includeIf="writable">
+                    <source>Standard Expressions</source>
+                    <target>Standard Expressions</target>
+                </trans-unit>
+                <trans-unit id="6" d4:command="watchCollapseAll">
+                    <source>Collapse All</source>
+                    <target>Collapse All</target>
+                </trans-unit>
+                <trans-unit id="7" d4:command="watchExpandAll">
+                    <source>Expand All</source>
+                    <target>Expand All</target>
+                </trans-unit>
+                <trans-unit id="8" translate="no">
+                    <source></source>
+                    <target></target>
+                </trans-unit>
+                <trans-unit id="9" d4:command="watchShowTypes">
+                    <source>Show Types</source>
+                    <target>Show Types</target>
+                </trans-unit>
+                <trans-unit id="10" d4:command="watchShowNumbers">
+                    <source>Show Field and Table Numbers</source>
+                    <target>Show Field and Table Numbers</target>
+                </trans-unit>
+                <trans-unit id="11" d4:command="watchShowIcons">
+                    <source>Show Icons</source>
+                    <target>Show Icons</target>
+                </trans-unit>
+                <trans-unit id="12" d4:command="watchSortFields">
+                    <source>Sorted Tables and Fields</source>
+                    <target>Sorted Tables and Fields</target>
+                </trans-unit>
+                <trans-unit id="13" d4:command="watchShowHexa">
+                    <source>Show Integers in Hexadecimal</source>
+                    <target>Show Integers in Hexadecimal</target>
+                </trans-unit>
+                <trans-unit id="14" d4:command="watchMonitoring">
+                    <source>Enable activity monitoring</source>
+                    <target>Enable activity monitoring</target>
+                </trans-unit>
+			</group>
+
+            <group resname="ContextualMenuDebugCode" restype="menu">
+                <trans-unit id="15" d4:command="gotoDefinition" d4:includeIf="designAllowed">
+                    <source>Goto Definition...</source>
+                    <target>Goto Definition...</target>
+                </trans-unit>
+                <trans-unit id="16" d4:command="searchReferences" d4:includeIf="designAllowed">
+                    <source>Search References...</source>
+                    <target>Search References...</target>
+                </trans-unit>
+                <trans-unit id="17" translate="no">
+                    <source></source>
+                    <target></target>
+                </trans-unit>
+                <trans-unit id="18" d4:command="copy">
+                    <source>Copy</source>
+                    <target>Copy</target>
+                </trans-unit>
+                <trans-unit id="19" d4:command="copyToExpressions">
+                    <source>Copy to Expression Pane</source>
+                    <target>Copy to Expression Pane</target>
+                </trans-unit>
+                <trans-unit id="20" translate="no">
+                    <source></source>
+                    <target></target>
+                </trans-unit>
+               <trans-unit id="21" d4:command="runToCursor">
+                    <source>Run to Cursor</source>
+                    <target>Run to Cursor</target>
+                </trans-unit>
+               <trans-unit id="22" d4:command="setNextStatement">
+                    <source>Set Next Statement</source>
+                    <target>Set Next Statement</target>
+                </trans-unit>
+                <trans-unit id="23" translate="no">
+                    <source></source>
+                    <target></target>
+                </trans-unit>
+                <trans-unit id="24" d4:command="toggleBreakpoint">
+                    <source>Toggle Breakpoint</source>
+                    <target>Toggle Breakpoint</target>
+                </trans-unit>
+                <trans-unit id="25" d4:command="editBreakpoint">
+                    <source>Edit Breakpoint...</source>
+                    <target>Edit Breakpoint...</target>
+                </trans-unit>
+			</group>
+			
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,639 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #2",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 940,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 106,
+					"left": 115,
+					"width": 530,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Lookup Customer by Last Name"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 945,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Text26": {
+					"type": "text",
+					"top": 348,
+					"left": 19,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "First Name"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 371,
+					"left": 19,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Last Name"
+				},
+				"Text28": {
+					"type": "text",
+					"top": 394,
+					"left": -1,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Address"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 417,
+					"left": -1,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "City"
+				},
+				"Text31": {
+					"type": "text",
+					"top": 440,
+					"left": -1,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "State"
+				},
+				"Text32": {
+					"type": "text",
+					"top": 440,
+					"left": 119,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Zip"
+				},
+				"Text33": {
+					"type": "text",
+					"top": 463,
+					"left": 19,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Phone"
+				},
+				"bSave": {
+					"type": "button",
+					"top": 463,
+					"left": 510,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bSave",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Save",
+					"icon": "/RESOURCES/Images/library/Save.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bSave.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 296,
+					"left": 22,
+					"width": 573,
+					"stroke": "#EE0000"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 101,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 1 -"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 306,
+					"left": 115,
+					"width": 330,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Enter the Customer"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 301,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 2 -"
+				},
+				"vLookUp": {
+					"type": "input",
+					"top": 139,
+					"left": 220,
+					"width": 189,
+					"height": 18,
+					"dataSource": "vLookUp",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vLookUp.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"tabbutton": {
+					"type": "button",
+					"top": 140,
+					"left": 424,
+					"width": 13,
+					"height": 16,
+					"dataSource": "tabbutton",
+					"shortcutKey": "[Enter]",
+					"text": "Button",
+					"class": "Default",
+					"method": "ObjectMethods/tabbutton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 134,
+					"left": 419,
+					"width": 28,
+					"height": 26,
+					"dataSource": "Button1",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"List Box1": {
+					"type": "listbox",
+					"top": 177,
+					"left": 151,
+					"width": 349,
+					"height": 99,
+					"resizingMode": "legacy",
+					"dataSource": "List Box1",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"alternateFill": "#FFFFDF",
+					"class": "Default",
+					"method": "ObjectMethods/List Box1.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "aFirst",
+							"width": 160,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"styledText": true,
+							"contextMenu": "none",
+							"stroke": "automatic",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFDF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Default",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "First Name",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Default"
+							},
+							"footer": {
+								"stroke": "#000000",
+								"fill": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "aLast",
+							"width": 172,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"styledText": true,
+							"contextMenu": "none",
+							"stroke": "automatic",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFDF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Default",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Last Name",
+								"dataSource": "Header2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Default"
+							},
+							"footer": {
+								"name": "1",
+								"stroke": "#000000",
+								"fill": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"First Name": {
+					"type": "input",
+					"top": 348,
+					"left": 84,
+					"width": 180,
+					"height": 15,
+					"dataSource": "vCheckInFirstName",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/First Name.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Last Name": {
+					"type": "input",
+					"top": 371,
+					"left": 84,
+					"width": 180,
+					"height": 15,
+					"dataSource": "vCheckInLastName",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Last Name.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Address1": {
+					"type": "input",
+					"top": 394,
+					"left": 84,
+					"width": 180,
+					"height": 15,
+					"dataSource": "vCheckInAddress1",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"City": {
+					"type": "input",
+					"top": 417,
+					"left": 84,
+					"width": 180,
+					"height": 15,
+					"dataSource": "vCheckInCity",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"State": {
+					"type": "input",
+					"top": 440,
+					"left": 84,
+					"width": 36,
+					"height": 15,
+					"dataSource": "vCheckInState",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Zip": {
+					"type": "input",
+					"top": 440,
+					"left": 184,
+					"width": 80,
+					"height": 15,
+					"dataSource": "vCheckInZip",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Home Phone": {
+					"type": "input",
+					"top": 463,
+					"left": 84,
+					"width": 180,
+					"height": 15,
+					"dataSource": "vCheckInHomePhone",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Home Phone1": {
+					"type": "input",
+					"top": 486,
+					"left": 84,
+					"width": 180,
+					"height": 15,
+					"dataSource": "vCheckInEmail",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 309,
+					"left": 521,
+					"width": 59,
+					"height": 23,
+					"dataSource": "Button1",
+					"text": "Clear",
+					"class": "Default",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 25,
+					"left": 12,
+					"width": 352,
+					"height": 61,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/customer.png"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 486,
+					"left": 19,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Email"
+				},
+				"b5": {
+					"type": "button",
+					"top": 462,
+					"left": 427,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Cancel",
+					"icon": "/RESOURCES/Images/library/Cancel.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/b5.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

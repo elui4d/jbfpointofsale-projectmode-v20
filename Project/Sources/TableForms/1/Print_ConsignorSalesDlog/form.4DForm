@@ -1,0 +1,176 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 611,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 615,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 107,
+					"left": 87,
+					"width": 540,
+					"height": 24,
+					"stroke": "#5F78FF",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Complete the form below before printing."
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 19,
+					"left": 21,
+					"width": 227,
+					"height": 66,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/print (31823).png"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 104,
+					"left": 602,
+					"width": 1,
+					"height": 1,
+					"dataSource": "Button3",
+					"text": "Button",
+					"class": "Default",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 347,
+					"left": 510,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "Print",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 347,
+					"left": 410,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "cancel",
+					"text": "Cancel",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"vCons": {
+					"type": "checkbox",
+					"top": 171,
+					"left": 196,
+					"width": 337,
+					"height": 41,
+					"dataSource": "vCons",
+					"text": "Only Checked in Consignors",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"events": [
+						"onClick"
+					]
+				},
+				"vSales": {
+					"type": "checkbox",
+					"top": 211,
+					"left": 196,
+					"width": 337,
+					"height": 41,
+					"dataSource": "vSales",
+					"text": "Only Consignors With Sales",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

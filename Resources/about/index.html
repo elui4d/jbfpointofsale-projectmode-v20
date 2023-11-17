@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+4D (the "Software") and the corresponding source code remain
+the exclusive property of 4D and/or its licensors and are protected by national
+and/or international legislations.
+This file is part of the source code of the Software provided under the relevant
+4D License Agreement available on http://www.4D.com/license whose compliance
+constitutes a prerequisite to any use of this file and more generally of the
+Software and the corresponding source code.
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/HTML;charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css"/>
+        <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+        <meta name="robots" content="noindex, nofollow" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="cache-control" content="no-cache" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=8; IE=9" />
+
+        <title>
+            <!--#4DIF (1=2)-->About 4D…
+            <!--#4DELSE-->
+            <!--#4DVAR waString("AboutGenericWindowTitle")-->
+            <!--#4DENDIF-->
+        </title>
+        <base target="_self" href='<!--#4DVAR waBase("about")-->' />
+
+        <script>
+            var wTitleCopyright = '<!--#4DVAR waString("AboutCopyrights")-->';
+            var wTitleLegal = '<!--#4DVAR waString("AboutLegalInformations")-->';
+            var is64bits = <!--#4DVAR wa64bits-->;
+        </script>
+
+        <script src="../js/lib/jquery.js"></script>
+        <script src="../js/coreDialogs.js"></script>
+        <script src="index.js"></script>
+
+        <link rel="stylesheet" href="../css/dial.css" />
+        <link rel="stylesheet" href="../css/w.css" />
+        <link rel="stylesheet" href="index.css" />
+
+        <style  type="text/css"> html, html * {font-family: <!--#4DVAR waSystemFont--> 'Lucida Grande', 'Lucida Sans Unicode', 'Segoe UI', 'Tahoma','Arial', 'Verdana', sans-serif;}</style>
+
+    </head>
+
+    <body>
+        <div class="information-dialog">
+
+            <div id="active-background" name="close">
+
+                <!-- VERSION AND LICENCE -->
+                <div id="infos">
+                    <span title="select">
+                        <!--#4DIF (1=2)-->4D v13 test mode version 13.x (56789)
+                        <!--#4DELSE-->
+                        <!--#4DVAR aboutVersion-->
+                        <!--#4DENDIF-->
+                    </span>
+                    <br />
+                    <br />
+                    <span>
+                        <!--#4DIF (1=2)-->This product is licensed to:
+                        <!--#4DELSE-->
+                        <!--#4DVAR waString ("AboutThisProductIsLicensedTo")-->
+                        <!--#4DENDIF-->
+                    </span>
+                    <p class="licence">
+                        <span id='userName'><!--#4DIF (1=2)-->Vincent de Lachaux<!--#4DENDIF--></span><br>
+                            <span id='userCompany'><!--#4DIF (1=2)-->Usage Externe<!--#4DENDIF--></span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <div id="foot">
+                <span class="foot-left">
+                    <!--#4DIF (1=2)-->© 4D SAS, 1985-20xx. All rights reserved.
+                    <!--#4DELSE-->
+                    <!--#4DVAR waString ("copyright4D")-->
+                    <!--#4DENDIF-->
+                </span>
+                <div class="foot-right" onclick="javascript:show('around');">
+                    <img class="earth" src="images/earth.png" alt=""
+                         onclick="javascript:show('around');" />
+                    <span class="earth-link"
+                          onclick="javascript:show('around');">
+                        <!--#4DIF (1=2)-->4D Around the World
+                        <!--#4DELSE-->
+                        <!--#4DVAR waString ("4DAroundTheWorld")-->
+                        <!--#4DENDIF-->
+                    </span>
+                </div>
+                <span class="foot-middle">
+                    <a href="javascript:show('copyright');">
+                        <!--#4DIF (1=2)-->Copyrights
+                        <!--#4DELSE-->
+                        <!--#4DVAR waString ("AboutCopyrights")-->
+                        <!--#4DENDIF-->
+                    </a>
+                    <a style="margin-left: 20px;" href="javascript:show('legal');">
+                        <!--#4DIF (1=2)-->Legal information
+                        <!--#4DELSE-->
+                        <!--#4DVAR waString ("AboutLegalInformations")-->
+                        <!--#4DENDIF-->
+                    </a>
+                </span>
+            </div>
+
+            <div id="window_1" class="cached">
+
+                <!-- TITLE BAR -->
+                <div class="w-title-bar">
+                    <span id="w-title" class="w-title"></span>
+                    <button class="w-closebox" name="closeBox">
+                        <!--#4DIF (1=2)-->Close
+                        <!--#4DELSE-->
+                        <!--#4DVAR waString("CommonClose")-->
+                        <!--#4DENDIF-->
+                    </button>
+                </div>
+                <!-- CONTENT -->
+                <div class="w-frame" name="close">
+
+                    <!-- COPYRIGHT -->
+                    <div id="copyright" class="cached">
+                        <div class="textArea" name="close">
+                            <!--#4DVAR waString ("Cop_TEXT";"HTML")-->
+                        </div>
+                    </div>
+                    <!-- LEGAL -->
+                    <div id="legal" class="cached">
+                        <div class="textArea" name="close">
+                            <!--#4DVAR waString("Lic_TEXT";"html")-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="window_2" class="cached">
+                <!-- TITLE BAR -->
+                <div class="w-title-bar">
+                    <span class="w-title">
+                        <!--#4DIF (1=2)-->4D Around the World
+                        <!--#4DELSE-->
+                        <!--#4DVAR waString("4DAroundTheWorld")-->
+                        <!--#4DENDIF-->
+                    </span>
+                    <button class="w-closebox" name="closeBox">
+                        <span>
+                            <!--#4DIF (1=2)-->Close
+                            <!--#4DELSE-->
+                            <!--#4DVAR waString("CommonClose")-->
+                            <!--#4DENDIF-->
+                        </span>
+                    </button>
+                </div>
+                <div class="w-frame">
+                    <div id="around-the-world">
+                        <div id="around-foot-back">
+
+                        </div>
+                        <!-- map -->
+                        <img id="around-map" src="images/map.png" alt="" name="close" />
+                        <div id="company-left">
+                            <span id="companyName">Company Name</span>
+                            <span id="companyCountry">Country</span>
+                        </div>
+                        <div id="company-right">
+                            <span id="companyAdress">Company Adress</span>
+                            <a id="companyURL" href="#" target=_blank>http://company.com</a>
+                            <a id="companyEmail" href="#" target=_blank>mailto:e-mail@company.com</a>
+                        </div>
+                        <!-- companies -->
+                        <button name="pins" class="company" id="us" style="top: 150px; left: 65px;" />
+                        <button name="pins" class="company" id="uk" style="top: 128px; left: 322px;" />
+                        <button name="pins" class="company" id="se" style="top: 108px; left: 355px;" />
+                        <button name="pins" class="company" id="fr" style="top: 145px; left: 330px;" />
+                        <button name="pins" class="company" id="de" style="top: 135px; left: 346px;" />
+                        <button name="pins" class="company" id="es" style="top: 165px; left: 315px;" />
+                        <button name="pins" class="company" id="jp" style="top: 165px; left: 628px;" />
+                        <button name="pins" class="company" id="au" style="top: 340px; left: 655px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

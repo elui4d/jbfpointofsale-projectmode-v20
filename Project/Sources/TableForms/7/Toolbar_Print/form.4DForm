@@ -1,0 +1,601 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 135,
+					"left": 9,
+					"width": 476,
+					"height": 422,
+					"fill": "#EEEEEE",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Group Box": {
+					"type": "groupBox",
+					"top": 145,
+					"left": 21,
+					"width": 201,
+					"height": 199,
+					"stroke": "#5F78FF",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Consignors"
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 355,
+					"left": 23,
+					"width": 199,
+					"height": 106,
+					"stroke": "#5F78FF",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Team Members"
+				},
+				"Group Box5": {
+					"type": "groupBox",
+					"top": 151,
+					"left": 236,
+					"width": 239,
+					"height": 75,
+					"stroke": "#5F78FF",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Inventory"
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 467,
+					"left": 23,
+					"width": 199,
+					"height": 84,
+					"stroke": "#5F78FF",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Employees"
+				},
+				"Group Box3": {
+					"type": "groupBox",
+					"top": 388,
+					"left": 236,
+					"width": 239,
+					"height": 111,
+					"stroke": "#5F78FF",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "After Sale Functions"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 135,
+					"left": 495,
+					"width": 169,
+					"height": 73,
+					"fill": "#EEEEEE",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": -4,
+					"width": 680,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -8,
+					"width": 684,
+					"height": 6,
+					"fill": "#EE0000"
+				},
+				"rbConsignorList": {
+					"type": "radio",
+					"top": 157,
+					"left": 31,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep1",
+					"text": "Consignor List",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbConsignorSalesList": {
+					"type": "radio",
+					"top": 187,
+					"left": 31,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep2",
+					"text": "Consignor Sales List",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbConsignorSalesDetail": {
+					"type": "radio",
+					"top": 217,
+					"left": 31,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep3",
+					"text": "Consignor Sales Detail",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 524,
+					"left": 585,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "Print",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 524,
+					"left": 495,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "cancel",
+					"text": "Cancel",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"rbReportEditor": {
+					"type": "radio",
+					"top": 168,
+					"left": 521,
+					"width": 132,
+					"height": 40,
+					"dataSource": "cbRep99",
+					"text": "Report Editor",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#5F78FF",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbLabelEditor": {
+					"type": "radio",
+					"top": 135,
+					"left": 521,
+					"width": 132,
+					"height": 40,
+					"dataSource": "cbRep97",
+					"text": "Label Editor",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#5F78FF",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 107,
+					"left": 162,
+					"width": 80,
+					"height": 24,
+					"stroke": "#5F78FF",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Reports"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 107,
+					"left": 483,
+					"width": 160,
+					"height": 24,
+					"stroke": "#5F78FF",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Report Editors"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 19,
+					"left": 16,
+					"width": 220,
+					"height": 57,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/print (31823).png"
+				},
+				"rbConsignorComments": {
+					"type": "radio",
+					"top": 247,
+					"left": 31,
+					"width": 203,
+					"height": 40,
+					"dataSource": "cbRep7",
+					"text": "Consignor Comments",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbConsignorChanges": {
+					"type": "radio",
+					"top": 277,
+					"left": 31,
+					"width": 205,
+					"height": 40,
+					"dataSource": "cbRep8",
+					"text": "New/Changed Consignors",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbRoyaltyFinancial": {
+					"type": "radio",
+					"top": 403,
+					"left": 244,
+					"width": 232,
+					"height": 40,
+					"dataSource": "cbRep9",
+					"text": "Royalty Report/Financial Module",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbTeamBadgesLand": {
+					"type": "radio",
+					"top": 423,
+					"left": 31,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep19",
+					"text": "Team Badges (Landscape)",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbSalesTaxReport": {
+					"type": "radio",
+					"top": 431,
+					"left": 244,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep13",
+					"text": "Sales Tax Report",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbReprintTags": {
+					"type": "radio",
+					"top": 163,
+					"left": 244,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep14",
+					"text": "Reprint Tags",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbTeamBadgesPort": {
+					"type": "radio",
+					"top": 394,
+					"left": 31,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep12",
+					"text": "Team Badges (Portrait)",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbDonationReport": {
+					"type": "radio",
+					"top": 459,
+					"left": 244,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep15",
+					"text": "Donation Report",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbTeamMemberReport": {
+					"type": "radio",
+					"top": 365,
+					"left": 31,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep21",
+					"text": "Team Member Report",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbConsignorPrintChecks": {
+					"type": "radio",
+					"top": 306,
+					"left": 31,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep4",
+					"text": "Print Consignor Checks",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbEmployeePrintChecks": {
+					"type": "radio",
+					"top": 482,
+					"left": 31,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep10",
+					"text": "Print Employee Checks",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbEmployeeCheckRegister": {
+					"type": "radio",
+					"top": 509,
+					"left": 31,
+					"width": 212,
+					"height": 40,
+					"dataSource": "cbRep11",
+					"text": "Employee Check Register",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"Group Box4": {
+					"type": "groupBox",
+					"top": 236,
+					"left": 236,
+					"width": 239,
+					"height": 139,
+					"stroke": "#5F78FF",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Point of Sale"
+				},
+				"rbBatchSummary": {
+					"type": "radio",
+					"top": 337,
+					"left": 244,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep5",
+					"text": "Batch Summary",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbSalesbyDate": {
+					"type": "radio",
+					"top": 247,
+					"left": 244,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep6",
+					"text": "Sales Report by Date",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbSalesbyComp": {
+					"type": "radio",
+					"top": 277,
+					"left": 244,
+					"width": 212,
+					"height": 40,
+					"dataSource": "cbRep20",
+					"text": "Sales Report by Computer",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbMoneyBreakdown": {
+					"type": "radio",
+					"top": 307,
+					"left": 244,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep22",
+					"text": "Money Breakdown",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				},
+				"rbBarcodeLabels": {
+					"type": "radio",
+					"top": 190,
+					"left": 244,
+					"width": 192,
+					"height": 40,
+					"dataSource": "cbRep78",
+					"text": "Barcode Labels",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "1"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 138,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"method": "method.4dm"
+}

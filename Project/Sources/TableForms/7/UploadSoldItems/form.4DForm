@@ -1,0 +1,316 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"SalesDateMsg": {
+					"type": "text",
+					"top": 234,
+					"left": 235,
+					"width": 203,
+					"height": 14,
+					"stroke": "#0056FF",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Select a Sales date to upload."
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 118,
+					"left": 25,
+					"width": 472,
+					"height": 210,
+					"stroke": "#AAAAAA",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Upload Options"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 900,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 890,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 155,
+					"left": 38,
+					"width": 160,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Upload All Sales"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 347,
+					"left": 410,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 347,
+					"left": 310,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "cancel",
+					"text": "Cancel",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 21,
+					"left": 14,
+					"width": 464,
+					"height": 64,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/upload_sold_items.png"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 232,
+					"left": 38,
+					"width": 160,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Upload Sales By Date"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 269,
+					"left": 38,
+					"width": 160,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Small Files"
+				},
+				"cbSmallFiles": {
+					"type": "checkbox",
+					"top": 266,
+					"left": 209,
+					"width": 18,
+					"height": 26,
+					"dataSource": "cbSmallFiles",
+					"text": " ",
+					"class": "Default",
+					"events": [
+						"onClick"
+					]
+				},
+				"aUploadSoldDate": {
+					"type": "dropdown",
+					"top": 230,
+					"left": 235,
+					"width": 177,
+					"height": 22,
+					"dataSource": "aUploadSoldDate",
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 195,
+					"left": 38,
+					"width": 160,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Upload by Selection"
+				},
+				"rbUpload1": {
+					"type": "radio",
+					"top": 152,
+					"left": 209,
+					"width": 24,
+					"height": 24,
+					"dataSource": "rbUpload1",
+					"class": "Default",
+					"method": "ObjectMethods/rbUpload1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rbUpload2": {
+					"type": "radio",
+					"top": 189,
+					"left": 209,
+					"width": 24,
+					"height": 24,
+					"dataSource": "rbUpload2",
+					"class": "Default",
+					"method": "ObjectMethods/rbUpload2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rbUpload3": {
+					"type": "radio",
+					"top": 229,
+					"left": 209,
+					"width": 24,
+					"height": 24,
+					"dataSource": "rbUpload3",
+					"class": "Default",
+					"method": "ObjectMethods/rbUpload3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 196,
+					"left": 235,
+					"width": 263,
+					"height": 14,
+					"stroke": "#0056FF",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "You must be in the Sales table and filter your records."
+				},
+				"Text6": {
+					"type": "text",
+					"top": 271,
+					"left": 235,
+					"width": 263,
+					"height": 14,
+					"stroke": "#0056FF",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "This will create many small files for easier uploading."
+				},
+				"Text7": {
+					"type": "text",
+					"top": 303,
+					"left": 38,
+					"width": 160,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Upload To MyJBFTags"
+				},
+				"cbUpload": {
+					"type": "checkbox",
+					"top": 300,
+					"left": 209,
+					"width": 18,
+					"height": 26,
+					"dataSource": "cbUpload",
+					"text": " ",
+					"class": "Default",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 305,
+					"left": 235,
+					"width": 263,
+					"height": 14,
+					"stroke": "#0056FF",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "You must have an internet connection."
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

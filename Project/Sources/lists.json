@@ -1,0 +1,364 @@
+{
+	"CheckSort": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "By Last Name",
+				"ref": 1,
+				"editable": false
+			},
+			{
+				"text": "By Universal Consignor Number",
+				"ref": 3,
+				"editable": false
+			}
+		]
+	},
+	"Seasons": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Fall",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Spring",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "All Seasons",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Holiday",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"CenterNames": {
+		"lineHeight": 18,
+		"editable": true
+	},
+	"Excluded$": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Entry Mode": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "POS Mode",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Admin Mode",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Users": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Jim Newhouse",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"mois": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "January",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "February",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "March",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "April",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "May",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "June",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "July",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "August",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "September",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "October",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "November",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "December",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"ComputerNumber": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "C1",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SoldDate": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"TenDollar": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Allow",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Don't Allow",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Prompt",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Jours_Abrégés": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Sun",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mon",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tue",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Wed",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Thu",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Fri",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sat",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"YesNo": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Yes",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "No",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"ReduceBy": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": false,
+				"collapsed": true
+			},
+			{
+				"text": "25",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "50",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "75",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"PaymentTypes": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Credit Card",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Cash",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Gift Certificate",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Paypal",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Venmo",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Coupon",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Other",
+				"ref": 7,
+				"editable": true
+			}
+		]
+	}
+}

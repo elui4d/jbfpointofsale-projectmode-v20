@@ -1,0 +1,320 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerBody": 280,
+	"markerBreak": 280,
+	"markerFooter": 281,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onActivate",
+		"onDeactivate",
+		"onUnload"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable2": {
+					"type": "input",
+					"top": 36,
+					"left": 140,
+					"width": 297,
+					"height": 27,
+					"dataSource": "vReportTitle",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 20,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 0,
+					"left": 22,
+					"width": 138,
+					"height": 78,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/jbflogosmall.png"
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 80,
+					"left": 22,
+					"width": 539,
+					"height": 4,
+					"fill": "#FFDF03",
+					"stroke": "transparent"
+				},
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 76,
+					"left": 22,
+					"width": 539,
+					"height": 4,
+					"fill": "#5F78FF",
+					"stroke": "transparent"
+				},
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 84,
+					"left": 22,
+					"width": 539,
+					"height": 4,
+					"fill": "#5F78FF",
+					"stroke": "transparent"
+				},
+				"Field15": {
+					"type": "input",
+					"top": 191,
+					"left": 126,
+					"width": 247,
+					"height": 16,
+					"dataSource": "vTerritory",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text29": {
+					"type": "text",
+					"top": 190,
+					"left": -44,
+					"width": 160,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Territory & State"
+				},
+				"Field21": {
+					"type": "input",
+					"top": 137,
+					"left": 153,
+					"width": 247,
+					"height": 17,
+					"dataSource": "vSaleSeason",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text35": {
+					"type": "text",
+					"top": 102,
+					"left": 78,
+					"width": 399,
+					"height": 33,
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Just Between Friends Charity Summary\rfor"
+				},
+				"Line17": {
+					"type": "line",
+					"top": 206,
+					"left": 118,
+					"width": 241,
+					"stroke": "#AAAAAA"
+				},
+				"Text36": {
+					"type": "text",
+					"top": 46,
+					"left": 442,
+					"width": 120,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Fax: (918)294-1620"
+				},
+				"Text37": {
+					"type": "text",
+					"top": 33,
+					"left": 442,
+					"width": 120,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Ph: (918)902-5673"
+				},
+				"Field18": {
+					"type": "input",
+					"top": 215,
+					"left": 126,
+					"width": 367,
+					"height": 16,
+					"dataSource": "vCharity",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text32": {
+					"type": "text",
+					"top": 214,
+					"left": -44,
+					"width": 160,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Donations Charity"
+				},
+				"Field19": {
+					"type": "input",
+					"top": 237,
+					"left": 126,
+					"width": 247,
+					"height": 16,
+					"dataSource": "vTotalItemsDonated",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text38": {
+					"type": "text",
+					"top": 236,
+					"left": -44,
+					"width": 160,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "# of Donated Items"
+				},
+				"Field20": {
+					"type": "input",
+					"top": 259,
+					"left": 126,
+					"width": 247,
+					"height": 16,
+					"dataSource": "vPriceofDonated",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text39": {
+					"type": "text",
+					"top": 258,
+					"left": -44,
+					"width": 160,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "$ Value of Donates"
+				},
+				"Line20": {
+					"type": "line",
+					"top": 230,
+					"left": 118,
+					"width": 241,
+					"stroke": "#AAAAAA"
+				},
+				"Line21": {
+					"type": "line",
+					"top": 274,
+					"left": 118,
+					"width": 241,
+					"stroke": "#AAAAAA"
+				},
+				"Line22": {
+					"type": "line",
+					"top": 252,
+					"left": 118,
+					"width": 242,
+					"height": 1,
+					"stroke": "#AAAAAA"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 4,
+					"left": 422,
+					"width": 140,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "7633 E 63rd Pl, Ste 300"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 16,
+					"left": 442,
+					"width": 120,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Tulsa, OK 74133"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

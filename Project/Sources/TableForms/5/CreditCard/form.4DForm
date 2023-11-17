@@ -1,0 +1,367 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 940,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 89,
+					"left": -9,
+					"width": 945,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 53,
+					"left": 82,
+					"width": 346,
+					"height": 35,
+					"stroke": "#D80000",
+					"fontFamily": "Arial",
+					"fontSize": 30,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Process Credit Card"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 148,
+					"left": 57,
+					"width": 86,
+					"height": 17,
+					"stroke": "#0099FF",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Amount"
+				},
+				"DefaultConsignorPercent": {
+					"type": "input",
+					"top": 146,
+					"left": 151,
+					"width": 159,
+					"height": 23,
+					"dataSource": "vTransaxCCAmount",
+					"fontFamily": "Tahoma",
+					"fontSize": 18,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"b5": {
+					"type": "button",
+					"top": 255,
+					"left": 343,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Cancel",
+					"icon": "/RESOURCES/Images/library/Cancel.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/b5.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text7": {
+					"type": "text",
+					"top": 106,
+					"left": 101,
+					"width": 263,
+					"height": 19,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Verify amount and swipe card."
+				},
+				"bGo": {
+					"type": "button",
+					"top": 252,
+					"left": 254,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bGo",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Go",
+					"icon": "/RESOURCES/Images/library/Save.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bGo.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 196,
+					"left": 57,
+					"width": 86,
+					"height": 17,
+					"stroke": "#0099FF",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "CC Number"
+				},
+				"vCCSwipe": {
+					"type": "input",
+					"top": 190,
+					"left": 150,
+					"width": 200,
+					"height": 24,
+					"dataSource": "vCCSwipe",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"keyboardDialect": "en",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vCCSwipe.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					]
+				},
+				"picVisa": {
+					"type": "pictureButton",
+					"top": 257,
+					"left": 37,
+					"width": 102,
+					"height": 65,
+					"dataSource": "picVisa",
+					"picture": "/RESOURCES/Images/library/visa.png"
+				},
+				"picMastercard": {
+					"type": "pictureButton",
+					"top": 257,
+					"left": 37,
+					"width": 102,
+					"height": 65,
+					"dataSource": "picMastercard",
+					"picture": "/RESOURCES/Images/library/Mastercard.4DMemoryBitmap"
+				},
+				"picAMEX": {
+					"type": "pictureButton",
+					"top": 257,
+					"left": 37,
+					"width": 102,
+					"height": 65,
+					"dataSource": "picAMEX",
+					"picture": "/RESOURCES/Images/library/amex.4DMemoryBitmap"
+				},
+				"picDiscover": {
+					"type": "pictureButton",
+					"top": 257,
+					"left": 37,
+					"width": 102,
+					"height": 65,
+					"dataSource": "picDiscover",
+					"picture": "/RESOURCES/Images/library/discover.png"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 11,
+					"left": 343,
+					"width": 79,
+					"height": 36,
+					"dataSource": "Button",
+					"text": "Manual Entry",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text5": {
+					"type": "text",
+					"top": 186,
+					"left": 136,
+					"width": 66,
+					"height": 17,
+					"stroke": "#0099FF",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "CC Number"
+				},
+				"vCCNumber": {
+					"type": "input",
+					"top": 207,
+					"left": 90,
+					"width": 180,
+					"height": 26,
+					"dataSource": "vCCNumber",
+					"fontFamily": "Tahoma",
+					"fontSize": 16,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					]
+				},
+				"vCCExpiration": {
+					"type": "input",
+					"top": 207,
+					"left": 310,
+					"width": 80,
+					"height": 26,
+					"dataSource": "vCCExpiration",
+					"fontFamily": "Tahoma",
+					"fontSize": 16,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 186,
+					"left": 296,
+					"width": 106,
+					"height": 17,
+					"stroke": "#0099FF",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Expiration (MMYY)"
+				},
+				"bGo1": {
+					"type": "button",
+					"top": 252,
+					"left": 254,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bGo1",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Go",
+					"icon": "/RESOURCES/Images/library/Save.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bGo1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 11,
+					"left": 343,
+					"width": 79,
+					"height": 36,
+					"dataSource": "Button",
+					"text": "Swipe Card",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

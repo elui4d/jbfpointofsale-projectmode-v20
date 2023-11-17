@@ -1,0 +1,166 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"text": "Complete Transaction",
+					"top": 413,
+					"left": 491,
+					"width": 128,
+					"height": 45,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Cancel Payment",
+					"top": 413,
+					"left": 343,
+					"width": 134,
+					"height": 45,
+					"events": [
+						"onClick"
+					]
+				},
+				"Static Picture1": {
+					"type": "picture",
+					"top": 235,
+					"left": 263,
+					"width": 208,
+					"height": 158,
+					"picture": "Images/Static Picture1.png",
+					"pictureFormat": "scaled"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Tender Amount",
+					"top": 73,
+					"left": 32,
+					"width": 181,
+					"height": 15
+				},
+				"Input": {
+					"type": "input",
+					"left": 32,
+					"top": 98,
+					"width": 202,
+					"height": 16
+				},
+				"Input1": {
+					"type": "input",
+					"left": 205,
+					"top": 143,
+					"width": 1,
+					"height": 16
+				},
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"left": 32,
+					"top": 128,
+					"width": 202,
+					"height": 31,
+					"events": [
+						"onDataChange"
+					],
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/PaymentTypes"
+					}
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 263,
+					"top": 77,
+					"width": 203,
+					"height": 138,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Payment Type"
+							},
+							"name": "Column2",
+							"width": 113,
+							"footer": {
+								"name": "Footer2"
+							}
+						},
+						{
+							"header": {
+								"text": "Amount",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"width": 72
+						}
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Pay",
+					"top": 203,
+					"left": 38,
+					"width": 74,
+					"height": 32,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"inheritedFormTable": "Point of Sale",
+	"geometryStamp": 51,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

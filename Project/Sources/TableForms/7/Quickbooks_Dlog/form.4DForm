@@ -1,0 +1,321 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 900,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 890,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 124,
+					"left": 69,
+					"width": 180,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Check Date"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 347,
+					"left": 410,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 347,
+					"left": 310,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "cancel",
+					"text": "Cancel",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"vCheckDate": {
+					"type": "input",
+					"top": 124,
+					"left": 259,
+					"width": 148,
+					"height": 16,
+					"dataSource": "vCheckDate",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 150,
+					"left": 69,
+					"width": 180,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Starting Check Number"
+				},
+				"vStartingCheckNum": {
+					"type": "input",
+					"top": 150,
+					"left": 259,
+					"width": 148,
+					"height": 16,
+					"dataSource": "vStartingCheckNum",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 124,
+					"left": 413,
+					"width": 116,
+					"height": 15,
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"text": "MM/DD/YYYY"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 175,
+					"left": 69,
+					"width": 180,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Bank Account Name*"
+				},
+				"vBankAccount": {
+					"type": "input",
+					"top": 175,
+					"left": 259,
+					"width": 148,
+					"height": 16,
+					"dataSource": "vBankAccount",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 283,
+					"left": 36,
+					"width": 451,
+					"height": 55,
+					"text": "**If you have negative check amounts, this will convert them to .01 and remove the $10 fee so that it will import to Quickbooks and not mess up your check numbers.  You can void these in Quickbooks after import."
+				},
+				"Text5": {
+					"type": "text",
+					"top": 201,
+					"left": -49,
+					"width": 300,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "How did you sort your checks?"
+				},
+				"vCheckSort": {
+					"type": "input",
+					"top": 201,
+					"left": 259,
+					"width": 147,
+					"height": 18,
+					"dataSource": "vCheckSort",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/CheckSort"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 13,
+					"left": 6,
+					"width": 57,
+					"height": 68,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.emf"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 23,
+					"left": 83,
+					"width": 471,
+					"height": 83,
+					"stroke": "#009900",
+					"fontFamily": "Segoe UI",
+					"fontSize": 28,
+					"fontWeight": "bold",
+					"text": "Export Checks for Quickbooks"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 231,
+					"left": -49,
+					"width": 300,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Printing Checks in Quickbooks?"
+				},
+				"vQBPrinting": {
+					"type": "input",
+					"top": 231,
+					"left": 259,
+					"width": 147,
+					"height": 18,
+					"dataSource": "vQBPrinting",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/YesNo"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 260,
+					"left": 36,
+					"width": 451,
+					"height": 15,
+					"text": "*Must match the account name in Quickbooks"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

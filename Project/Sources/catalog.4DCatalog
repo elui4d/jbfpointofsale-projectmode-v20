@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="JBF_v19" uuid="C729ACDA53883C439F2E8AB22DDA66A0" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Consignors" uuid="5806AEEEC144B64E9DF5B75833656406" id="1">
+		<field name="Consignor Number" uuid="28BFCC7D17A3A740B2B5ABD99322B602" type="10" limiting_length="7" unique="true" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="First Name" uuid="C3918D7C998AD54B832CD6CB55D5D6EA" type="10" limiting_length="20" never_null="true" id="2"/>
+		<field name="Last Name" uuid="878BF05F91CCD646A3FBF39E8CB3A63C" type="10" limiting_length="30" never_null="true" id="3"/>
+		<field name="Address1" uuid="453F1130FAAE644F9BDB15D5A0650846" type="10" limiting_length="50" never_null="true" id="4"/>
+		<field name="filler" uuid="D09E16AC1A860E43A1ACB5B25D364E06" type="10" limiting_length="2" never_null="true" id="5">
+			<field_extra visible="false"/>
+		</field>
+		<field name="City" uuid="09BAB8627E1B51479696CAAC8F6A7DF6" type="10" limiting_length="30" never_null="true" id="6"/>
+		<field name="State" uuid="4F5783F2DB6A664F894A955E58531987" type="10" limiting_length="30" never_null="true" id="7"/>
+		<field name="Zip" uuid="D5A43BFBB9D2CC469E0C53E0007B0DA9" type="10" limiting_length="10" never_null="true" id="8"/>
+		<field name="Home Phone" uuid="4922CDCC4CF85E499EC6115ED4979313" type="10" limiting_length="20" never_null="true" id="9"/>
+		<field name="Cell Phone" uuid="03F478FE29A04941831D9BD53D374EF0" type="10" limiting_length="20" never_null="true" id="10"/>
+		<field name="Work Phone" uuid="283B570FAFF36A428324E9A5C66E2A20" type="10" limiting_length="20" never_null="true" id="11"/>
+		<field name="Referred By" uuid="81CF25879B2D4040BB784B93F07047CF" type="10" limiting_length="50" never_null="true" id="12"/>
+		<field name="Email Address" uuid="A235085547DF1E48B876DEAAE5AD5CD1" type="10" limiting_length="50" never_null="true" id="13"/>
+		<field name="Percent" uuid="F000BC9008CB26429F90C2359090EB8C" type="6" never_null="true" id="14"/>
+		<field name="Envelope" uuid="A6BD3DD84854194D91AE19B8C576E817" type="1" never_null="true" id="15"/>
+		<field name="Consigning this sale" uuid="854BB7958BA0994CBD498C43D86D5E04" type="1" never_null="true" id="16"/>
+		<field name="Consignor Fee" uuid="606B41AEF21FF645AEF5B493EC4846DB" type="6" never_null="true" id="17"/>
+		<field name="DataChanged" uuid="898BD8CB3F22F74AB6EBC4B4852C8443" type="1" never_null="true" id="18"/>
+		<field name="Check_Total" uuid="9D47DD5F2D4417478C041292F4E53E86" type="6" never_null="true" id="19"/>
+		<field name="Check_TotalText" uuid="7EB704AAB2BD7E4AAA367E903D7CD4A4" type="10" limiting_length="80" never_null="true" id="20"/>
+		<field name="Check_FirstLastName" uuid="478AF9F231EEB9498D4C9E0AF392C4C0" type="10" limiting_length="80" never_null="true" id="21"/>
+		<field name="Check_Date" uuid="569C3BC00CAA4F47B43D293D09D9DCD8" type="10" limiting_length="80" never_null="true" id="22"/>
+		<field name="Check_CityStateZip" uuid="B469233C4F7C5645B392DAF4D495575C" type="10" limiting_length="50" never_null="true" id="23"/>
+		<field name="Comment" uuid="8920D30F8444BA45BEEE46E0B3FA8346" type="10" never_null="true" id="24"/>
+		<field name="Picked Up" uuid="50BC0B3A7974704790492D16A14AD27E" type="1" never_null="true" id="25"/>
+		<field name="Volunteer" uuid="33C32D50F586F8459194529130530A52" type="1" never_null="true" id="26"/>
+		<field name="New Customer" uuid="FD6A1EE3FE13824AB867261CD1D5878C" type="1" never_null="true" id="27"/>
+		<field name="EmployeeCheck" uuid="6560507278F51F4E99EC039C876FAD79" type="1" never_null="true" id="28"/>
+		<field name="EmployeeCheck_Total" uuid="99546F7F9A08B04EA702CFCF8A1918F1" type="6" never_null="true" id="29"/>
+		<field name="EmployeeCheck_TotalText" uuid="CFC604E00AFE494AA6706F1F1B151EA5" type="10" limiting_length="80" never_null="true" id="30"/>
+		<field name="EmployeeCheck_FirstLastName" uuid="04482E6491D5A64FBDDE65A26E67DF46" type="10" limiting_length="80" never_null="true" id="31"/>
+		<field name="EmployeeCheck_Date" uuid="357510D262DC04488E038F60B5557597" type="10" limiting_length="80" never_null="true" id="32"/>
+		<field name="EmployeeCheck_CityStateZip" uuid="68C0B2680CAD824A925CB8CFE5529BC9" type="10" limiting_length="50" never_null="true" id="33"/>
+		<field name="Donating" uuid="AADBD38DEF9D0743B68763AC1BAF2FDD" type="1" never_null="true" id="34"/>
+		<field name="Center Name" uuid="F3E99F1CF18E4F44AB5066E44F9E9CD9" type="10" limiting_length="50" never_null="true" id="35"/>
+		<field name="Valet" uuid="0BA83B41AE41BF42ADC7F1FBFC2D1657" type="1" never_null="true" id="36"/>
+		<field name="UUID" uuid="C46760CB5F3C984FBDADAC1883C943FC" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="37"/>
+		<primary_key field_name="UUID" field_uuid="C46760CB5F3C984FBDADAC1883C943FC"/>
+		<table_extra input_form="PrintConsignorList" output_form="Input">
+			<editor_table_info displayable_fields_count="41">
+				<color red="255" green="192" blue="192" alpha="255"/>
+				<coordinates left="492" top="103" width="241" height="909"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Sales" uuid="B75744590310994F93577D0D2DA25131" id="2">
+		<field name="Unique Entry ID" uuid="569EEA0A7BA438488FD2DABCE9F72E16" type="10" limiting_length="80" never_null="true" id="1"/>
+		<field name="Sold Price" uuid="A938351FC99E1A4881EF46B33193552D" type="6" never_null="true" id="2"/>
+		<field name="List Price" uuid="52DD58FA4BD22C49AC7B4AB382D02D95" type="6" never_null="true" id="3"/>
+		<field name="Item Description" uuid="211F3B6C96FD0F4F8DCB200EBD919CBE" type="10" limiting_length="80" never_null="true" id="4"/>
+		<field name="Item Size" uuid="8C682A2ABA584E4AAE46CB4A5ADD551F" type="10" limiting_length="10" never_null="true" id="5">
+			<field_extra enumeration_id="12737"/>
+		</field>
+		<field name="Consignor Number" uuid="60A1B2C5DEB30445955514A8A3278539" type="10" limiting_length="7" never_null="true" id="6"/>
+		<field name="Entered Date Stamp" uuid="8561ECC46BF4B449A501D7B98C4E9572" type="8" never_null="true" id="7"/>
+		<field name="Entered Time Stamp" uuid="AD4496B2EA571347803E842554431DA0" type="9" never_null="true" id="8"/>
+		<field name="Barcode" uuid="1D24BB448B73214C8193FFAD67518BEC" type="10" limiting_length="30" never_null="true" id="9"/>
+		<field name="Entered By" uuid="B5DC0FAD29820340A39256F1A8D7CF8A" type="10" limiting_length="50" never_null="true" id="10"/>
+		<field name="Sold Date" uuid="44AA86B3DB2BB741949B1A2B842C1E8C" type="8" never_null="true" id="11"/>
+		<field name="Batch ID" uuid="D597982BBD87764B96D9E95C44910215" type="10" limiting_length="30" never_null="true" id="12"/>
+		<field name="Item Number" uuid="91755C28975A2E46BAF313979BFCAA86" type="4" never_null="true" id="13"/>
+		<field name="Category" uuid="14422C97CB0EF74895C8AEA62FB9B3F5" type="10" limiting_length="50" never_null="true" id="14"/>
+		<field name="PercentOff" uuid="4F459AF70734E543A628AC6E4A7A4919" type="10" limiting_length="20" never_null="true" id="15"/>
+		<field name="Taxed" uuid="8DC31EF4319F4E4AA378AE594135B0D5" type="10" limiting_length="2" never_null="true" id="16"/>
+		<field name="TaxAmount" uuid="C7FE8BED462A594BBB460C8F0AE4CD4C" type="6" never_null="true" id="17"/>
+		<field name="ReturnReason" uuid="B2FCD39C9CFF6B41B0EE2CB5DB6DC122" type="10" limiting_length="255" never_null="true" id="18"/>
+		<field name="AltTaxed" uuid="EBFB1F5610FAD44AB4C783CE6B3F8362" type="10" limiting_length="255" never_null="true" id="19"/>
+		<field name="AltTaxAmount" uuid="7AE49620BC49874C898C8D7F967080C8" type="6" never_null="true" id="20"/>
+		<field name="UUID" uuid="563DB07B8A048941AF77E2D8245C703A" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="21"/>
+		<primary_key field_name="UUID" field_uuid="563DB07B8A048941AF77E2D8245C703A"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="23">
+				<color red="167" green="255" blue="160" alpha="255"/>
+				<coordinates left="782" top="106" width="177" height="532"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Preferences" uuid="7E77BDDDE0772544A0418C93CBCF41F8" id="3">
+		<field name="ID" uuid="007F2D58FB3B2849B0A9571E1458F55D" type="10" limiting_length="20" never_null="true" id="1"/>
+		<field name="DefaultConsignorFee" uuid="B02AA2155C714242AAC151687353CC41" type="6" never_null="true" id="2"/>
+		<field name="DefaultConsignorPercent" uuid="E32C24313A64FA4695FDAE55BDE18799" type="6" never_null="true" id="3"/>
+		<field name="TenDollar" uuid="F2C6EE35ECB43745A32F382DD4B9E40A" type="10" limiting_length="20" never_null="true" id="4"/>
+		<field name="TaxRate" uuid="12B054B9D7673D4692099327609E7E3C" type="6" never_null="true" id="5"/>
+		<field name="Tax Prompt" uuid="4CC2B6C9CD73754680852145F969B997" type="1" never_null="true" id="6"/>
+		<field name="EntryMode" uuid="0CB475031755294A8EF3F813ABBFD1BB" type="10" limiting_length="20" never_null="true" id="7"/>
+		<field name="ReceiptNotes" uuid="2ED06D283FDD014686EE38B17BABFCF1" type="10" never_null="true" id="8"/>
+		<field name="ReceiptCopies" uuid="D2C5DFFA539E114BBDBC38B3F7E770A9" type="3" never_null="true" id="9"/>
+		<field name="PrintDialog" uuid="1D4493F19DF76742B569FEDFFE7F1048" type="1" never_null="true" id="10"/>
+		<field name="ReceiptType" uuid="5FAC4C9357EC0D44B460EC930698B5A4" type="10" limiting_length="20" never_null="true" id="11"/>
+		<field name="DefaultPayRate" uuid="3C9D4D3B43E67A47872AD4FF3E23E866" type="6" never_null="true" id="12"/>
+		<field name="DefaultVolunteerFee" uuid="C01E07534F41FD44A2629A83D76229DC" type="6" never_null="true" id="13"/>
+		<field name="DefaultVolunteerPercent" uuid="362538649183D843B69C1FC786443521" type="6" never_null="true" id="14"/>
+		<field name="Totals_Consignors" uuid="D21E0CF1AA6A6140A9E17258F54B6B06" type="10" limiting_length="10" never_null="true" id="15"/>
+		<field name="Totals_Volunteers" uuid="1E7DF2938F764C41AADDFE346052638C" type="10" limiting_length="10" never_null="true" id="16"/>
+		<field name="Totals_GrossSales" uuid="F6B725216FEECC4E9074D62B27AA6104" type="10" limiting_length="10" never_null="true" id="17"/>
+		<field name="Totals_NetSales" uuid="17F4C114A1597242B2B8D76F9A6E0E50" type="10" limiting_length="10" never_null="true" id="18"/>
+		<field name="AltTaxRate" uuid="C015B01ACC86D341AE43B603B7775247" type="6" never_null="true" id="19"/>
+		<field name="ePNJPOS_Enabled" uuid="FDFBD55FAB52CD44807478ED9A2A43ED" type="1" never_null="true" id="20"/>
+		<field name="ePNJPOS_Path" uuid="D8D1D6B3865E814DA297208A6545AA88" type="10" limiting_length="255" never_null="true" id="21"/>
+		<field name="ePNJPOS_Clerk" uuid="EF70417F6905EC49973D7A327131FA04" type="10" limiting_length="255" never_null="true" id="22"/>
+		<field name="ePNJPOS_Password" uuid="16728AC644592A4C9BF6ECA4B9676F93" type="10" limiting_length="255" never_null="true" id="23"/>
+		<field name="VerifyInventory" uuid="534B6486299F5941AEF877A7B309761D" type="1" never_null="true" id="24"/>
+		<field name="AutoUploadSales" uuid="70C4BBCF17236746BADC3DBCBEF32827" type="1" never_null="true" id="25"/>
+		<field name="NEW_ePNJPOS_Enabled" uuid="FFCEF5FF6C79C546876372717F26FEFD" type="1" never_null="true" id="26"/>
+		<field name="VerifyTag" uuid="25CA6FC83070714A984C709C5F7F2A13" type="1" never_null="true" id="27"/>
+		<field name="Transax_Enabled" uuid="B95F694B9556834A957D5CE8712A140C" type="1" never_null="true" id="28"/>
+		<field name="ccLicense" uuid="175D7F8582F3C24CB0FA0FBF0275E8E1" type="10" limiting_length="255" never_null="true" id="29"/>
+		<field name="FTPPath" uuid="2ACA41E25A76294AB703B354266778BA" type="10" limiting_length="255" never_null="true" id="30"/>
+		<field name="CenterName" uuid="CBF0BA7285EF2741BAE9F38ECBEC5886" type="10" limiting_length="255" never_null="true" id="31"/>
+		<field name="Transax_AccountNumber" uuid="1DCE6CC7876C274C9CB2B10AF92EAED7" type="10" limiting_length="255" never_null="true" id="32"/>
+		<field name="UUID" uuid="6E4650676646564A93904DAEA48309DA" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="33"/>
+		<field name="Computer" uuid="268020B73FD78F4ABDF78A20BAA7FE5B" type="10" limiting_length="255" never_null="true" id="34"/>
+		<primary_key field_name="UUID" field_uuid="6E4650676646564A93904DAEA48309DA"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="38">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="12" top="148" width="244" height="850"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Inventory" uuid="DDDBA5F888EDD2439A2C637B3CC48E40" id="4">
+		<field name="Barcode Item Number" uuid="D2382E166CC0FA439940119AD5321710" type="4" unique="true" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="UserName" uuid="15FA0C72DBD6714795A6944EF2363E05" type="10" limiting_length="50" never_null="true" id="2"/>
+		<field name="Consignor Number" uuid="F71D81778ED12C45870F11F8F678681F" type="10" limiting_length="7" never_null="true" id="3"/>
+		<field name="Item Description" uuid="3D9D181A9CD7574BBE0C9D2BECB8C28B" type="10" limiting_length="50" never_null="true" id="4"/>
+		<field name="Size" uuid="4D411A4AB11A3F4984E768AFEC0740AA" type="10" limiting_length="20" never_null="true" id="5"/>
+		<field name="Price" uuid="5988D358B3BF5D489C329872224D5736" type="6" never_null="true" id="6"/>
+		<field name="Reduce" uuid="DAB1D7A7907386488C44F1787ACE312C" type="1" never_null="true" id="7"/>
+		<field name="Category" uuid="79D6357C706FA54AB064977A42C87890" type="10" limiting_length="50" never_null="true" id="8"/>
+		<field name="Donate" uuid="EF68227DFBE0DD47A7D94BCD31A98A73" type="1" never_null="true" id="9"/>
+		<field name="Created Date" uuid="07771494B231D44DA08847F4A3BF0E76" type="8" never_null="true" id="10"/>
+		<field name="UUID" uuid="AB8937E27F0D5E41B6D214007846952E" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="11"/>
+		<primary_key field_name="UUID" field_uuid="AB8937E27F0D5E41B6D214007846952E"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="13">
+				<color red="192" green="202" blue="255" alpha="255"/>
+				<coordinates left="1150" top="109" width="186" height="334"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Point of Sale" uuid="B39BF0DD3C6DCB46BB24B80DA2556D5A" id="5">
+		<field name="Batch ID" uuid="E3C8E07A25B1CA4EAD61B9BCE42438E8" type="10" limiting_length="20" unique="true" never_null="true" id="1">
+			<field_extra modifiable="false" mandatory="true"/>
+		</field>
+		<field name="Entered By" uuid="EF2FAAF2B90E0F449DD6AAD7507B05DD" type="10" limiting_length="50" never_null="true" id="2"/>
+		<field name="Entered Time Stamp" uuid="9388B98EE6F86B4F829BD42C0D481986" type="9" never_null="true" id="3"/>
+		<field name="Entered Date Stamp" uuid="150FB252DBDFE74FB8A47F124533AF4A" type="8" never_null="true" id="4"/>
+		<field name="Sold Date" uuid="BA569FAAC9EBC448A96D27D81AD8DD6C" type="8" never_null="true" id="5"/>
+		<field name="NewCount" uuid="C91F8846FFF07E4CB9005CD548A728EA" type="3" never_null="true" id="6"/>
+		<field name="Computer Number" uuid="E2F83E9FA077DC40AC8732DAF5F95690" type="10" limiting_length="50" never_null="true" id="7"/>
+		<field name="ReduceBy" uuid="AC49538BC385F54F842F816DA7B1B3FC" type="6" never_null="true" id="8"/>
+		<field name="Shopper First Name" uuid="47078FACC6AF3B4289D3DF706575D6DE" type="10" limiting_length="10" never_null="true" id="9"/>
+		<field name="Shopper Last Name" uuid="684A5D9F6142D44680D4CCEF767B120C" type="10" limiting_length="20" never_null="true" id="10"/>
+		<field name="Shopper Address1" uuid="A2FC76B5648C0E488FF766C661D89DCB" type="10" limiting_length="50" never_null="true" id="11"/>
+		<field name="Shopper City" uuid="A3CA0E9BC538ED4AB5907E5E661DEE91" type="10" limiting_length="20" never_null="true" id="12"/>
+		<field name="Shopper State" uuid="54C7D28A144FEA4A9D4053CFFB46DBF5" type="10" limiting_length="20" never_null="true" id="13"/>
+		<field name="Shopper Zip" uuid="8888D8ABACCF0E4AAE4677EB51648136" type="10" limiting_length="20" never_null="true" id="14"/>
+		<field name="Shopper Phone" uuid="831E792F13D5BD4EB4A96396F3F99849" type="10" limiting_length="20" never_null="true" id="15"/>
+		<field name="Taxed" uuid="7EE471E89CC3EB4D88DBB720DA470383" type="1" never_null="true" id="16"/>
+		<field name="Payment Method" uuid="2E5200423ED65741BB50BB21835F459A" type="10" limiting_length="50" never_null="true" id="17"/>
+		<field name="Comments" uuid="59DE8DD4798B0C4C955DAE2B834A3FB0" type="10" never_null="true" id="18"/>
+		<field name="Paid_Cash" uuid="120E1FF54D3F2449B0C852AED0E59B54" type="6" never_null="true" id="19"/>
+		<field name="Paid_Check" uuid="A24CC20FD659874AAE837A0FC665413B" type="6" never_null="true" id="20"/>
+		<field name="Paid_Visa" uuid="6EBCE7EBE47CBB4CA6D0634D768D39A3" type="6" never_null="true" id="21"/>
+		<field name="Paid_Mastercard" uuid="3C750EF119B2F640900770D3F6FA579B" type="6" never_null="true" id="22"/>
+		<field name="Paid_Discover" uuid="28913A0CAA635B4C809BFDC8EC6A8306" type="6" never_null="true" id="23"/>
+		<field name="Paid_AMEX" uuid="8E0B72CAC3A19F4AA12801246694FB02" type="6" never_null="true" id="24"/>
+		<field name="Paid_GiftCard" uuid="0DC2723AA7824B43AD93DB87EBC32DDC" type="6" never_null="true" id="25"/>
+		<field name="Paid_IOU" uuid="B5A2AE7F91A0EC46B4855FA6CA61A316" type="6" never_null="true" id="26"/>
+		<field name="Shopper Email" uuid="26927870C93A5E49B6C35F4F4D590BE4" type="10" limiting_length="30" never_null="true" id="27"/>
+		<field name="Paid_ChangeDue" uuid="1B47498D77FF204C8B49A2E6571F27A4" type="6" never_null="true" id="28"/>
+		<field name="Paid_Other" uuid="B846DF2FC13AC149A6AB29F6A39B9BB2" type="6" never_null="true" id="29"/>
+		<field name="CCTrans" uuid="BE46A48EFBF37D45B116E8D52079EE0E" type="10" limiting_length="255" never_null="true" id="30"/>
+		<field name="UUID" uuid="6FD9E02DD80C7A49A4D2B9AA37123285" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="31"/>
+		<primary_key field_name="UUID" field_uuid="6FD9E02DD80C7A49A4D2B9AA37123285"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="33">
+				<color red="255" green="255" blue="192" alpha="255"/>
+				<coordinates left="984" top="423" width="175" height="748"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Sequence" uuid="5232DCE6E08D00489690124459D49802" id="6">
+		<field name="Type" uuid="9CB3263612FE3A47892D57685E79DB2C" type="10" limiting_length="20" never_null="true" id="1"/>
+		<field name="Sequence Number" uuid="26F5B8379F218C4CAD16C9AE2E44930E" type="4" never_null="true" id="2"/>
+		<field name="UUID" uuid="7A34E4689D834E41A8A71B31D65C2FC9" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="3"/>
+		<primary_key field_name="UUID" field_uuid="7A34E4689D834E41A8A71B31D65C2FC9"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="7">
+				<color red="255" green="240" blue="223" alpha="255"/>
+				<coordinates left="62" top="935" width="206" height="197"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Dialogs" uuid="9E02A1DA05C9224A9A82BEA7855C0D2E" id="7">
+		<field name="UUID" uuid="0CFF8E7E103B1A4CA0DAC4F832BD0267" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<primary_key field_name="UUID" field_uuid="0CFF8E7E103B1A4CA0DAC4F832BD0267"/>
+		<table_extra input_form="CheckIn" output_form="Output">
+			<editor_table_info displayable_fields_count="9">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="1269" top="560" width="120" height="250"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="INTERFACE" uuid="B3A8F9C4DD532D499B961648653022D5" id="8">
+		<field name="UUID" uuid="AC867FA69483CA479988923B7B1D1642" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<primary_key field_name="UUID" field_uuid="AC867FA69483CA479988923B7B1D1642"/>
+		<table_extra input_form="CLND_CalendarSet" output_form="">
+			<editor_table_info displayable_fields_count="6">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="197" top="0" width="190" height="171"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Volunteers" uuid="C57318745955C545BBB2C6E64AC166B4" id="9">
+		<field name="Consignor Number" uuid="1A135989B4115B41BFCD4FA6971F3301" type="10" limiting_length="7" never_null="true" id="1"/>
+		<field name="First Name" uuid="F24BCB1FDB2893498BCF2FDE7AC457C1" type="10" limiting_length="30" never_null="true" id="2"/>
+		<field name="Last Name" uuid="82319663A72B9442B4A6D50DA504C65D" type="10" limiting_length="30" never_null="true" id="3"/>
+		<field name="Shift Name" uuid="24D9ABC4AA362F4F9999945D3DD55FC0" type="10" limiting_length="50" never_null="true" id="4"/>
+		<field name="Category" uuid="E5C920EF6C7C344E9381EF80DFDE77AD" type="10" limiting_length="50" never_null="true" id="5"/>
+		<field name="Date" uuid="3FA4CD9BF2238944880610751E024A5A" type="8" never_null="true" id="6"/>
+		<field name="Scheduled Time" uuid="12BD7C26D678F74887BC0A3DA9EE7116" type="10" limiting_length="30" never_null="true" id="7"/>
+		<field name="In Time" uuid="748BBBE72168CB46B7D2ED050A811EBB" type="10" limiting_length="30" never_null="true" id="8"/>
+		<field name="Out Time" uuid="0CB7867AD660BA458814E50D5E03AE1A" type="10" limiting_length="30" never_null="true" id="9"/>
+		<field name="Complete" uuid="F4418727A0C1494A98B89736357E8842" type="1" never_null="true" id="10"/>
+		<field name="Comments" uuid="DF1D4C3C95DB9741B9598EF9299A7014" type="10" never_null="true" id="11"/>
+		<field name="Paid Job" uuid="96AA609E273C6F4692AB3E28279DA772" type="1" never_null="true" id="12"/>
+		<field name="Pay Rate" uuid="C7FC078FED004846B5B149A935B7E246" type="6" never_null="true" id="13"/>
+		<field name="Pass" uuid="C488C07ED1B0D74D88196A0258ED7F6F" type="1" never_null="true" id="14"/>
+		<field name="Money Earned" uuid="DBE9F6C9B3751945AA905C72F1548816" type="6" never_null="true" id="15"/>
+		<field name="TimeWorked" uuid="C49976EA5AB2864296BDD16FEAA1AED0" type="9" never_null="true" id="16"/>
+		<field name="UUID" uuid="D212D65B01164C418E469DB2EFFD3D5F" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="17"/>
+		<primary_key field_name="UUID" field_uuid="D212D65B01164C418E469DB2EFFD3D5F"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="20">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="334" top="110" width="168" height="472"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Cash" uuid="B1AD682B2821D34C94FBFF541B960B84" id="10">
+		<field name="Date" uuid="A96443DFD7022B499B5F4BB9AAF2E8E2" type="8" never_null="true" id="1"/>
+		<field name="Time" uuid="015605D507312347A1BDEF9F78727ADB" type="9" never_null="true" id="2"/>
+		<field name="Cash" uuid="B9FD7927BA7CAF40B8EF45AF950372C3" type="6" never_null="true" id="3"/>
+		<field name="Reason" uuid="5B92305729C0D248B13503F695018035" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="UUID" uuid="900FAD1CDC593D4EB0A6C75128D9F98D" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="5"/>
+		<primary_key field_name="UUID" field_uuid="900FAD1CDC593D4EB0A6C75128D9F98D"/>
+		<table_extra input_form="CashManagement" output_form="CashManagement">
+			<editor_table_info displayable_fields_count="7">
+				<color red="150" green="216" blue="175" alpha="255"/>
+				<coordinates left="350" top="609" width="135" height="194"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="KPI" uuid="2C8EEFF71FE13A4EA6F9CFC3A70D218C" id="11">
+		<field name="Territory" uuid="49D3D85B615B4A418FE6EFDAD5B08538" type="10" limiting_length="255" never_null="true" id="1"/>
+		<field name="FranchiseeName" uuid="67AF1FF9A0F6FA4ABA99B33995F9F9BF" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="FranchiseePhone" uuid="BDE7A428E38B88428870F93AC8671099" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="PreviousSaleDate" uuid="DB6CD5E723B0824DBEBD03135D56BD8F" type="8" never_null="true" id="4"/>
+		<field name="SeasonDropDown" uuid="AB6EC1423017704DB868AC2C1A19C89C" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="SaleSeason" uuid="7DA1C72F82DF6E42B3F0FF4263BCA6D4" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Charity" uuid="A7FA20619CFE724FB7FC463F773D38CC" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="NumConsignorSignups" uuid="2898292EC09B1343870DA2765BEBED7A" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="NumBarters" uuid="6B6F3218F8C62C4D94F6C15D46FD6C77" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="NumBarterHours" uuid="98A53C286797654A9EAD6CCA007A6986" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="NumVolunteers" uuid="10334B7029178A4396713137DB9761E6" type="10" limiting_length="255" never_null="true" id="11"/>
+		<field name="NumVolunteerHours" uuid="7CC1CDCC72A98C4ABF69C5772ECCEEF6" type="10" limiting_length="255" never_null="true" id="12"/>
+		<field name="NumVolunteersConsigned" uuid="5807393980EF1F4F89EEE15421AACF27" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="NumPaidStaff" uuid="456FE8AD87AA654FB6726D2E9393B906" type="10" limiting_length="255" never_null="true" id="14"/>
+		<field name="TotalEmployeeHours" uuid="EEE2D114010F5443AECE8E0FBB8977E8" type="10" limiting_length="255" never_null="true" id="15"/>
+		<field name="DaysOpen" uuid="24DF14BC98819F41BDFE1BB4B3899E30" type="10" limiting_length="255" never_null="true" id="16"/>
+		<field name="PresaleHours" uuid="AF41D0C07F697943992496D7FC293F08" type="10" limiting_length="255" never_null="true" id="17"/>
+		<field name="PublicHours" uuid="BD331B5ED05CF049AB4F4FC05293200E" type="10" limiting_length="255" never_null="true" id="18"/>
+		<field name="VenueSize" uuid="62CB74E209806C4AB3F5BAD353D91D73" type="10" limiting_length="255" never_null="true" id="19"/>
+		<field name="NumVendors" uuid="05D0C1773DA0A943BC43A194A47E5FC0" type="10" limiting_length="255" never_null="true" id="20"/>
+		<field name="NumSponsors" uuid="BC4D04BB5C0CE84ABBAFAF4C753A0CF4" type="10" limiting_length="255" never_null="true" id="21"/>
+		<field name="VendorFee" uuid="86C5EE5EE9DB614389AACBD45EFDAFD5" type="10" limiting_length="255" never_null="true" id="22"/>
+		<field name="AdmissionFee" uuid="4367585FFCB7BD44ACF3E4A4D132B3D7" type="10" limiting_length="255" never_null="true" id="23"/>
+		<field name="PrimeTimeAdmissionFee" uuid="F2FE31E4C41BB9438C957F6A03FC1BAF" type="10" limiting_length="255" never_null="true" id="24"/>
+		<field name="NumItemsRejected" uuid="34241C1AE80DDB479C82FC51794E28E0" type="10" limiting_length="255" never_null="true" id="25"/>
+		<field name="NumVIPConsignors" uuid="32A9D228D2E5C34E8EFBA26985E414DE" type="10" limiting_length="255" never_null="true" id="26"/>
+		<field name="NumPOSStations" uuid="C30F3913D62D014898239FC1F7D7CA9E" type="10" limiting_length="255" never_null="true" id="27"/>
+		<field name="NumPartners" uuid="879E97B1933FC343AE5B0DC9D8B86AB8" type="10" limiting_length="255" never_null="true" id="28"/>
+		<field name="NumRecalls" uuid="D2E55BDA7B2465418F69717E1CB3C24C" type="10" limiting_length="255" never_null="true" id="29"/>
+		<field name="ID" uuid="89240901824449458002ADE0AFB5B59F" type="10" limiting_length="255" never_null="true" id="30"/>
+		<field name="HowManySales" uuid="8644E663E196FF47B3438204F1B5E0F1" type="10" limiting_length="255" never_null="true" id="31"/>
+		<field name="UUID" uuid="AB7437711616E848A881BE10BEADCA48" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="32"/>
+		<primary_key field_name="UUID" field_uuid="AB7437711616E848A881BE10BEADCA48"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="33">
+				<color red="252" green="191" blue="73" alpha="255"/>
+				<coordinates left="291" top="933" width="282" height="738.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Computer" uuid="F267CE17EB1CE640B3E88734D10178A9" id="12">
+		<field name="ID" uuid="EDAD72DF70896548818CF08C984799B5" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="F2D939DD461214448C85AE9A516AE5C8" type="10" limiting_length="255" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="EDAD72DF70896548818CF08C984799B5"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="1390" top="109" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="656E54B5C31A554598C513165E209565" name_Nto1="Consignor Number_1_" name_1toN="Consignor Number_1_" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="60A1B2C5DEB30445955514A8A3278539" name="Consignor Number">
+				<table_ref uuid="B75744590310994F93577D0D2DA25131" name="Sales"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="28BFCC7D17A3A740B2B5ABD99322B602" name="Consignor Number">
+				<table_ref uuid="5806AEEEC144B64E9DF5B75833656406" name="Consignors"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="A72E952242C0344BA43868FD13A939AB" name_Nto1="Batch ID_2_" name_1toN="Batch ID_2_" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1" integrity="delete">
+		<related_field kind="source">
+			<field_ref uuid="D597982BBD87764B96D9E95C44910215" name="Batch ID">
+				<table_ref uuid="B75744590310994F93577D0D2DA25131" name="Sales"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="E3C8E07A25B1CA4EAD61B9BCE42438E8" name="Batch ID">
+				<table_ref uuid="B39BF0DD3C6DCB46BB24B80DA2556D5A" name="Point of Sale"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="C8AE859C2ECED844B003596624822750" name_Nto1="Consignor Number_3_" name_1toN="Consignor Number_3_" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="1A135989B4115B41BFCD4FA6971F3301" name="Consignor Number">
+				<table_ref uuid="C57318745955C545BBB2C6E64AC166B4" name="Volunteers"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="28BFCC7D17A3A740B2B5ABD99322B602" name="Consignor Number">
+				<table_ref uuid="5806AEEEC144B64E9DF5B75833656406" name="Consignors"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="01579E2D7C8AAC4EA7CF8D542568F5D7" type="7">
+		<field_ref uuid="D2382E166CC0FA439940119AD5321710" name="Barcode Item Number">
+			<table_ref uuid="DDDBA5F888EDD2439A2C637B3CC48E40" name="Inventory"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="02D7ACED0B28314086E4DB1BC616DFA9" type="7">
+		<field_ref uuid="EDAD72DF70896548818CF08C984799B5" name="ID">
+			<table_ref uuid="F267CE17EB1CE640B3E88734D10178A9" name="Computer"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="12B7B842816E1F4EA80A2FBE4853B689" type="7">
+		<field_ref uuid="D597982BBD87764B96D9E95C44910215" name="Batch ID">
+			<table_ref uuid="B75744590310994F93577D0D2DA25131" name="Sales"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="1929B66ABB54674FAFEFA6821F781BFE" type="1">
+		<field_ref uuid="AC867FA69483CA479988923B7B1D1642" name="UUID">
+			<table_ref uuid="B3A8F9C4DD532D499B961648653022D5" name="INTERFACE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="2786C261C646864CA6FFF8FE51290942" type="7">
+		<field_ref uuid="91755C28975A2E46BAF313979BFCAA86" name="Item Number">
+			<table_ref uuid="B75744590310994F93577D0D2DA25131" name="Sales"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3AE630ED34853947B90AFF2E3693F4A9" type="7">
+		<field_ref uuid="60A1B2C5DEB30445955514A8A3278539" name="Consignor Number">
+			<table_ref uuid="B75744590310994F93577D0D2DA25131" name="Sales"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="433A62BAC0998248B1CF5F2425E3DC77" type="7">
+		<field_ref uuid="0CFF8E7E103B1A4CA0DAC4F832BD0267" name="UUID">
+			<table_ref uuid="9E02A1DA05C9224A9A82BEA7855C0D2E" name="Dialogs"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="46E6DADCFCCD824C862D1D4D8ACA7698" type="7">
+		<field_ref uuid="900FAD1CDC593D4EB0A6C75128D9F98D" name="UUID">
+			<table_ref uuid="B1AD682B2821D34C94FBFF541B960B84" name="Cash"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="50CF050BCDBF454B915AE8E7F6DB5A39" type="7">
+		<field_ref uuid="F71D81778ED12C45870F11F8F678681F" name="Consignor Number">
+			<table_ref uuid="DDDBA5F888EDD2439A2C637B3CC48E40" name="Inventory"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="64E96F501A98934AB342187BE1D3E841" type="7">
+		<field_ref uuid="D212D65B01164C418E469DB2EFFD3D5F" name="UUID">
+			<table_ref uuid="C57318745955C545BBB2C6E64AC166B4" name="Volunteers"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="673C4F34F0A12743B03B869CE9E122B7" type="7">
+		<field_ref uuid="28BFCC7D17A3A740B2B5ABD99322B602" name="Consignor Number">
+			<table_ref uuid="5806AEEEC144B64E9DF5B75833656406" name="Consignors"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="70084C4D708C9C44BD994D1FA810FA00" type="7">
+		<field_ref uuid="6FD9E02DD80C7A49A4D2B9AA37123285" name="UUID">
+			<table_ref uuid="B39BF0DD3C6DCB46BB24B80DA2556D5A" name="Point of Sale"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="7A1AE06ECAEA3041ACAF68E94807A187" type="7">
+		<field_ref uuid="C46760CB5F3C984FBDADAC1883C943FC" name="UUID">
+			<table_ref uuid="5806AEEEC144B64E9DF5B75833656406" name="Consignors"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="83C7A34C63713740A1326A814B3D7B45" type="7">
+		<field_ref uuid="569EEA0A7BA438488FD2DABCE9F72E16" name="Unique Entry ID">
+			<table_ref uuid="B75744590310994F93577D0D2DA25131" name="Sales"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="8AEDB4F19C259E488F2065320B05FB28" type="7">
+		<field_ref uuid="E3C8E07A25B1CA4EAD61B9BCE42438E8" name="Batch ID">
+			<table_ref uuid="B39BF0DD3C6DCB46BB24B80DA2556D5A" name="Point of Sale"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="9AB670D30DF85842B776EDCA051FAAB0" type="7">
+		<field_ref uuid="1A135989B4115B41BFCD4FA6971F3301" name="Consignor Number">
+			<table_ref uuid="C57318745955C545BBB2C6E64AC166B4" name="Volunteers"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="9DB79666398EE54E848003D0D1C9C3A1" type="7">
+		<field_ref uuid="7A34E4689D834E41A8A71B31D65C2FC9" name="UUID">
+			<table_ref uuid="5232DCE6E08D00489690124459D49802" name="Sequence"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="9E7FE993B5A805448D787BB0D7A12B81" type="7">
+		<field_ref uuid="AB7437711616E848A881BE10BEADCA48" name="UUID">
+			<table_ref uuid="2C8EEFF71FE13A4EA6F9CFC3A70D218C" name="KPI"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="B61BBCAD9302BE46B5D85060F02BE9CF" type="7">
+		<field_ref uuid="AB8937E27F0D5E41B6D214007846952E" name="UUID">
+			<table_ref uuid="DDDBA5F888EDD2439A2C637B3CC48E40" name="Inventory"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C6F0141263306C48B360D2649A7CA61B" type="7">
+		<field_ref uuid="1D24BB448B73214C8193FFAD67518BEC" name="Barcode">
+			<table_ref uuid="B75744590310994F93577D0D2DA25131" name="Sales"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C9976084444C0F4898A7872C558B017C" type="1">
+		<field_ref uuid="563DB07B8A048941AF77E2D8245C703A" name="UUID">
+			<table_ref uuid="B75744590310994F93577D0D2DA25131" name="Sales"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E26949B18949FC41BD04764E38392C2B" type="7">
+		<field_ref uuid="6E4650676646564A93904DAEA48309DA" name="UUID">
+			<table_ref uuid="7E77BDDDE0772544A0418C93CBCF41F8" name="Preferences"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path="\TestData.4DD"/>
+</base>

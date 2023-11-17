@@ -1,0 +1,1519 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"menuBar": "Menu Bar #2",
+	"markerBody": 499,
+	"markerBreak": 499,
+	"markerFooter": 509,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onUnload",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 1660,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 21,
+					"left": 9,
+					"width": 308,
+					"height": 64,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/consignors (31817).png"
+				},
+				"Tab Control1": {
+					"type": "tab",
+					"top": 299,
+					"left": 5,
+					"width": 1008,
+					"height": 334,
+					"dataSource": "Tab Control1",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Sold Items",
+						"Unsold Items",
+						"Comments",
+						"Volunteer"
+					],
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 104,
+					"left": 729,
+					"width": 265,
+					"height": 143,
+					"fill": "transparent",
+					"stroke": "#7F93FF"
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 104,
+					"left": 389,
+					"width": 285,
+					"height": 143,
+					"fill": "transparent",
+					"stroke": "#7F93FF"
+				},
+				"vRecNum": {
+					"type": "input",
+					"top": 79,
+					"left": 911,
+					"width": 100,
+					"height": 15,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Text25": {
+					"type": "text",
+					"top": 109,
+					"left": 27,
+					"width": 120,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Consignor Number"
+				},
+				"Text26": {
+					"type": "text",
+					"top": 137,
+					"left": 27,
+					"width": 120,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "First Name"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 165,
+					"left": 27,
+					"width": 120,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Last Name"
+				},
+				"Text28": {
+					"type": "text",
+					"top": 117,
+					"left": 367,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Address1"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 141,
+					"left": 367,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "City"
+				},
+				"Text31": {
+					"type": "text",
+					"top": 165,
+					"left": 367,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "State"
+				},
+				"Text32": {
+					"type": "text",
+					"top": 189,
+					"left": 367,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Zip"
+				},
+				"Text33": {
+					"type": "text",
+					"top": 117,
+					"left": 747,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Home Phone"
+				},
+				"Text34": {
+					"type": "text",
+					"top": 141,
+					"left": 747,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Cell Phone"
+				},
+				"Text35": {
+					"type": "text",
+					"top": 165,
+					"left": 747,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Work Phone"
+				},
+				"Text37": {
+					"type": "text",
+					"top": 189,
+					"left": 727,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Email Address"
+				},
+				"Text38": {
+					"type": "text",
+					"top": 276,
+					"left": 798,
+					"width": 120,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Percent"
+				},
+				"Consignor Number": {
+					"type": "input",
+					"top": 107,
+					"left": 152,
+					"width": 86,
+					"height": 20,
+					"dataSource": "[Consignors:1]Consignor Number:1",
+					"stroke": "#EE0000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"First Name": {
+					"type": "input",
+					"top": 136,
+					"left": 152,
+					"width": 200,
+					"height": 20,
+					"dataSource": "[Consignors:1]First Name:2",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"keyboardDialect": "en",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Last Name": {
+					"type": "input",
+					"top": 165,
+					"left": 152,
+					"width": 200,
+					"height": 20,
+					"dataSource": "[Consignors:1]Last Name:3",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Address1": {
+					"type": "input",
+					"top": 117,
+					"left": 452,
+					"width": 200,
+					"height": 15,
+					"dataSource": "[Consignors:1]Address1:4",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"City": {
+					"type": "input",
+					"top": 141,
+					"left": 452,
+					"width": 200,
+					"height": 15,
+					"dataSource": "[Consignors:1]City:6",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"State": {
+					"type": "input",
+					"top": 165,
+					"left": 452,
+					"width": 36,
+					"height": 15,
+					"dataSource": "[Consignors:1]State:7",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Zip": {
+					"type": "input",
+					"top": 189,
+					"left": 452,
+					"width": 80,
+					"height": 15,
+					"dataSource": "[Consignors:1]Zip:8",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Home Phone": {
+					"type": "input",
+					"top": 117,
+					"left": 812,
+					"width": 160,
+					"height": 15,
+					"dataSource": "[Consignors:1]Home Phone:9",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Cell Phone": {
+					"type": "input",
+					"top": 141,
+					"left": 812,
+					"width": 160,
+					"height": 15,
+					"dataSource": "[Consignors:1]Cell Phone:10",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Work Phone": {
+					"type": "input",
+					"top": 165,
+					"left": 812,
+					"width": 160,
+					"height": 15,
+					"dataSource": "[Consignors:1]Work Phone:11",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Email Address": {
+					"type": "input",
+					"top": 189,
+					"left": 812,
+					"width": 160,
+					"height": 15,
+					"dataSource": "[Consignors:1]Email Address:13",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Percent": {
+					"type": "input",
+					"top": 276,
+					"left": 923,
+					"width": 49,
+					"height": 15,
+					"dataSource": "[Consignors:1]Percent:14",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Consigning this sale": {
+					"type": "checkbox",
+					"top": 192,
+					"left": 151,
+					"width": 40,
+					"height": 25,
+					"dataSource": "[Consignors:1]Consigning this sale:16",
+					"text": " ",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text14": {
+					"type": "text",
+					"top": 300,
+					"left": 838,
+					"width": 80,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Fee"
+				},
+				"Percent1": {
+					"type": "input",
+					"top": 300,
+					"left": 923,
+					"width": 49,
+					"height": 15,
+					"dataSource": "[Consignors:1]Consignor Fee:17",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 634,
+					"left": 828,
+					"width": 160,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Changed"
+				},
+				"Envelope1": {
+					"type": "checkbox",
+					"top": 634,
+					"left": 993,
+					"width": 60,
+					"height": 16,
+					"dataSource": "[Consignors:1]DataChanged:18",
+					"text": " ",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 3,
+					"left": 329,
+					"width": 3,
+					"height": 86,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 1870,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"b6": {
+					"type": "button",
+					"top": 9,
+					"left": 686,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bDelete",
+					"action": "deleteRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Delete",
+					"icon": "/RESOURCES/Images/library/XP Delete Selection.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/b6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bSave": {
+					"type": "button",
+					"top": 9,
+					"left": 850,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bSave",
+					"action": "accept",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Save & Exit",
+					"icon": "/RESOURCES/Images/library/Save.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/bSave.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"b1": {
+					"type": "button",
+					"top": 9,
+					"left": 341,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bFirst",
+					"action": "firstRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "First",
+					"icon": "/RESOURCES/Images/library/FirstRecord.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"b2": {
+					"type": "button",
+					"top": 9,
+					"left": 423,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bPrev",
+					"action": "previousRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Previous",
+					"icon": "/RESOURCES/Images/library/Previous.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"b3": {
+					"type": "button",
+					"top": 9,
+					"left": 505,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bnext",
+					"action": "nextRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Next",
+					"icon": "/RESOURCES/Images/library/Next.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"b4": {
+					"type": "button",
+					"top": 9,
+					"left": 587,
+					"width": 74,
+					"height": 74,
+					"dataSource": "blast",
+					"action": "lastRecord",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Last",
+					"icon": "/RESOURCES/Images/library/Last.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 3,
+					"left": 671,
+					"width": 3,
+					"height": 86,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"b5": {
+					"type": "button",
+					"top": 9,
+					"left": 768,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Cancel",
+					"icon": "/RESOURCES/Images/library/Cancel.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text16": {
+					"type": "text",
+					"top": 196,
+					"left": 27,
+					"width": 120,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Consigning"
+				},
+				"Picture7": {
+					"type": "picture",
+					"top": 211,
+					"left": 638,
+					"width": 32,
+					"height": 32,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/house.png"
+				},
+				"Picture10": {
+					"type": "picture",
+					"top": 213,
+					"left": 960,
+					"width": 32,
+					"height": 32,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/phone.png"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 212,
+					"left": 746,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Envelope"
+				},
+				"Consigning this sale1": {
+					"type": "checkbox",
+					"top": 207,
+					"left": 811,
+					"width": 40,
+					"height": 25,
+					"dataSource": "[Consignors:1]Envelope:15",
+					"text": " ",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 212,
+					"left": 835,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Team Member"
+				},
+				"Consigning this sale2": {
+					"type": "checkbox",
+					"top": 207,
+					"left": 920,
+					"width": 40,
+					"height": 25,
+					"dataSource": "[Consignors:1]Volunteer:26",
+					"text": " ",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Consigning this sale3": {
+					"type": "checkbox",
+					"top": 241,
+					"left": 151,
+					"width": 40,
+					"height": 25,
+					"dataSource": "[Consignors:1]Picked Up:25",
+					"text": " ",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 245,
+					"left": 67,
+					"width": 80,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Picked Up"
+				},
+				"Consigning this sale4": {
+					"type": "checkbox",
+					"top": 630,
+					"left": 871,
+					"width": 40,
+					"height": 25,
+					"dataSource": "[Consignors:1]New Customer:27",
+					"text": " ",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text15": {
+					"type": "text",
+					"top": 634,
+					"left": 704,
+					"width": 160,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "New Customer"
+				},
+				"Consigning this sale5": {
+					"type": "checkbox",
+					"top": 217,
+					"left": 151,
+					"width": 40,
+					"height": 25,
+					"dataSource": "[Consignors:1]Donating:34",
+					"text": " ",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text17": {
+					"type": "text",
+					"top": 220,
+					"left": 27,
+					"width": 120,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Donating"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 636,
+					"left": -9,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Center Name"
+				},
+				"City1": {
+					"type": "input",
+					"top": 636,
+					"left": 76,
+					"width": 280,
+					"height": 15,
+					"dataSource": "[Consignors:1]Center Name:35",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Consigning this sale6": {
+					"type": "checkbox",
+					"top": 265,
+					"left": 151,
+					"width": 40,
+					"height": 25,
+					"dataSource": "[Consignors:1]Valet:36",
+					"text": " ",
+					"stroke": "#EE0000",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text19": {
+					"type": "text",
+					"top": 268,
+					"left": 27,
+					"width": 120,
+					"height": 15,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "Valet"
+				}
+			},
+			"entryOrder": [
+				"vRecNum",
+				"Consignor Number",
+				"First Name",
+				"Last Name",
+				"Address1",
+				"City",
+				"State",
+				"Zip",
+				"Home Phone",
+				"Cell Phone",
+				"Work Phone",
+				"Email Address",
+				"Percent",
+				"Consigning this sale",
+				"Percent1",
+				"Envelope1",
+				"Consigning this sale1",
+				"Consigning this sale2",
+				"Consigning this sale3",
+				"Consigning this sale4",
+				"Consigning this sale5",
+				"City1",
+				"Consigning this sale6"
+			]
+		},
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 605,
+					"left": 8,
+					"width": 1002,
+					"height": 25,
+					"fill": "#5F78FF",
+					"stroke": "transparent"
+				},
+				"EnterSales": {
+					"type": "subform",
+					"top": 323,
+					"left": 9,
+					"width": 1059,
+					"height": 281,
+					"dataSourceTypeHint": "text",
+					"table": 2,
+					"detailForm": "Input",
+					"listForm": "SalesbyConsignorSubform",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 608,
+					"left": 143,
+					"width": 70,
+					"height": 15,
+					"stroke": "#FFFFFF",
+					"class": "Default",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Items Sold"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 608,
+					"left": 215,
+					"width": 84,
+					"height": 16,
+					"dataSource": "vItemsSold",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 608,
+					"left": 324,
+					"width": 89,
+					"height": 15,
+					"stroke": "#FFFFFF",
+					"class": "Default",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Gross Sales"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 608,
+					"left": 415,
+					"width": 84,
+					"height": 16,
+					"dataSource": "vGrossSales",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 608,
+					"left": 504,
+					"width": 89,
+					"height": 15,
+					"stroke": "#FFFFFF",
+					"class": "Default",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Net  Sales"
+				},
+				"Field3": {
+					"type": "input",
+					"top": 608,
+					"left": 596,
+					"width": 84,
+					"height": 16,
+					"dataSource": "vNetSales",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text13": {
+					"type": "text",
+					"top": 608,
+					"left": 692,
+					"width": 89,
+					"height": 15,
+					"stroke": "#FFFFFF",
+					"class": "Default",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Check Total"
+				},
+				"Field4": {
+					"type": "input",
+					"top": 608,
+					"left": 783,
+					"width": 84,
+					"height": 16,
+					"dataSource": "vCheckTotal",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Picture9": {
+					"type": "picture",
+					"top": 280,
+					"left": 389,
+					"width": 158,
+					"height": 36,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/sales (31820).png"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 299,
+					"left": 551,
+					"width": 200,
+					"height": 15,
+					"textAlign": "left",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "(All SOLD items for this consignor)"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 220,
+					"left": 255,
+					"width": 98,
+					"height": 28,
+					"dataSource": "Button1",
+					"text": "Print Sales",
+					"class": "Default",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text3": {
+					"type": "text",
+					"top": 300,
+					"left": 571,
+					"width": 309,
+					"height": 16,
+					"textAlign": "left",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "(All Unsold items for this consignor (for barcoded tags))"
+				},
+				"EnterSales1": {
+					"type": "subform",
+					"top": 323,
+					"left": 9,
+					"width": 829,
+					"height": 281,
+					"dataSourceTypeHint": "text",
+					"table": 4,
+					"listForm": "ItemsbyConsignorSubform",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 605,
+					"left": 8,
+					"width": 752,
+					"height": 25,
+					"fill": "#5F78FF",
+					"stroke": "transparent"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 608,
+					"left": 285,
+					"width": 70,
+					"height": 15,
+					"stroke": "#FFFFFF",
+					"class": "Default",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Items Sold"
+				},
+				"Field5": {
+					"type": "input",
+					"top": 608,
+					"left": 357,
+					"width": 84,
+					"height": 16,
+					"dataSource": "vItemsSold",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 608,
+					"left": 25,
+					"width": 130,
+					"height": 15,
+					"stroke": "#FFFFFF",
+					"class": "Default",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Unsold Items"
+				},
+				"Field6": {
+					"type": "input",
+					"top": 608,
+					"left": 157,
+					"width": 84,
+					"height": 16,
+					"dataSource": "vItemsBrought",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Picture12": {
+					"type": "picture",
+					"top": 276,
+					"left": 381,
+					"width": 184,
+					"height": 45,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/unsold.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Field7": {
+					"type": "input",
+					"top": 360,
+					"left": 151,
+					"width": 717,
+					"height": 96,
+					"dataSource": "[Consignors:1]Comment:24",
+					"class": "Default",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 339,
+					"left": 151,
+					"width": 300,
+					"height": 18,
+					"stroke": "#0069FF",
+					"textAlign": "left",
+					"fontFamily": "Tahoma",
+					"fontSize": 14,
+					"text": "Comments about this consignor"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 605,
+					"left": 8,
+					"width": 1002,
+					"height": 25,
+					"fill": "#5F78FF",
+					"stroke": "transparent"
+				},
+				"VolunteerSubform": {
+					"type": "subform",
+					"top": 323,
+					"left": 9,
+					"width": 979,
+					"height": 281,
+					"dataSourceTypeHint": "text",
+					"table": 9,
+					"listForm": "ShiftsbyConsignorSubform",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 608,
+					"left": 768,
+					"width": 129,
+					"height": 15,
+					"stroke": "#FFFFFF",
+					"class": "Default",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Total Money Earned:"
+				},
+				"Field11": {
+					"type": "input",
+					"top": 608,
+					"left": 899,
+					"width": 84,
+					"height": 16,
+					"dataSource": "vTotalMoneyEarned",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum"
+				]
+			},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

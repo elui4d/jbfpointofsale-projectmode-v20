@@ -1,0 +1,80 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "Toolbar",
+	"inheritedFormTable": 7,
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 84,
+	"markerBody": 895,
+	"markerBreak": 900,
+	"markerFooter": 900,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 84,
+					"left": 0,
+					"width": 1462,
+					"height": 1039,
+					"stroke": "#FFFFFF"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 225,
+					"left": 271,
+					"width": 688,
+					"height": 389,
+					"picture": "/RESOURCES/Images/library/JBFlogo_large.png"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

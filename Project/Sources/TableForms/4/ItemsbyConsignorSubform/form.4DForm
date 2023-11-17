@@ -1,0 +1,526 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 27,
+	"markerBody": 49,
+	"markerBreak": 49,
+	"markerFooter": 72,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 27,
+					"left": -8,
+					"width": 836,
+					"height": 21,
+					"fill": "#FFFFDF",
+					"stroke": "transparent"
+				},
+				"Reduce": {
+					"type": "checkbox",
+					"top": 30,
+					"left": 543,
+					"width": 20,
+					"height": 16,
+					"dataSource": "[Inventory:4]Reduce:7",
+					"enterable": false,
+					"text": " ",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line21": {
+					"type": "line",
+					"top": 48,
+					"left": -109,
+					"width": 688,
+					"stroke": "#777777"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": -8,
+					"width": 837,
+					"height": 27,
+					"fill": "#7F93FF"
+				},
+				"Line25": {
+					"type": "line",
+					"top": 11,
+					"left": 579,
+					"height": 39
+				},
+				"Line27": {
+					"type": "line",
+					"top": 48,
+					"left": -29,
+					"width": 858,
+					"stroke": "#777777"
+				},
+				"S1_Field7": {
+					"type": "input",
+					"top": 32,
+					"left": 378,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[Inventory:4]Size:5",
+					"stroke": "#404040",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onPrintingDetail",
+						"onAfterKeystroke"
+					]
+				},
+				"Line23": {
+					"type": "line",
+					"top": 26,
+					"left": 521,
+					"height": 39
+				},
+				"Text3": {
+					"type": "text",
+					"top": -1,
+					"left": 385,
+					"width": 47,
+					"height": 24,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Barcode Size"
+				},
+				"Line17": {
+					"type": "line",
+					"top": 0,
+					"left": 521,
+					"height": 28
+				},
+				"Line18": {
+					"type": "line",
+					"top": 0,
+					"left": 579,
+					"height": 28
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 3,
+					"left": 377,
+					"width": 53,
+					"height": 21,
+					"dataSource": "Variable1",
+					"display": false,
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"S1_Field8": {
+					"type": "input",
+					"top": 32,
+					"left": 439,
+					"width": 77,
+					"height": 14,
+					"dataSource": "[Inventory:4]Price:6",
+					"dataSourceTypeHint": "number",
+					"stroke": "#404040",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onPrintingDetail",
+						"onAfterKeystroke"
+					]
+				},
+				"Variable11": {
+					"type": "button",
+					"top": 10,
+					"left": 525,
+					"width": 48,
+					"height": 16,
+					"dataSource": "Variable1",
+					"display": false,
+					"method": "ObjectMethods/Variable11.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 12,
+					"left": 446,
+					"width": 67,
+					"height": 14,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Tag Price"
+				},
+				"Line30": {
+					"type": "line",
+					"top": 11,
+					"left": 110,
+					"height": 39
+				},
+				"Line31": {
+					"type": "line",
+					"top": 26,
+					"left": 436,
+					"height": 39
+				},
+				"Line32": {
+					"type": "line",
+					"top": 11,
+					"left": 374,
+					"height": 39
+				},
+				"S1_Field1": {
+					"type": "input",
+					"top": 32,
+					"left": 115,
+					"width": 257,
+					"height": 14,
+					"dataSource": "[Inventory:4]Item Description:4",
+					"stroke": "#404040",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onPrintingDetail",
+						"onAfterKeystroke"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 12,
+					"left": 524,
+					"width": 56,
+					"height": 14,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Reduced"
+				},
+				"Line11": {
+					"type": "line",
+					"top": 0,
+					"left": 110,
+					"height": 28
+				},
+				"Text1": {
+					"type": "text",
+					"top": 12,
+					"left": 12,
+					"width": 87,
+					"height": 14,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Item Number"
+				},
+				"Line13": {
+					"type": "line",
+					"top": 0,
+					"left": 374,
+					"height": 28
+				},
+				"Text2": {
+					"type": "text",
+					"top": 12,
+					"left": 121,
+					"width": 147,
+					"height": 14,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Barcode Item Description"
+				},
+				"Line16": {
+					"type": "line",
+					"top": 0,
+					"left": 436,
+					"height": 28
+				},
+				"objPrice1": {
+					"type": "input",
+					"top": 31,
+					"left": 4,
+					"width": 102,
+					"height": 15,
+					"dataSource": "[Inventory:4]Barcode Item Number:1",
+					"dataSourceTypeHint": "integer",
+					"stroke": "#000099",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 10,
+					"left": 15,
+					"width": 81,
+					"height": 16,
+					"dataSource": "Variable1",
+					"display": false,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 10,
+					"left": 132,
+					"width": 121,
+					"height": 16,
+					"dataSource": "Variable1",
+					"display": false,
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 3,
+					"left": 453,
+					"width": 54,
+					"height": 21,
+					"dataSource": "Variable1",
+					"display": false,
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": -14,
+					"left": 641,
+					"height": 79
+				},
+				"Donate": {
+					"type": "checkbox",
+					"top": 30,
+					"left": 599,
+					"width": 20,
+					"height": 16,
+					"dataSource": "[Inventory:4]Donate:9",
+					"enterable": false,
+					"text": " ",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 12,
+					"left": 580,
+					"width": 56,
+					"height": 14,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Donate"
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 10,
+					"left": 585,
+					"width": 48,
+					"height": 16,
+					"dataSource": "Variable1",
+					"display": false,
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"S1_Field2": {
+					"type": "input",
+					"top": 32,
+					"left": 646,
+					"width": 177,
+					"height": 14,
+					"dataSource": "[Inventory:4]Created Date:10",
+					"dataSourceTypeHint": "date",
+					"stroke": "#404040",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onPrintingDetail",
+						"onAfterKeystroke"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 12,
+					"left": 652,
+					"width": 167,
+					"height": 14,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Created/Modified Date"
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 10,
+					"left": 663,
+					"width": 141,
+					"height": 16,
+					"dataSource": "Variable1",
+					"display": false,
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line2": {
+					"type": "line",
+					"top": -14,
+					"left": 828,
+					"height": 79
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

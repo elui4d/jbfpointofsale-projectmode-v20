@@ -1,0 +1,331 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 396,
+					"left": 23,
+					"width": 760,
+					"height": 39,
+					"stroke": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 316,
+					"left": 23,
+					"width": 760,
+					"height": 39,
+					"stroke": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 234,
+					"left": 23,
+					"width": 760,
+					"height": 40,
+					"stroke": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 152,
+					"left": 23,
+					"width": 760,
+					"height": 40,
+					"stroke": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Matrix2": {
+					"type": "picture",
+					"top": 152,
+					"left": 400,
+					"width": 383,
+					"height": 286,
+					"pictureFormat": "scaled",
+					"picture": "Images/Matrix1.svg"
+				},
+				"Matrix1": {
+					"type": "picture",
+					"top": 152,
+					"left": 23,
+					"width": 378,
+					"height": 286,
+					"pictureFormat": "scaled",
+					"picture": "Images/Matrix1.svg"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 900,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 446,
+					"left": 709,
+					"width": 79,
+					"height": 32,
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "Segoe UI",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 890,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"rbOther1": {
+					"type": "radio",
+					"top": 194,
+					"left": 407,
+					"width": 383,
+					"height": 38,
+					"dataSource": "rbOther1",
+					"text": "Find Duplicate Barcodes",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#008EFF",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "cleanUp"
+				},
+				"rbOther2": {
+					"type": "radio",
+					"top": 274,
+					"left": 407,
+					"width": 383,
+					"height": 38,
+					"dataSource": "rbOther2",
+					"text": "Find Sales with no Consignor",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#008EFF",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "cleanUp"
+				},
+				"rbOther3": {
+					"type": "radio",
+					"top": 357,
+					"left": 29,
+					"width": 383,
+					"height": 38,
+					"dataSource": "rbOther3",
+					"text": "Find Checked In Consignors With 0 or 1 Items Sold",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#008EFF",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "cleanUp"
+				},
+				"rbOther4": {
+					"type": "radio",
+					"top": 316,
+					"left": 29,
+					"width": 383,
+					"height": 38,
+					"dataSource": "rbOther4",
+					"text": "Find Consignors With Sales That Have Not Been Checked In",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#008EFF",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "cleanUp"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 25,
+					"left": 15,
+					"width": 486,
+					"height": 61,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/clean_up_searches.png"
+				},
+				"rbOther6": {
+					"type": "radio",
+					"top": 488,
+					"left": 26,
+					"width": 448,
+					"height": 38,
+					"dataSource": "rbOther6",
+					"text": "Change Consignor Number on Inventory & Sales",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#008EFF",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"rbOther5": {
+					"type": "radio",
+					"top": 235,
+					"left": 407,
+					"width": 383,
+					"height": 38,
+					"dataSource": "rbOther5",
+					"text": "Find Orphaned Sales Not in a Batch",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#008EFF",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "cleanUp"
+				},
+				"rbOther7": {
+					"type": "radio",
+					"top": 194,
+					"left": 29,
+					"width": 372,
+					"height": 38,
+					"dataSource": "rbOther7",
+					"text": "Find and Fix Mismatched Consignor Number Between Sales and Inventory",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#008EFF",
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "cleanUp"
+				},
+				"txtConsignorLabel": {
+					"type": "text",
+					"text": "Step 2 - Consignor Table",
+					"top": 278,
+					"left": 38,
+					"width": 374,
+					"height": 30,
+					"fontFamily": "Arial Black",
+					"fontSize": 24,
+					"textAlign": "left",
+					"stroke": "#008EFF"
+				},
+				"txtSalesLabel": {
+					"type": "text",
+					"text": "Step 3 - View Sales Table",
+					"top": 155,
+					"left": 416,
+					"width": 374,
+					"height": 30,
+					"fontFamily": "Arial Black",
+					"fontSize": 24,
+					"textAlign": "left",
+					"stroke": "#008EFF"
+				},
+				"txtAnyLabel": {
+					"type": "text",
+					"text": "Step 1 - Any Table",
+					"top": 155,
+					"left": 38,
+					"width": 374,
+					"height": 30,
+					"fontFamily": "Arial Black",
+					"fontSize": 24,
+					"textAlign": "left",
+					"stroke": "#008EFF"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "This is not comprehensive of all cleanup steps. For full details regarding the cleanup process refer to the POS Manual.",
+					"top": 99,
+					"left": 26,
+					"width": 757,
+					"height": 50,
+					"stroke": "#008EFF",
+					"fontSize": 18,
+					"fontWeight": "bold"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 218,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"method": "method.4dm"
+}

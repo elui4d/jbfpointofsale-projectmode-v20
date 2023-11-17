@@ -1,0 +1,1 @@
+  ` $Pattern := Convert_Pattern($Barcodetype; $Code)    ` all parameters are text    ` $Pattern = "" for unknown barcodes    This method converts a code into a pattern (like 01110011)  See Barcode_Create for valid values for Barcodetype  

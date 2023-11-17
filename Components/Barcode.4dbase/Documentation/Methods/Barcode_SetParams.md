@@ -1,0 +1,1 @@
+BarCode_SetParams(Height;Add;Font;FontSize;FontOffset)    Height 40 (25) Height of the code (40 default, 25 default for supplement)  Add 3 Additional height for start/middle/end bars in EAN/UPC  Font Arial Font to print clear text  FontSize 9 Font Size  FontOffset 5 Distance from Bar code to clear text  

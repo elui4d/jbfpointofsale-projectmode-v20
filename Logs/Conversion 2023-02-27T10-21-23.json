@@ -1,0 +1,1773 @@
+{
+	"messages": [
+		{
+			"message": "Compatibility setting 'Radio buttons grouped by name' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Prevent drop of data not coming from 4D' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Reload form for each record during PRINT SELECTION' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Use period and comma as placeholders in numeric formats' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Use date type instead of ISO date format in objects' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Allow Nested Transactions' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Do not use new context referencing mode' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Web automatic variable assignment' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Web remove / on unknown URLs' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting for Remote 'Web automatic variable assignment' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting for Remote 'Web remove / on unknown URLs' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Execute QUERY BY FORMULA On Server' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Execute ORDER BY FORMULA On Server' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'QUERY BY FORMULA Uses SQL Joins' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'CPU priority' restored to factory settings.",
+			"severity": "warning"
+		},
+		{
+			"message": "Exporting picture id:35, name:cal, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\cal.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:871, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:872, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (872).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:873, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (873).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2000, name:XP Show Subset, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Show Subset.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2001, name:XP Show All, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Show All.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2002, name:XP Add Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Add Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2003, name:XP Cancel, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Cancel.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2005, name:XP Last Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Last Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2006, name:XP Next Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Next Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2007, name:XP Report, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Report.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2008, name:XP Print Labels, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Print Labels.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2009, name:XP Graph Table, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Graph Table.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2010, name:XP Print Selection, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Print Selection.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2014, name:XP First Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP First Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2015, name:XP Previous Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Previous Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2016, name:XP Query, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Query.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2017, name:XP Delete Selection, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Delete Selection.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2018, name:XP Done, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Done.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2019, name:XP Order By, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Order By.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2020, name:XP Delete Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP Delete Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2022, name:XP OK, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP OK.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2141, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2141).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2200, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2200).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2201, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2201).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2202, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2202).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2203, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2203).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2204, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2204).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2205, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2205).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2206, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2206).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2207, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2207).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2208, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2208).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2209, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2209).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2210, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2210).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2211, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2211).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2212, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2212).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2213, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2213).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2214, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2214).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2215, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2215).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2216, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2216).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2217, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2217).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2218, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2218).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2219, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2219).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2220, name:865, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\865 (2220).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2832, name:Untitled, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Untitled.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2834, name:JBFSwirl, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JBFSwirl.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2835, name:JBFlogo, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JBFlogo.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2836, name:jbflogosmall, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\jbflogosmall.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2837, name:Message, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Message.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2838, name:Filter, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Filter.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2839, name:Tools, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Tools.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2840, name:EnterTags, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\EnterTags.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2841, name:Consignors, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Consignors.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2842, name:Help, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Help.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2843, name:Tools2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Tools2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2844, name:Exit, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Exit.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2845, name:ViewItems, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ViewItems.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2846, name:ViewItems2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ViewItems2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2847, name:Sales, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Sales.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2848, name:Consignors2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Consignors2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2849, name:Search2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Search2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2850, name:Records, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Records.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2851, name:Print, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Print.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2852, name:EnterTags2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\EnterTags2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2853, name:ViewItems3, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ViewItems3.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2854, name:NewRecord, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\NewRecord.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2855, name:QuickSearch, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\QuickSearch.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2856, name:QuickSearch2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\QuickSearch2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2857, name:Query, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Query.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2858, name:Prefes, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Prefes.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2859, name:Wizard, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Wizard.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2860, name:ExportWeb, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ExportWeb.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2861, name:Export, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Export.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2862, name:Import, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Import.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2863, name:NewRecord, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\NewRecord (2863).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2864, name:ScanBarcode, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ScanBarcode.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2865, name:DataEntry, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\DataEntry.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2866, name:ShowAll, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ShowAll.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2867, name:Save, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Save.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2868, name:JBFLogoREallySmall, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JBFLogoREallySmall.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2869, name:JBFLogoReallySmall2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JBFLogoReallySmall2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2870, name:SelectAll, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\SelectAll.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2871, name:ShowAll2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ShowAll2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2872, name:FirstRecord, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\FirstRecord.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2873, name:Previous, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Previous.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2874, name:Next, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Next.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2875, name:Last, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Last.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2876, name:Cancel, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Cancel.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2877, name:Save2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Save2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2878, name:OtherTools, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\OtherTools.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2879, name:EnterBAtch, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\EnterBAtch.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2880, name:EnterBatches2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\EnterBatches2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2881, name:smallcheck, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\smallcheck.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2887, name:checkin, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\checkin.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:3904, name:Untitled, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Untitled (3904).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10004, name:Menu EDIT Undo, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Menu EDIT Undo.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10005, name:Menu EDIT Cut, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Menu EDIT Cut.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10006, name:Menu EDIT Copy, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Menu EDIT Copy.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10007, name:Menu EDIT Paste, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Menu EDIT Paste.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10038, name:Menu EDIT Select All, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Menu EDIT Select All.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10039, name:1POS, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\1POS.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10041, name:POS1, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS1.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10043, name:POS2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10044, name:POS3, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS3.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10045, name:POS1, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS1 (10045).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10046, name:POS4, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS4.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10047, name:POS4, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS4 (10047).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10048, name:POS5, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS5.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10049, name:POS6, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS6.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10050, name:POS_Save, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POS_Save.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10051, name:JBFLogoGrey, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JBFLogoGrey.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10052, name:Toolbar_Cleanup, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Toolbar_Cleanup.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10053, name:Toolbar_ExportEditor, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Toolbar_ExportEditor.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10054, name:Toolbar_ApplyChange, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Toolbar_ApplyChange.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10055, name:Menu EDIT Clear, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Menu EDIT Clear.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10057, name:Toolbar_ChangeUser, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Toolbar_ChangeUser.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10058, name:CheckIn, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\CheckIn (10058).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10060, name:CheckInOut, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\CheckInOut.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10061, name:NewSale, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\NewSale.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10063, name:Toolbar_ChangeDB, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Toolbar_ChangeDB.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10064, name:Toolbar_Close, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Toolbar_Close.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10065, name:ToolbarClose, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ToolbarClose.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10066, name:POSReciept, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\POSReciept.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10069, name:BreakdownImage, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\BreakdownImage.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10070, name:Toolbar_Breakdown, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Toolbar_Breakdown.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10071, name:badgeBG, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\badgeBG.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10072, name:Toolbar Volunteers, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Toolbar Volunteers.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10074, name:ReturnItem, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\ReturnItem.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10075, name:Reduce, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Reduce.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10076, name:Pop, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Pop.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:25044, name:Untitled, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Untitled (25044).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31778, name:, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\picture 31778.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31780, name:Sorting, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Sorting.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31781, name:From ClipBoard, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\From ClipBoard.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31782, name:OutputHeader, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\OutputHeader.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31785, name:OutputHeader, types:.bmp to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\OutputHeader.bmp",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31786, name:Approved, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Approved.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31787, name:Approved, types:.jpg to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Approved.jpg",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31789, name:Mastercard, types:.4DMemoryBitmap to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Mastercard.4DMemoryBitmap",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31790, name:amex, types:.4DMemoryBitmap to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\amex.4DMemoryBitmap",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31792, name:visa, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\visa.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31793, name:discover, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\discover.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31795, name:VoidCC, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\VoidCC.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31796, name:Untitled_31796, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Untitled_31796.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31797, name:Untitled_31797, types:.4DMemoryBitmap to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\Untitled_31797.4DMemoryBitmap",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31798, name:XP - First Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - First Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31799, name:XP - Previous Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Previous Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31800, name:XP - Next Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Next Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31801, name:XP - Last Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Last Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31802, name:XP - Delete Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Delete Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31803, name:XP - Cancel, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Cancel.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31804, name:XP - OK, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - OK.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31805, name:XP - Add Record, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Add Record.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31806, name:XP - Delete Selection, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Delete Selection.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31807, name:XP - Show All, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Show All.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31808, name:XP - Show Subset, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Show Subset.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31809, name:XP - Query, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Query.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31810, name:XP - Order By, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Order By.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31811, name:XP - Report, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Report.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31812, name:XP - Print Labels, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Print Labels.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31813, name:XP - Print Selection, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Print Selection.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31814, name:XP - Done, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\XP - Done.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31815, name:consignor_check_in, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\consignor_check_in.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31816, name:table_header, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\table_header.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31817, name:consignors, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\consignors (31817).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31818, name:house, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\house.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31819, name:phone, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\phone.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31820, name:sales, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\sales (31820).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31821, name:unsold, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\unsold.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31822, name:separator, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\separator.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31823, name:print, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\print (31823).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31824, name:data_wizard, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\data_wizard.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31825, name:clean_up_searches, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\clean_up_searches.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31826, name:JBFlogo_large, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JBFlogo_large.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31827, name:JBFlogo_s1, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JBFlogo_s1.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31828, name:JBFlogo_s2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JBFlogo_s2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31829, name:records, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\records (31829).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31830, name:search, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\search.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31831, name:tools, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\tools (31831).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31832, name:change_batches, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\change_batches.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31833, name:upload_sold_items, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\upload_sold_items.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31834, name:key, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\key.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31835, name:inventory, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\inventory.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31836, name:point_of_sale, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\point_of_sale.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31837, name:customer, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\customer.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31838, name:point_of_sale, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\point_of_sale (31838).png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31839, name:receipt_of_sale, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\receipt_of_sale.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31840, name:separatorH, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\separatorH.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31841, name:gradient, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\gradient.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31842, name:gradient2, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\gradient2.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31843, name:preferences, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\preferences.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31844, name:return_refund_item, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\return_refund_item.png",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:31845, name:JGFlogo_grey, types:.png to C:\\Users\\erick\\Desktop\\JBF_v19\\Resources\\Images\\library\\JGFlogo_grey.png",
+			"severity": "info"
+		},
+		{
+			"table": 1,
+			"tableName": "Consignors",
+			"form": "Output",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "Consignors",
+			"form": "Input",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "Consignors",
+			"form": "Print_ConsignorSalesDetail",
+			"object": "S3_Field4",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "Consignors",
+			"form": "CheckIn",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "Consignors",
+			"form": "Print_ChecksDlog",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "Consignors",
+			"form": "Print_ConsignorSalesDlog",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "SimpleListold",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "SimpleListold",
+			"object": "S3_Field",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "EnterSales",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "Output",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "Output",
+			"object": "S7_Field",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "Input",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "Input",
+			"object": "Item Size",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "SalesEntrySubform",
+			"object": "S1_Field17",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "SalesEntrySubform",
+			"object": "Highlight Button2",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "SalesEntrySubform",
+			"object": "Highlight Button1",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "SalesEntrySubform",
+			"object": "Highlight Button3",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "BarcodeEntrySubform_OLD",
+			"object": "S1_Field7",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "SalesbyConsignorSubform",
+			"object": "S1_Field7",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "AllSalesSubform",
+			"object": "S1_Field17",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "AllSalesSubform",
+			"object": "Highlight Button3",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "AllSalesSubform",
+			"object": "Highlight Button1",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "Input2",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "Input2",
+			"object": "Item Size",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "BarcodeEntrySubform2",
+			"object": "S1_Field7",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "BarcodeEntrySubform2",
+			"object": "Highlight Button1",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "BarcodeEntrySubform2",
+			"object": "Highlight Button2",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "ReturnItem",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "ReturnItem",
+			"object": "S7_Field",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 2,
+			"tableName": "Sales",
+			"form": "Print_ReturnReason",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 3,
+			"tableName": "Preferences",
+			"form": "LogIn",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 3,
+			"tableName": "Preferences",
+			"form": "Preferences",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 3,
+			"tableName": "Preferences",
+			"form": "Preferences",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 4,
+			"tableName": "Inventory",
+			"form": "Input",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 4,
+			"tableName": "Inventory",
+			"form": "DonationRpt_dlog",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "Input",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "Output",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "Input2",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "POS_Customer",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "POS_Comments",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "POS_Comments",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "POS_Payment",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "POS_Payment",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "Print_POSReceipt",
+			"object": "S3_Field4",
+			"message": "Field object whose field is associated in structure to a choice list, is converted using the same list in form object definition.",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "Print_POSReceipt_RP",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "CreditCard",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 5,
+			"tableName": "Point of Sale",
+			"form": "CreditCardVoid",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Message_Think",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "MissingConsignor",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Toolbar_Print",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Toolbar_Search",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Toolbar_Tools",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Toolbar_Records",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Apply_Consignors",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "DescEntryBox",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Message_OK",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Tools_Other",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Print_FranchiseReportDlog",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Tools_ChangeBatches",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Message_YesNo",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "DatabaseList",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "ChangeDatabase",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "NewDatabase",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Print_BreakDownDlog",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Print_BreakdownConsignors",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "UploadSoldItems",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "ChangeConsignorNumber",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Print_Tags",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "ImportBatches",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Toolbar_DataTools",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Quickbooks_Dlog",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Print_BarcodeLabel",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "Dialogs",
+			"form": "Print_BarcodeLabels2",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable454",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable455",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable461",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable462",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable440",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable441",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable442",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable443",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable444",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable445",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable446",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable447",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable448",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable449",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable450",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable451",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable452",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable453",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable456",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable457",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable458",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable459",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable460",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable463",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable464",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable465",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable466",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable467",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable468",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable469",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable470",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable471",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable472",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable473",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable474",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable475",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable476",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable477",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable478",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable479",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable480",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "INTERFACE",
+			"form": "CLND_CalendarSet",
+			"object": "Variable481",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "Volunteers",
+			"form": "Output",
+			"message": "Compatibility settings 'Window size with constraints' and 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "Volunteers",
+			"form": "Input",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "Volunteers",
+			"form": "CheckIn2",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "Volunteers",
+			"form": "CheckIn2",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "Volunteers",
+			"form": "CheckIn_NewShift",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "Volunteers",
+			"form": "CheckIn_NewShift",
+			"message": "Associated menubar becomes active",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "Volunteers",
+			"form": "Print_VolunteerBadges",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 10,
+			"tableName": "Cash",
+			"form": "CashManagement",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		},
+		{
+			"table": 10,
+			"tableName": "Cash",
+			"form": "Print_CashManager",
+			"message": "Compatibility setting 'Form size dynamic adjustment' switched on.",
+			"severity": "warning"
+		}
+	],
+	"success": true
+}

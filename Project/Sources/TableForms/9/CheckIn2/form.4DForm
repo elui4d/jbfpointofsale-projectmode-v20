@@ -1,0 +1,719 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #2",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 940,
+					"height": 90,
+					"stroke": "transparent"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 106,
+					"left": 115,
+					"width": 630,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Scan your badge or enter your consignor number."
+				},
+				"Consignor Number": {
+					"type": "input",
+					"top": 219,
+					"left": 144,
+					"width": 93,
+					"height": 16,
+					"dataSource": "vCheckInConsignorNumber",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 91,
+					"left": -3,
+					"width": 945,
+					"height": 5,
+					"fill": "#EE0000"
+				},
+				"Text26": {
+					"type": "text",
+					"top": 248,
+					"left": 79,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "First Name"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 274,
+					"left": 79,
+					"width": 60,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Last Name"
+				},
+				"b5": {
+					"type": "button",
+					"top": 9,
+					"left": 569,
+					"width": 74,
+					"height": 74,
+					"dataSource": "bCancel",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Exit",
+					"icon": "/RESOURCES/Images/library/Cancel.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/b5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 176,
+					"left": 22,
+					"width": 573,
+					"stroke": "#EE0000"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 101,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 1 -"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 186,
+					"left": 115,
+					"width": 330,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Is this you?  If so, select your shift."
+				},
+				"Text5": {
+					"type": "text",
+					"top": 181,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 2 -"
+				},
+				"DefaultConsignorPercent": {
+					"type": "input",
+					"top": 139,
+					"left": 200,
+					"width": 209,
+					"height": 18,
+					"dataSource": "vConsignorNumber",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"method": "ObjectMethods/DefaultConsignorPercent.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"First Name": {
+					"type": "input",
+					"top": 248,
+					"left": 144,
+					"width": 200,
+					"height": 15,
+					"dataSource": "vCheckInFirstName",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Last Name": {
+					"type": "input",
+					"top": 275,
+					"left": 144,
+					"width": 200,
+					"height": 15,
+					"dataSource": "vCheckInLastName",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fill": "#FFFFFF",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field7": {
+					"type": "input",
+					"top": 593,
+					"left": 130,
+					"width": 460,
+					"height": 76,
+					"dataSource": "vConsignorComments",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"tabbutton": {
+					"type": "button",
+					"top": 854,
+					"left": 372,
+					"width": 13,
+					"height": 16,
+					"dataSource": "tabbutton",
+					"shortcutKey": "[Enter]",
+					"text": "Button",
+					"class": "Default",
+					"method": "ObjectMethods/tabbutton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 134,
+					"left": 419,
+					"width": 28,
+					"height": 26,
+					"dataSource": "Button1",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 594,
+					"left": 43,
+					"width": 80,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 11,
+					"text": "Comments"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 220,
+					"left": 19,
+					"width": 120,
+					"height": 14,
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"text": "Consignor Number"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 469,
+					"left": 115,
+					"width": 330,
+					"height": 26,
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Select Action"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 464,
+					"left": 22,
+					"width": 90,
+					"height": 34,
+					"stroke": "#0099FF",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "step 3 -"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 443,
+					"left": 22,
+					"width": 573,
+					"stroke": "#EE0000"
+				},
+				"btnClockIn": {
+					"type": "button",
+					"top": 509,
+					"left": 51,
+					"width": 176,
+					"height": 29,
+					"dataSource": "btnClockIn",
+					"text": "Clock In",
+					"class": "Default",
+					"method": "ObjectMethods/btnClockIn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btnClockOut": {
+					"type": "button",
+					"top": 549,
+					"left": 51,
+					"width": 176,
+					"height": 29,
+					"dataSource": "btnClockOut",
+					"text": "Clock Out",
+					"class": "Default",
+					"method": "ObjectMethods/btnClockOut.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btnCompleted": {
+					"type": "button",
+					"top": 509,
+					"left": 251,
+					"width": 176,
+					"height": 29,
+					"dataSource": "btnCompleted",
+					"text": "Delivered Goods of Services",
+					"class": "Default",
+					"method": "ObjectMethods/btnCompleted.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btnNewShift": {
+					"type": "button",
+					"top": 549,
+					"left": 251,
+					"width": 176,
+					"height": 29,
+					"dataSource": "btnNewShift",
+					"text": "New Volunteer or Shift",
+					"class": "Default",
+					"method": "ObjectMethods/btnNewShift.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"List Box1": {
+					"type": "listbox",
+					"top": 308,
+					"left": 19,
+					"width": 631,
+					"height": 119,
+					"resizingMode": "legacy",
+					"dataSource": "List Box1",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"method": "ObjectMethods/List Box1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "aShift",
+							"dataSource": "aShift",
+							"width": 220,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFDF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Arial",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Shift",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "aShiftDate",
+							"dataSource": "aShiftDate",
+							"width": 83,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFDF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Arial",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Date",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "aShiftTime",
+							"dataSource": "aShiftTime",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFDF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Arial",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Time",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "aShiftComplete1",
+							"dataSource": "aCompleted",
+							"dataSourceTypeHint": "boolean",
+							"width": 28,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"controlType": "checkbox",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFDF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Arial",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Complete",
+								"dataSource": "Header4",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "Column1",
+							"dataSource": "aTimeIn",
+							"width": 87,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFDF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Arial",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Time In",
+								"dataSource": "Header5",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "aTimeout",
+							"dataSource": "aTimeOut",
+							"width": 117,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#FFFFDF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Arial",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Time Out",
+								"dataSource": "Header5",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Arial",
+								"fontSize": 10
+							}
+						}
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 671,
+					"left": 129,
+					"width": 461,
+					"height": 15,
+					"class": "Default",
+					"text": "You must highlight a shift to save comments to it."
+				},
+				"Button1": {
+					"type": "button",
+					"top": 640,
+					"left": 594,
+					"width": 49,
+					"height": 29,
+					"dataSource": "Button1",
+					"text": "Save",
+					"class": "Default",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 14,
+					"left": 11,
+					"width": 560,
+					"height": 68,
+					"stroke": "#EE0000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 48,
+					"fontWeight": "bold",
+					"text": "Team Members"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

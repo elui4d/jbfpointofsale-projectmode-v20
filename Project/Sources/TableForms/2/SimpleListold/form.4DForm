@@ -1,0 +1,266 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 24,
+	"markerBody": 41,
+	"markerBreak": 43,
+	"markerFooter": 50,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 605,
+					"height": 46,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 462,
+					"height": 47,
+					"stroke": "#AAAAAA"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 288,
+					"height": 47,
+					"stroke": "#AAAAAA"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 107,
+					"height": 48,
+					"stroke": "#AAAAAA"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 23,
+					"left": -2,
+					"width": 2,
+					"sizingX": "grow"
+				},
+				"Line11": {
+					"type": "line",
+					"top": 20,
+					"left": 0,
+					"width": 605,
+					"sizingX": "grow",
+					"stroke": "#AAAAAA"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 5,
+					"left": 3,
+					"width": 102,
+					"height": 21,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "<?2>"
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 5,
+					"left": 114,
+					"width": 172,
+					"height": 17,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "<?4>"
+				},
+				"S3_Text": {
+					"type": "text",
+					"top": 5,
+					"left": 292,
+					"width": 168,
+					"height": 17,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "<?5>"
+				},
+				"S4_Text": {
+					"type": "text",
+					"top": 5,
+					"left": 466,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"text": "<?3>"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 26,
+					"left": 3,
+					"width": 104,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Sold Price:2",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 27,
+					"left": 113,
+					"width": 173,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Item Description:4",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Field": {
+					"type": "input",
+					"top": 27,
+					"left": 292,
+					"width": 168,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Item Size:5",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S4_Field": {
+					"type": "input",
+					"top": 27,
+					"left": 466,
+					"width": 133,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]List Price:3",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"fontFamily": "Tahoma",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

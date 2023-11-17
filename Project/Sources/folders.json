@@ -1,0 +1,37 @@
+{
+	"Default Folder": {
+		"groups": [
+			"Forms",
+			"Methods",
+			"Tables"
+		]
+	},
+	"Forms": {
+		"forms": [
+			"[Point of Sale]CreditCardVoid",
+			"[Point of Sale]TransaxCCReceiptVoid",
+			"[Sales]Print_Inventory_Sales_Mismatch",
+			"[Sales]SimpleListold"
+		]
+	},
+	"Methods": {
+		"methods": [
+			"FTP_SalesAudit",
+			"Manage_Consignors",
+			"Manage_Sales",
+			"Start_Consignors",
+			"Start_Sales"
+		]
+	},
+	"Tables": {
+		"tables": [
+			"Consignors",
+			"Sales"
+		],
+		"forms": [
+			"[Dialogs]Message_Approved",
+			"[Dialogs]Message_Declined"
+		]
+	},
+	"trash": {}
+}

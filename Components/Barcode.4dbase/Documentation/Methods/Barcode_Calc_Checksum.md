@@ -1,0 +1,1 @@
+ ` $Checksum := Calc_Checksum($Barcodetype; $Code)    ` all parameters are text    ` $Checksum = "?" for unknown barcodes    This method allows you to create a valid checksum for a code.  See Barcode_Create for valid values for Barcodetype  

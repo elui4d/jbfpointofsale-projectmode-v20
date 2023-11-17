@@ -1,0 +1,158 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 28,
+	"markerBody": 54,
+	"markerBreak": 54,
+	"markerFooter": 54,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 6,
+					"left": 4,
+					"width": 733,
+					"height": 50,
+					"sizingX": "grow",
+					"fill": "transparent"
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 8,
+					"left": 6,
+					"width": 729,
+					"height": 22,
+					"sizingX": "grow",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.png"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 13,
+					"left": 19,
+					"width": 147,
+					"height": 15,
+					"sizingX": "grow",
+					"text": "Barcode : "
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 13,
+					"left": 178,
+					"width": 245,
+					"height": 15,
+					"sizingX": "grow",
+					"text": "Item Description : "
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 30,
+					"left": 6,
+					"width": 729,
+					"height": 24,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 34,
+					"left": 19,
+					"width": 147,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Barcode:9",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/S1_Field.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 34,
+					"left": 178,
+					"width": 245,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Item Description:4",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line5": {
+					"type": "line",
+					"top": 8,
+					"left": 172,
+					"height": 46,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter2": {
+					"type": "button",
+					"top": 6,
+					"left": 171,
+					"width": 3,
+					"height": 50,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

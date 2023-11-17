@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Preferences4D>
+
+  <BuildApp>
+    <BuildCompiled>True</BuildCompiled>
+    <IncludeAssociatedFolders>True</IncludeAssociatedFolders>
+    <BuildComponent>False</BuildComponent>
+    <BuildApplicationSerialized>True</BuildApplicationSerialized>
+    <RuntimeVL>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup>
+    </RuntimeVL>
+    <SourcesFiles>
+      <RuntimeVL>
+        <RuntimeVLIncludeIt>True</RuntimeVLIncludeIt>
+        <RuntimeVLWinFolder>C:\Program Files\4D\4D v19 R8\4D Volume Desktop\</RuntimeVLWinFolder></RuntimeVL>
+      <CS>
+        <ServerIncludeIt>False</ServerIncludeIt>
+        <ClientWinIncludeIt>False</ClientWinIncludeIt>
+        <ClientMacIncludeIt>False</ClientMacIncludeIt>
+        <ServerWinFolder>C:\Program Files\4D\4D v19.6_285599\4D Server\</ServerWinFolder>
+        <ClientWinFolderToWin>C:\Program Files\4D\4D v19.6_285599\4D Volume Desktop\</ClientWinFolderToWin>
+      </CS>
+    </SourcesFiles>
+    <CS>
+      <BuildServerApplication>False</BuildServerApplication>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup>
+      <BuildCSUpgradeable>True</BuildCSUpgradeable>
+      <CurrentVers>1</CurrentVers>
+      <HardLink></HardLink>
+      <MacCompiledDatabaseToWinIncludeIt>False</MacCompiledDatabaseToWinIncludeIt>
+      <MacCompiledDatabaseToWin></MacCompiledDatabaseToWin>
+      <ServerEmbedsProjectDirectoryFile>False</ServerEmbedsProjectDirectoryFile>
+    </CS>
+    <BuildApplicationName>JBF Point of Sale</BuildApplicationName>
+    <BuildWinDestFolder>..\InitialBetaRelease\</BuildWinDestFolder>
+    <ArrayExcludedPluginName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginName>
+    <ArrayExcludedPluginID>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginID>
+    <ArrayExcludedComponentName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedComponentName>
+    <Licenses>
+      <ArrayLicenseWin>
+        <ItemsCount>2</ItemsCount>
+        <Item1>C:\ProgramData\4D\Licenses\R-PNDP190UUC0019D0K610699.license4D</Item1>
+        <Item2>C:\ProgramData\4D\Licenses\R-PNUD190UUC001CP7SK0D081.license4D</Item2>
+      </ArrayLicenseWin>
+    </Licenses>
+    <SignApplication>
+      <MacSignature>False</MacSignature>
+      <MacCertificate></MacCertificate>
+    </SignApplication>
+    <ArrayExcludedModuleName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedModuleName>
+  </BuildApp>
+
+
+
+</Preferences4D>

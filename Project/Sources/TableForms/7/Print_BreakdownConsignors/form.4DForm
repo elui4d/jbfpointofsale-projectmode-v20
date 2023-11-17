@@ -1,0 +1,142 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 730,
+	"markerBreak": 730,
+	"markerFooter": 730,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Field1": {
+					"type": "input",
+					"top": 690,
+					"left": 267,
+					"width": 285,
+					"height": 15,
+					"dataSource": "vConsignorName",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 8,
+					"left": 1,
+					"width": 573,
+					"height": 206,
+					"dataSource": "vPrintLabel",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 70,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 710,
+					"left": 267,
+					"width": 285,
+					"height": 15,
+					"dataSource": "vConsignorPhone",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 250,
+					"left": -75,
+					"width": 427,
+					"height": 353,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/BreakdownImage.png"
+				},
+				"Field4": {
+					"type": "input",
+					"top": 660,
+					"left": 267,
+					"width": 285,
+					"height": 24,
+					"dataSource": "vRange",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

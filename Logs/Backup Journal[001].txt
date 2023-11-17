@@ -1,0 +1,10 @@
+*** Automatic Full Backup Restore
+Starting:  2/23/2023 1:33
+Ending:  2/23/2023 1:33
+Result: backup not available
+
+*** Automatic Full Backup Restore
+Starting:  2/23/2023 1:35
+Ending:  2/23/2023 1:35
+Result: backup not available
+

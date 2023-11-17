@@ -1,0 +1,442 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerHeader": 226,
+	"markerBody": 256,
+	"markerBreak": 256,
+	"markerFooter": 405,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"S2_Field": {
+					"type": "input",
+					"top": 228,
+					"left": 57,
+					"width": 147,
+					"height": 11,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Item Description:4",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line8": {
+					"type": "line",
+					"top": 255,
+					"left": 4,
+					"width": 199,
+					"sizingX": "grow"
+				},
+				"S2_Field1": {
+					"type": "input",
+					"top": 244,
+					"left": 5,
+					"width": 85,
+					"height": 11,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Item Number:13",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Field1": {
+					"type": "input",
+					"top": 228,
+					"left": 5,
+					"width": 48,
+					"height": 11,
+					"sizingX": "grow",
+					"dataSource": "[Sales:2]Consignor Number:6",
+					"textAlign": "left",
+					"fontFamily": "Arial",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Text6": {
+					"type": "text",
+					"top": 262,
+					"left": 65,
+					"width": 64,
+					"height": 13,
+					"sizingX": "grow",
+					"stroke": "#331C64",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Subtotal"
+				},
+				"S3_Field6": {
+					"type": "input",
+					"top": 262,
+					"left": 134,
+					"width": 66,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "vOriginalSoldPrice",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Text7": {
+					"type": "text",
+					"top": 280,
+					"left": 76,
+					"width": 53,
+					"height": 13,
+					"sizingX": "grow",
+					"stroke": "#331C64",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Tax"
+				},
+				"S3_Field7": {
+					"type": "input",
+					"top": 280,
+					"left": 144,
+					"width": 55,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "vOriginalTaxPrice",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Text8": {
+					"type": "text",
+					"top": 318,
+					"left": 65,
+					"width": 64,
+					"height": 13,
+					"sizingX": "grow",
+					"stroke": "#331C64",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Total Refund"
+				},
+				"S3_Field8": {
+					"type": "input",
+					"top": 318,
+					"left": 131,
+					"width": 68,
+					"height": 15,
+					"sizingX": "grow",
+					"dataSource": "vTransactionTotal",
+					"fontFamily": "Arial",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 359,
+					"left": 8,
+					"width": 180,
+					"height": 45,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontStyle": "italic",
+					"text": "Thank you for shopping with JBF!  Visit us online at JBFsale.com."
+				},
+				"vDate1": {
+					"type": "input",
+					"top": 199,
+					"left": 104,
+					"width": 100,
+					"height": 12,
+					"dataSource": "vDate",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/vDate1.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 0,
+					"left": 29,
+					"width": 138,
+					"height": 78,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/jbflogosmall.png"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 92,
+					"left": 8,
+					"width": 189,
+					"height": 87,
+					"dataSource": "vReceiptNotes",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 80,
+					"left": 2,
+					"width": 202,
+					"height": 102,
+					"fill": "transparent",
+					"stroke": "#AAAAAA",
+					"borderRadius": 5
+				},
+				"S3_Field14": {
+					"type": "input",
+					"top": 244,
+					"left": 151,
+					"width": 48,
+					"height": 11,
+					"sizingX": "grow",
+					"dataSource": "vOriginalSoldPrice",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Arial",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 225,
+					"left": 4,
+					"width": 199,
+					"sizingX": "grow"
+				},
+				"S5_Text1": {
+					"type": "text",
+					"top": 182,
+					"left": 10,
+					"width": 184,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#331C64",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Refund Receipt"
+				},
+				"S5_Text2": {
+					"type": "text",
+					"top": 298,
+					"left": 76,
+					"width": 53,
+					"height": 13,
+					"sizingX": "grow",
+					"stroke": "#331C64",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "PST Tax"
+				},
+				"S3_Field2": {
+					"type": "input",
+					"top": 298,
+					"left": 144,
+					"width": 55,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "vOriginalAltTaxPrice",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vDate1"
+				]
+			},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

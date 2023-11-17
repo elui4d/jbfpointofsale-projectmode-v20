@@ -1,0 +1,1197 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 15,
+	"bottomMargin": 0,
+	"markerBody": 758,
+	"markerBreak": 758,
+	"markerFooter": 768,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text32": {
+					"type": "text",
+					"top": 10,
+					"left": 103,
+					"width": 448,
+					"height": 15,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"text": "KPI"
+				},
+				"vRecNum": {
+					"type": "input",
+					"top": 12,
+					"left": 567,
+					"width": 100,
+					"height": 13,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"AdmissionFee": {
+					"type": "input",
+					"top": 45,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]AdmissionFee:23",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Charity": {
+					"type": "input",
+					"top": 69,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]Charity:7",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"DaysOpen": {
+					"type": "input",
+					"top": 93,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]DaysOpen:16",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"FranchiseeName": {
+					"type": "input",
+					"top": 117,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]FranchiseeName:2",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"FranchiseePhone": {
+					"type": "input",
+					"top": 141,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]FranchiseePhone:3",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumBarterHours": {
+					"type": "input",
+					"top": 165,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumBarterHours:10",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumBarters": {
+					"type": "input",
+					"top": 189,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumBarters:9",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumConsignorSignups": {
+					"type": "input",
+					"top": 213,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumConsignorSignups:8",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumItemsRejected": {
+					"type": "input",
+					"top": 237,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumItemsRejected:25",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumPaidStaff": {
+					"type": "input",
+					"top": 261,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumPaidStaff:14",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumPartners": {
+					"type": "input",
+					"top": 285,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumPartners:28",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumPOSStations": {
+					"type": "input",
+					"top": 309,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumPOSStations:27",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumRecalls": {
+					"type": "input",
+					"top": 333,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumRecalls:29",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumSponsors": {
+					"type": "input",
+					"top": 357,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumSponsors:21",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumVendors": {
+					"type": "input",
+					"top": 381,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumVendors:20",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumVIPConsignors": {
+					"type": "input",
+					"top": 405,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumVIPConsignors:26",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumVolunteerHours": {
+					"type": "input",
+					"top": 429,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumVolunteerHours:12",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumVolunteers": {
+					"type": "input",
+					"top": 453,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumVolunteers:11",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumVolunteersConsigned": {
+					"type": "input",
+					"top": 477,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]NumVolunteersConsigned:13",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PresaleHours": {
+					"type": "input",
+					"top": 501,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]PresaleHours:17",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PreviousSaleDate": {
+					"type": "input",
+					"top": 525,
+					"left": 275,
+					"width": 68,
+					"height": 15,
+					"dataSource": "[KPI:11]PreviousSaleDate:4",
+					"dataSourceTypeHint": "date",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PrimeTimeAdmissionFee": {
+					"type": "input",
+					"top": 549,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]PrimeTimeAdmissionFee:24",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PublicHours": {
+					"type": "input",
+					"top": 573,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]PublicHours:18",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"SaleSeason": {
+					"type": "input",
+					"top": 597,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]SaleSeason:6",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"SeasonDropDown": {
+					"type": "input",
+					"top": 621,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]SeasonDropDown:5",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Territory": {
+					"type": "input",
+					"top": 645,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]Territory:1",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TotalEmployeeHours": {
+					"type": "input",
+					"top": 669,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]TotalEmployeeHours:15",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"VendorFee": {
+					"type": "input",
+					"top": 693,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]VendorFee:22",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"VenueSize": {
+					"type": "input",
+					"top": 717,
+					"left": 275,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[KPI:11]VenueSize:19",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line33": {
+					"type": "line",
+					"top": 0,
+					"left": 88,
+					"height": 758,
+					"sizingY": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bFirst",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"shortcutKey": "\u0000",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP - First Record.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 65,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bPrevious",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"shortcutKey": "\u0000",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP - Previous Record.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 120,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bNext",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"shortcutKey": "\u0000",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP - Next Record.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 175,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bLast",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"shortcutKey": "\u0000",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP - Last Record.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 230,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bDelete",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"shortcutKey": "\u0000",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP - Delete Record.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 285,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bCancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"shortcutKey": "\u0000",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP - Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 340,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bValidate",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"shortcutKey": "\u0000",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/XP - OK.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text34": {
+					"type": "text",
+					"top": 45,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "AdmissionFee : "
+				},
+				"Text35": {
+					"type": "text",
+					"top": 69,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "Charity : "
+				},
+				"Text36": {
+					"type": "text",
+					"top": 93,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "DaysOpen : "
+				},
+				"Text37": {
+					"type": "text",
+					"top": 117,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "FranchiseeName : "
+				},
+				"Text38": {
+					"type": "text",
+					"top": 141,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "FranchiseePhone : "
+				},
+				"Text39": {
+					"type": "text",
+					"top": 165,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumBarterHours : "
+				},
+				"Text40": {
+					"type": "text",
+					"top": 189,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumBarters : "
+				},
+				"Text41": {
+					"type": "text",
+					"top": 213,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumConsignorSignups : "
+				},
+				"Text42": {
+					"type": "text",
+					"top": 237,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumItemsRejected : "
+				},
+				"Text43": {
+					"type": "text",
+					"top": 261,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumPaidStaff : "
+				},
+				"Text44": {
+					"type": "text",
+					"top": 285,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumPartners : "
+				},
+				"Text45": {
+					"type": "text",
+					"top": 309,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumPOSStations : "
+				},
+				"Text46": {
+					"type": "text",
+					"top": 333,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumRecalls : "
+				},
+				"Text47": {
+					"type": "text",
+					"top": 357,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumSponsors : "
+				},
+				"Text48": {
+					"type": "text",
+					"top": 381,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumVendors : "
+				},
+				"Text49": {
+					"type": "text",
+					"top": 405,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumVIPConsignors : "
+				},
+				"Text50": {
+					"type": "text",
+					"top": 429,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumVolunteerHours : "
+				},
+				"Text51": {
+					"type": "text",
+					"top": 453,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumVolunteers : "
+				},
+				"Text52": {
+					"type": "text",
+					"top": 477,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "NumVolunteersConsigned : "
+				},
+				"Text53": {
+					"type": "text",
+					"top": 501,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "PresaleHours : "
+				},
+				"Text54": {
+					"type": "text",
+					"top": 525,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "PreviousSaleDate : "
+				},
+				"Text55": {
+					"type": "text",
+					"top": 549,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "PrimeTimeAdmissionFee : "
+				},
+				"Text56": {
+					"type": "text",
+					"top": 573,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "PublicHours : "
+				},
+				"Text57": {
+					"type": "text",
+					"top": 597,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "SaleSeason : "
+				},
+				"Text58": {
+					"type": "text",
+					"top": 621,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "SeasonDropDown : "
+				},
+				"Text59": {
+					"type": "text",
+					"top": 645,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "Territory : "
+				},
+				"Text60": {
+					"type": "text",
+					"top": 669,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "TotalEmployeeHours : "
+				},
+				"Text61": {
+					"type": "text",
+					"top": 693,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "VendorFee : "
+				},
+				"Text62": {
+					"type": "text",
+					"top": 717,
+					"left": 115,
+					"width": 155,
+					"height": 15,
+					"text": "VenueSize : "
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"Text32",
+					"vRecNum",
+					"Line33"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

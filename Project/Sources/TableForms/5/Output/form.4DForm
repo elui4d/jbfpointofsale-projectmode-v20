@@ -1,0 +1,919 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "Toolbar",
+	"inheritedFormTable": 7,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"markerHeader": 104,
+	"markerBody": 124,
+	"markerBreak": 126,
+	"markerFooter": 131,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Picture15": {
+					"type": "picture",
+					"top": 79,
+					"left": 1,
+					"width": 1239,
+					"height": 28,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/OutputHeader.bmp"
+				},
+				"RowBackground": {
+					"type": "rectangle",
+					"top": 103,
+					"left": 2,
+					"width": 1238,
+					"height": 21,
+					"visibility": "unselectedRows",
+					"stroke": "transparent"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 108,
+					"left": 15,
+					"width": 56,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Point of Sale:5]Batch ID:1",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Field1": {
+					"type": "input",
+					"top": 109,
+					"left": 83,
+					"width": 84,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Point of Sale:5]Computer Number:7",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 108,
+					"left": 177,
+					"width": 195,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Point of Sale:5]Entered By:2",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Field": {
+					"type": "input",
+					"top": 108,
+					"left": 380,
+					"width": 98,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Point of Sale:5]Entered Date Stamp:4",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S4_Field": {
+					"type": "input",
+					"top": 108,
+					"left": 490,
+					"width": 99,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Point of Sale:5]Entered Time Stamp:3",
+					"dataSourceTypeHint": "time",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Field": {
+					"type": "input",
+					"top": 108,
+					"left": 601,
+					"width": 76,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Point of Sale:5]Sold Date:5",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Field2": {
+					"type": "input",
+					"top": 108,
+					"left": 689,
+					"width": 56,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[Point of Sale:5]ReduceBy:8",
+					"dataSourceTypeHint": "number",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 108,
+					"left": 761,
+					"width": 58,
+					"height": 15,
+					"dataSource": "vSalesCount",
+					"textAlign": "center",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 108,
+					"left": 831,
+					"width": 73,
+					"height": 15,
+					"dataSource": "vTransactionSubtotal",
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 108,
+					"left": 916,
+					"width": 73,
+					"height": 15,
+					"dataSource": "vTransactionTax3",
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 108,
+					"left": 997,
+					"width": 73,
+					"height": 15,
+					"dataSource": "vTransactionTotal",
+					"stroke": "#008EFF",
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 108,
+					"left": 1077,
+					"width": 73,
+					"height": 15,
+					"dataSource": "vChange",
+					"stroke": "#CF0000",
+					"textAlign": "right",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Money"
+					},
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"S2_Field1": {
+					"type": "input",
+					"top": 108,
+					"left": 1157,
+					"width": 83,
+					"height": 30,
+					"sizingX": "grow",
+					"dataSource": "[Point of Sale:5]Shopper Last Name:10",
+					"fontFamily": "Tahoma",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line11": {
+					"type": "line",
+					"top": 82,
+					"left": 595,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter2": {
+					"type": "button",
+					"top": 80,
+					"left": 594,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line12": {
+					"type": "line",
+					"top": 82,
+					"left": 484,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter3": {
+					"type": "button",
+					"top": 80,
+					"left": 483,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter3",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line13": {
+					"type": "line",
+					"top": 82,
+					"left": 374,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter4": {
+					"type": "button",
+					"top": 80,
+					"left": 373,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter4",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line14": {
+					"type": "line",
+					"top": 82,
+					"left": 174,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter5": {
+					"type": "button",
+					"top": 80,
+					"left": 173,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter5",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"OrderbyEnteredBy": {
+					"type": "button",
+					"top": 84,
+					"left": 227,
+					"width": 73,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyEnteredBy",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Entered By",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/OrderbyEnteredBy.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyBatchID": {
+					"type": "button",
+					"top": 84,
+					"left": 4,
+					"width": 71,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyBatchID",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Batch ID",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/OrderbyBatchID.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyDateEntered": {
+					"type": "button",
+					"top": 84,
+					"left": 378,
+					"width": 103,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyDateEntered",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Date Entered",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/OrderbyDateEntered.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyTime": {
+					"type": "button",
+					"top": 84,
+					"left": 486,
+					"width": 107,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyTime",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Time Entered",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/OrderbyTime.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyDateSold": {
+					"type": "button",
+					"top": 84,
+					"left": 598,
+					"width": 77,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyDateSold",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Date Sold",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/OrderbyDateSold.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"Splitter15": {
+					"type": "button",
+					"top": 81,
+					"left": 76,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"OrderbyComputerName": {
+					"type": "button",
+					"top": 85,
+					"left": 80,
+					"width": 85,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyComputerName",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Computer #",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/OrderbyComputerName.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 83,
+					"left": 77,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 82,
+					"left": 681,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter1": {
+					"type": "button",
+					"top": 80,
+					"left": 680,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"OrderbyReduceBy": {
+					"type": "button",
+					"top": 84,
+					"left": 684,
+					"width": 61,
+					"height": 18,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyReduceBY",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Reduce By",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/OrderbyReduceBy.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"Splitter6": {
+					"type": "button",
+					"top": 80,
+					"left": 747,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line3": {
+					"type": "line",
+					"top": 82,
+					"left": 748,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"OrderbySales": {
+					"type": "button",
+					"top": 84,
+					"left": 753,
+					"width": 71,
+					"height": 18,
+					"dataSource": "bOrderbySales",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Items",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"Line4": {
+					"type": "line",
+					"top": 82,
+					"left": 1073,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter7": {
+					"type": "button",
+					"top": 80,
+					"left": 1072,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"OrderbyTotal": {
+					"type": "button",
+					"top": 84,
+					"left": 834,
+					"width": 71,
+					"height": 18,
+					"dataSource": "bOrderbyTotal",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Subtotal",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"Line5": {
+					"type": "line",
+					"top": 82,
+					"left": 908,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter8": {
+					"type": "button",
+					"top": 80,
+					"left": 907,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line6": {
+					"type": "line",
+					"top": 82,
+					"left": 988,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter9": {
+					"type": "button",
+					"top": 80,
+					"left": 987,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"OrderbyTotal1": {
+					"type": "button",
+					"top": 84,
+					"left": 914,
+					"width": 71,
+					"height": 18,
+					"dataSource": "bOrderbyTotal",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Tax",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyTotal2": {
+					"type": "button",
+					"top": 84,
+					"left": 994,
+					"width": 71,
+					"height": 18,
+					"dataSource": "bOrderbyTotal",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Total w/Tax",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"OrderbyShopper": {
+					"type": "button",
+					"top": 82,
+					"left": 1165,
+					"width": 75,
+					"height": 20,
+					"sizingX": "grow",
+					"dataSource": "bOrderbyShopper",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Shopper",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/OrderbyShopper.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"Line7": {
+					"type": "line",
+					"top": 82,
+					"left": 828,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter10": {
+					"type": "button",
+					"top": 80,
+					"left": 827,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"OrderbyTotal3": {
+					"type": "button",
+					"top": 84,
+					"left": 1074,
+					"width": 71,
+					"height": 18,
+					"dataSource": "bOrderbyTotal",
+					"fontFamily": "Tahoma",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Change Due",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"Line8": {
+					"type": "line",
+					"top": 82,
+					"left": 1153,
+					"height": 44,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter11": {
+					"type": "button",
+					"top": 80,
+					"left": 1152,
+					"width": 3,
+					"height": 48,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 8,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"width": 1245,
+	"height": 473
+}
